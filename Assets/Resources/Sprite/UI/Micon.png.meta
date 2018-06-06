@@ -1,22 +1,22 @@
 fileFormatVersion: 2
 guid: 8ca2e5a5bf5a5e64e879977fa32e1757
-timeCreated: 1500212529
+timeCreated: 1466404526
 licenseType: Pro
 TextureImporter:
   fileIDToRecycleName:
-    21300000: Move_01
-    21300002: Attack_01
-    21300004: Magic_01
-    21300006: Pocket_01
-    21300008: Order_01
-    21300010: System_01
+    21300000: Micon_0
+    21300002: Micon_1
+    21300004: Micon_2
+    21300006: Micon_3
+    21300008: Micon_4
+    21300010: Micon_5
     21300012: Micon_6
     21300014: Micon_7
-    21300016: Rest_01
+    21300016: Relax_00
     21300018: Micon_9
     21300020: Micon_10
     21300022: Micon_11
-    21300024: Spacial_01
+    21300024: Micon_12
     21300026: Micon_13
     21300028: Micon_14
     21300030: Micon_15
@@ -79,27 +79,27 @@ TextureImporter:
     21300144: Micon_72
     21300146: Micon_73
     21300148: Micon_74
-    21300150: Move_Not_01
-    21300152: Attack_Not_01
-    21300154: Magic_Not_01
-    21300156: Pocket_Not_01
-    21300158: Rest_Not_01
-    21300160: SpacialSkill_Not_01
-    21300162: Order_Not_01
-    21300164: System_Not_01
-    21300166: Move_02
-    21300168: Attack_02
-    21300170: Magic_02
-    21300172: Pocket_02
-    21300174: Order_02
-    21300176: System_02
+    21300150: Micon_75
+    21300152: Micon_76
+    21300154: Micon_77
+    21300156: Micon_78
+    21300158: Micon_79
+    21300160: Micon_80
+    21300162: Micon_81
+    21300164: Micon_82
+    21300166: Micon_83
+    21300168: Micon_84
+    21300170: Micon_85
+    21300172: Micon_86
+    21300174: Micon_87
+    21300176: Micon_88
     21300178: Micon_89
     21300180: Micon_90
-    21300182: Rest_02
+    21300182: Relax_01
     21300184: 1
     21300186: Micon_93
     21300188: Micon_94
-    21300190: Spacial_02
+    21300190: Micon_95
     21300192: Micon_96
     21300194: Micon_97
     21300196: Micon_98
@@ -162,14 +162,14 @@ TextureImporter:
     21300310: Micon_155
     21300312: Micon_156
     21300314: Micon_157
-    21300316: Move_Not_02
-    21300318: Attack_Not_02
-    21300320: Magic_Not_02
-    21300322: Pocket_Not_02
-    21300324: Rest_Not_02
-    21300326: SpacialSkill_Not_02
-    21300328: Order_Not_02
-    21300330: System_Not_02
+    21300316: Micon_158
+    21300318: Micon_159
+    21300320: Micon_160
+    21300322: Micon_161
+    21300324: Micon_162
+    21300326: Micon_163
+    21300328: Micon_164
+    21300330: Micon_165
     21300332: Micon_166
   serializedVersion: 2
   mipmaps:
@@ -204,6 +204,7 @@ TextureImporter:
   lightmap: 0
   rGBM: 0
   compressionQuality: 50
+  allowsAlphaSplitting: 0
   spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
@@ -212,14 +213,11 @@ TextureImporter:
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spritePixelsToUnits: 32
   alphaIsTransparency: 1
-  spriteTessellationDetail: -1
   textureType: 8
   buildTargetSettings: []
   spriteSheet:
-    serializedVersion: 2
     sprites:
-    - serializedVersion: 2
-      name: Move_01
+    - name: Micon_0
       rect:
         serializedVersion: 2
         x: 0
@@ -229,10 +227,15 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: Attack_01
+      outline:
+      - - {x: -11, y: -8}
+        - {x: -10, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: 10}
+        - {x: 14, y: 16}
+        - {x: -5, y: 16}
+        - {x: -11, y: 8}
+    - name: Micon_1
       rect:
         serializedVersion: 2
         x: 32
@@ -242,10 +245,14 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: Magic_01
+      outline:
+      - - {x: -16, y: 16}
+        - {x: -16, y: -7}
+        - {x: -4, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: 8}
+        - {x: 4, y: 16}
+    - name: Micon_2
       rect:
         serializedVersion: 2
         x: 64
@@ -255,10 +262,19 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: Pocket_01
+      outline:
+      - - {x: -9, y: 16}
+        - {x: -16, y: 10}
+        - {x: -16, y: 9}
+        - {x: -15, y: 5}
+        - {x: -16, y: -3}
+        - {x: -16, y: -16}
+        - {x: -1, y: -16}
+        - {x: 5, y: -15}
+        - {x: 16, y: -2}
+        - {x: 16, y: 12}
+        - {x: 11, y: 16}
+    - name: Micon_3
       rect:
         serializedVersion: 2
         x: 96
@@ -268,10 +284,15 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: Order_01
+      outline:
+      - - {x: -13, y: 16}
+        - {x: -15, y: 14}
+        - {x: -16, y: 8}
+        - {x: -16, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: 14}
+        - {x: 14, y: 16}
+    - name: Micon_4
       rect:
         serializedVersion: 2
         x: 128
@@ -281,10 +302,15 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: System_01
+      outline:
+      - - {x: -9, y: 16}
+        - {x: -16, y: -3}
+        - {x: -16, y: -16}
+        - {x: 7, y: -16}
+        - {x: 16, y: -6}
+        - {x: 16, y: 9}
+        - {x: 12, y: 16}
+    - name: Micon_5
       rect:
         serializedVersion: 2
         x: 160
@@ -294,10 +320,14 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: Micon_6
+      outline:
+      - - {x: -15, y: 16}
+        - {x: -16, y: 4}
+        - {x: -16, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: 2}
+        - {x: 14, y: 16}
+    - name: Micon_6
       rect:
         serializedVersion: 2
         x: 192
@@ -307,10 +337,15 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: Micon_7
+      outline:
+      - - {x: -10, y: 16}
+        - {x: -16, y: 8}
+        - {x: -16, y: -11}
+        - {x: -15, y: -16}
+        - {x: 13, y: -16}
+        - {x: 15, y: -9}
+        - {x: 15, y: 16}
+    - name: Micon_7
       rect:
         serializedVersion: 2
         x: 224
@@ -320,10 +355,15 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: Rest_01
+      outline:
+      - - {x: 6, y: 16}
+        - {x: -16, y: 16}
+        - {x: -16, y: -16}
+        - {x: 14, y: -16}
+        - {x: 16, y: -14}
+        - {x: 16, y: 2}
+        - {x: 11, y: 11}
+    - name: Relax_00
       rect:
         serializedVersion: 2
         x: 256
@@ -333,10 +373,16 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: Micon_9
+      outline:
+      - - {x: -7, y: 16}
+        - {x: -16, y: 5}
+        - {x: -16, y: -13}
+        - {x: -14, y: -16}
+        - {x: 14, y: -16}
+        - {x: 16, y: -10}
+        - {x: 16, y: 10}
+        - {x: 8, y: 16}
+    - name: Micon_9
       rect:
         serializedVersion: 2
         x: 288
@@ -346,10 +392,14 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: Micon_10
+      outline:
+      - - {x: -16, y: 16}
+        - {x: -16, y: -6}
+        - {x: -2, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: 5}
+        - {x: 2, y: 16}
+    - name: Micon_10
       rect:
         serializedVersion: 2
         x: 320
@@ -359,10 +409,15 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: Micon_11
+      outline:
+      - - {x: -9, y: 16}
+        - {x: -14, y: 11}
+        - {x: -14, y: -16}
+        - {x: -2, y: -16}
+        - {x: 16, y: -3}
+        - {x: 16, y: 13}
+        - {x: 11, y: 16}
+    - name: Micon_11
       rect:
         serializedVersion: 2
         x: 352
@@ -372,10 +427,16 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: Spacial_01
+      outline:
+      - - {x: -7, y: 13}
+        - {x: -16, y: 7}
+        - {x: -16, y: -9}
+        - {x: -10, y: -14}
+        - {x: 15, y: -14}
+        - {x: 16, y: -13}
+        - {x: 16, y: 10}
+        - {x: 11, y: 13}
+    - name: Micon_12
       rect:
         serializedVersion: 2
         x: 384
@@ -385,10 +446,14 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: Micon_13
+      outline:
+      - - {x: -13, y: 16}
+        - {x: -13, y: -16}
+        - {x: 12, y: -16}
+        - {x: 15, y: -14}
+        - {x: 15, y: 13}
+        - {x: 14, y: 16}
+    - name: Micon_13
       rect:
         serializedVersion: 2
         x: 0
@@ -398,10 +463,14 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: Micon_14
+      outline:
+      - - {x: -4, y: 16}
+        - {x: -16, y: 7}
+        - {x: -16, y: -16}
+        - {x: 3, y: -16}
+        - {x: 16, y: -11}
+        - {x: 16, y: 16}
+    - name: Micon_14
       rect:
         serializedVersion: 2
         x: 32
@@ -411,10 +480,13 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: Micon_15
+      outline:
+      - - {x: -2, y: 16}
+        - {x: -16, y: 10}
+        - {x: -16, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: 16}
+    - name: Micon_15
       rect:
         serializedVersion: 2
         x: 64
@@ -424,10 +496,16 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: Micon_16
+      outline:
+      - - {x: -8, y: 16}
+        - {x: -14, y: 6}
+        - {x: -14, y: -6}
+        - {x: -8, y: -16}
+        - {x: 4, y: -16}
+        - {x: 13, y: -11}
+        - {x: 13, y: 11}
+        - {x: 4, y: 16}
+    - name: Micon_16
       rect:
         serializedVersion: 2
         x: 96
@@ -437,10 +515,17 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: Micon_17
+      outline:
+      - - {x: -14, y: 16}
+        - {x: -16, y: 11}
+        - {x: -16, y: -5}
+        - {x: -14, y: -10}
+        - {x: -5, y: -16}
+        - {x: 6, y: -16}
+        - {x: 15, y: -2}
+        - {x: 15, y: 10}
+        - {x: 12, y: 16}
+    - name: Micon_17
       rect:
         serializedVersion: 2
         x: 128
@@ -450,10 +535,20 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: Micon_18
+      outline:
+      - - {x: 16, y: 10}
+        - {x: 16, y: 16}
+        - {x: 9, y: 16}
+        - {x: -12, y: 9}
+        - {x: -14, y: 4}
+        - {x: -15, y: -6}
+        - {x: -15, y: -16}
+        - {x: -7, y: -16}
+        - {x: 10, y: -9}
+        - {x: 12, y: -4}
+        - {x: 12, y: -2}
+        - {x: 10, y: 1}
+    - name: Micon_18
       rect:
         serializedVersion: 2
         x: 160
@@ -463,10 +558,13 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: Micon_19
+      outline:
+      - - {x: -16, y: 16}
+        - {x: -16, y: -16}
+        - {x: 14, y: -16}
+        - {x: 16, y: -10}
+        - {x: 16, y: 16}
+    - name: Micon_19
       rect:
         serializedVersion: 2
         x: 192
@@ -476,10 +574,16 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: Micon_20
+      outline:
+      - - {x: -11, y: 14}
+        - {x: -16, y: 7}
+        - {x: -16, y: -4}
+        - {x: -12, y: -15}
+        - {x: 7, y: -15}
+        - {x: 15, y: -10}
+        - {x: 15, y: 5}
+        - {x: 9, y: 14}
+    - name: Micon_20
       rect:
         serializedVersion: 2
         x: 224
@@ -489,10 +593,16 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: Earthquake_0
+      outline:
+      - - {x: -10, y: 16}
+        - {x: -14, y: 15}
+        - {x: -14, y: -11}
+        - {x: -7, y: -16}
+        - {x: 8, y: -16}
+        - {x: 10, y: -14}
+        - {x: 14, y: 4}
+        - {x: 14, y: 16}
+    - name: Earthquake_0
       rect:
         serializedVersion: 2
         x: 256
@@ -502,10 +612,14 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: MeteorIcon_0
+      outline:
+      - - {x: -16, y: 16}
+        - {x: -16, y: -14}
+        - {x: -14, y: -16}
+        - {x: 13, y: -16}
+        - {x: 16, y: -13}
+        - {x: 16, y: 16}
+    - name: MeteorIcon_0
       rect:
         serializedVersion: 2
         x: 288
@@ -515,10 +629,15 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: Micon_23
+      outline:
+      - - {x: -16, y: 14}
+        - {x: -16, y: -14}
+        - {x: -15, y: -16}
+        - {x: 10, y: -16}
+        - {x: 16, y: -9}
+        - {x: 16, y: 16}
+        - {x: -13, y: 16}
+    - name: Micon_23
       rect:
         serializedVersion: 2
         x: 320
@@ -528,10 +647,15 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: Micon_24
+      outline:
+      - - {x: -10, y: 16}
+        - {x: -16, y: 10}
+        - {x: -16, y: -9}
+        - {x: -13, y: -16}
+        - {x: 11, y: -16}
+        - {x: 16, y: -15}
+        - {x: 16, y: 16}
+    - name: Micon_24
       rect:
         serializedVersion: 2
         x: 352
@@ -541,10 +665,16 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: Micon_25
+      outline:
+      - - {x: -11, y: 15}
+        - {x: -14, y: 14}
+        - {x: -14, y: -14}
+        - {x: -13, y: -16}
+        - {x: 12, y: -16}
+        - {x: 14, y: -13}
+        - {x: 14, y: 13}
+        - {x: 13, y: 15}
+    - name: Micon_25
       rect:
         serializedVersion: 2
         x: 384
@@ -554,10 +684,16 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: Micon_26
+      outline:
+      - - {x: -11, y: 15}
+        - {x: -14, y: 14}
+        - {x: -14, y: -14}
+        - {x: -13, y: -16}
+        - {x: 12, y: -16}
+        - {x: 14, y: -13}
+        - {x: 14, y: 13}
+        - {x: 13, y: 15}
+    - name: Micon_26
       rect:
         serializedVersion: 2
         x: 416
@@ -567,10 +703,17 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: EnergyCanon_0
+      outline:
+      - - {x: 5, y: 15}
+        - {x: -7, y: 15}
+        - {x: -15, y: 11}
+        - {x: -15, y: -10}
+        - {x: -10, y: -15}
+        - {x: 7, y: -15}
+        - {x: 15, y: -11}
+        - {x: 15, y: 6}
+        - {x: 9, y: 14}
+    - name: EnergyCanon_0
       rect:
         serializedVersion: 2
         x: 448
@@ -580,10 +723,15 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: Micon_28
+      outline:
+      - - {x: -3, y: 16}
+        - {x: -6, y: 14}
+        - {x: -6, y: -16}
+        - {x: 6, y: -16}
+        - {x: 7, y: -15}
+        - {x: 7, y: 13}
+        - {x: 1, y: 16}
+    - name: Micon_28
       rect:
         serializedVersion: 2
         x: 480
@@ -593,10 +741,15 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: Micon_29
+      outline:
+      - - {x: -9, y: 16}
+        - {x: -16, y: 13}
+        - {x: -16, y: -16}
+        - {x: 14, y: -16}
+        - {x: 16, y: -11}
+        - {x: 16, y: 6}
+        - {x: 2, y: 16}
+    - name: Micon_29
       rect:
         serializedVersion: 2
         x: 512
@@ -606,10 +759,33 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: Micon_30
+      outline:
+      - - {x: -4, y: -6}
+        - {x: -5, y: -8}
+        - {x: -5, y: -16}
+        - {x: 4, y: -16}
+        - {x: 6, y: -15}
+        - {x: 6, y: -8}
+        - {x: 2, y: -6}
+      - - {x: -11, y: 16}
+        - {x: -14, y: 15}
+        - {x: -14, y: -7}
+        - {x: -13, y: -8}
+        - {x: -3, y: -8}
+        - {x: -1, y: -5}
+        - {x: -1, y: 13}
+        - {x: -7, y: 16}
+      - - {x: 7, y: 16}
+        - {x: 2, y: 14}
+        - {x: 2, y: 5}
+        - {x: 4, y: -6}
+        - {x: 6, y: -8}
+        - {x: 9, y: -8}
+        - {x: 14, y: -6}
+        - {x: 15, y: 3}
+        - {x: 15, y: 11}
+        - {x: 11, y: 16}
+    - name: Micon_30
       rect:
         serializedVersion: 2
         x: 544
@@ -619,10 +795,16 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: Micon_31
+      outline:
+      - - {x: -8, y: 12}
+        - {x: -12, y: 7}
+        - {x: -12, y: -4}
+        - {x: -5, y: -10}
+        - {x: 10, y: -10}
+        - {x: 11, y: -6}
+        - {x: 11, y: 11}
+        - {x: 9, y: 12}
+    - name: Micon_31
       rect:
         serializedVersion: 2
         x: 576
@@ -632,10 +814,17 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: Micon_32
+      outline:
+      - - {x: -11, y: 16}
+        - {x: -16, y: 11}
+        - {x: -16, y: 0}
+        - {x: -14, y: -7}
+        - {x: -9, y: -16}
+        - {x: 12, y: -16}
+        - {x: 16, y: -12}
+        - {x: 16, y: 11}
+        - {x: 13, y: 16}
+    - name: Micon_32
       rect:
         serializedVersion: 2
         x: 608
@@ -645,10 +834,13 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: Micon_33
+      outline:
+      - - {x: -16, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: 16}
+        - {x: -11, y: 16}
+        - {x: -16, y: 10}
+    - name: Micon_33
       rect:
         serializedVersion: 2
         x: 0
@@ -658,10 +850,12 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: Micon_34
+      outline:
+      - - {x: -16, y: 16}
+        - {x: -16, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: 16}
+    - name: Micon_34
       rect:
         serializedVersion: 2
         x: 32
@@ -671,10 +865,12 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: Micon_35
+      outline:
+      - - {x: -16, y: 16}
+        - {x: -16, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: 16}
+    - name: Micon_35
       rect:
         serializedVersion: 2
         x: 64
@@ -684,10 +880,16 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: Micon_36
+      outline:
+      - - {x: -5, y: 16}
+        - {x: -11, y: 12}
+        - {x: -15, y: 10}
+        - {x: -15, y: -12}
+        - {x: -11, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: 15}
+        - {x: 14, y: 16}
+    - name: Micon_36
       rect:
         serializedVersion: 2
         x: 96
@@ -697,10 +899,17 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: Micon_37
+      outline:
+      - - {x: -6, y: 16}
+        - {x: -16, y: 12}
+        - {x: -16, y: -7}
+        - {x: -15, y: -11}
+        - {x: -7, y: -16}
+        - {x: 15, y: -16}
+        - {x: 16, y: -14}
+        - {x: 16, y: 6}
+        - {x: 6, y: 16}
+    - name: Micon_37
       rect:
         serializedVersion: 2
         x: 128
@@ -710,10 +919,16 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: Cure_0
+      outline:
+      - - {x: -14, y: 16}
+        - {x: -16, y: 0}
+        - {x: -16, y: -13}
+        - {x: -12, y: -16}
+        - {x: 14, y: -16}
+        - {x: 16, y: -11}
+        - {x: 16, y: 3}
+        - {x: 11, y: 16}
+    - name: Cure_0
       rect:
         serializedVersion: 2
         x: 160
@@ -723,10 +938,20 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: Micon_39
+      outline:
+      - - {x: -15, y: 16}
+        - {x: -16, y: 13}
+        - {x: -16, y: -12}
+        - {x: -11, y: -16}
+        - {x: 10, y: -16}
+        - {x: 16, y: -10}
+        - {x: 16, y: 9}
+        - {x: 12, y: 16}
+      - - {x: -11, y: 2}
+        - {x: -2, y: 11}
+        - {x: 1, y: -3}
+        - {x: -4, y: -10}
+    - name: Micon_39
       rect:
         serializedVersion: 2
         x: 192
@@ -736,10 +961,16 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: Micon_40
+      outline:
+      - - {x: 11, y: 16}
+        - {x: -14, y: 16}
+        - {x: -16, y: 9}
+        - {x: -16, y: -15}
+        - {x: -15, y: -16}
+        - {x: 15, y: -16}
+        - {x: 16, y: -15}
+        - {x: 16, y: 14}
+    - name: Micon_40
       rect:
         serializedVersion: 2
         x: 224
@@ -749,10 +980,15 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: Buff_Ditection_0
+      outline:
+      - - {x: -16, y: 16}
+        - {x: -16, y: -11}
+        - {x: -14, y: -16}
+        - {x: 12, y: -16}
+        - {x: 16, y: -10}
+        - {x: 16, y: 10}
+        - {x: 12, y: 16}
+    - name: Buff_Ditection_0
       rect:
         serializedVersion: 2
         x: 256
@@ -762,10 +998,16 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: Buff_Attack_0
+      outline:
+      - - {x: -10, y: 16}
+        - {x: -16, y: 10}
+        - {x: -16, y: -11}
+        - {x: -14, y: -16}
+        - {x: 12, y: -16}
+        - {x: 16, y: -15}
+        - {x: 16, y: 9}
+        - {x: 10, y: 16}
+    - name: Buff_Attack_0
       rect:
         serializedVersion: 2
         x: 288
@@ -775,10 +1017,15 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: Micon_43
+      outline:
+      - - {x: -16, y: 16}
+        - {x: -16, y: 1}
+        - {x: -10, y: -14}
+        - {x: -6, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: 6}
+        - {x: 2, y: 16}
+    - name: Micon_43
       rect:
         serializedVersion: 2
         x: 320
@@ -788,10 +1035,18 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: Buff_Regist_0
+      outline:
+      - - {x: 3, y: 16}
+        - {x: -3, y: 16}
+        - {x: -15, y: 5}
+        - {x: -16, y: 3}
+        - {x: -16, y: -3}
+        - {x: -3, y: -16}
+        - {x: 8, y: -16}
+        - {x: 16, y: -4}
+        - {x: 16, y: 6}
+        - {x: 5, y: 15}
+    - name: Buff_Regist_0
       rect:
         serializedVersion: 2
         x: 352
@@ -801,10 +1056,15 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: Hill_0
+      outline:
+      - - {x: -16, y: 16}
+        - {x: -16, y: -11}
+        - {x: -14, y: -16}
+        - {x: 12, y: -16}
+        - {x: 16, y: -10}
+        - {x: 16, y: 10}
+        - {x: 12, y: 16}
+    - name: Hill_0
       rect:
         serializedVersion: 2
         x: 384
@@ -814,10 +1074,28 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: HighHill_0
+      outline:
+      - - {x: 10, y: 4}
+        - {x: 8, y: 2}
+        - {x: 6, y: -4}
+        - {x: 0, y: 11}
+        - {x: -6, y: 16}
+        - {x: -14, y: 16}
+        - {x: -16, y: 14}
+        - {x: -16, y: -14}
+        - {x: -13, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: 0}
+        - {x: 14, y: 5}
+      - - {x: 4, y: 15}
+        - {x: -1, y: 10}
+        - {x: -1, y: 9}
+        - {x: 4, y: 4}
+        - {x: 5, y: 4}
+        - {x: 10, y: 9}
+        - {x: 10, y: 10}
+        - {x: 5, y: 15}
+    - name: HighHill_0
       rect:
         serializedVersion: 2
         x: 416
@@ -827,10 +1105,28 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: Micon_47
+      outline:
+      - - {x: 10, y: 4}
+        - {x: 8, y: 2}
+        - {x: 6, y: -4}
+        - {x: 0, y: 11}
+        - {x: -6, y: 16}
+        - {x: -14, y: 16}
+        - {x: -16, y: 14}
+        - {x: -16, y: -14}
+        - {x: -13, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: 0}
+        - {x: 14, y: 5}
+      - - {x: 4, y: 15}
+        - {x: -1, y: 10}
+        - {x: -1, y: 9}
+        - {x: 4, y: 4}
+        - {x: 5, y: 4}
+        - {x: 10, y: 9}
+        - {x: 10, y: 10}
+        - {x: 5, y: 15}
+    - name: Micon_47
       rect:
         serializedVersion: 2
         x: 448
@@ -840,10 +1136,15 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: Micon_48
+      outline:
+      - - {x: -14, y: 14}
+        - {x: -16, y: 13}
+        - {x: -16, y: -9}
+        - {x: -5, y: -10}
+        - {x: 16, y: -10}
+        - {x: 16, y: 9}
+        - {x: 10, y: 14}
+    - name: Micon_48
       rect:
         serializedVersion: 2
         x: 480
@@ -853,10 +1154,16 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: Micon_49
+      outline:
+      - - {x: -11, y: 16}
+        - {x: -16, y: 8}
+        - {x: -16, y: -6}
+        - {x: -8, y: -16}
+        - {x: 10, y: -16}
+        - {x: 16, y: -11}
+        - {x: 16, y: 14}
+        - {x: 10, y: 16}
+    - name: Micon_49
       rect:
         serializedVersion: 2
         x: 512
@@ -866,10 +1173,16 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: Micon_50
+      outline:
+      - - {x: -1, y: 16}
+        - {x: -11, y: 7}
+        - {x: -11, y: -5}
+        - {x: -6, y: -16}
+        - {x: 12, y: -16}
+        - {x: 16, y: -15}
+        - {x: 16, y: 14}
+        - {x: 15, y: 16}
+    - name: Micon_50
       rect:
         serializedVersion: 2
         x: 544
@@ -879,10 +1192,14 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: Micon_51
+      outline:
+      - - {x: 7, y: 15}
+        - {x: -4, y: 15}
+        - {x: -12, y: 12}
+        - {x: -12, y: -16}
+        - {x: 11, y: -16}
+        - {x: 11, y: 7}
+    - name: Micon_51
       rect:
         serializedVersion: 2
         x: 576
@@ -892,10 +1209,14 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: Micon_52
+      outline:
+      - - {x: -7, y: 12}
+        - {x: -16, y: 3}
+        - {x: -16, y: -13}
+        - {x: 15, y: -13}
+        - {x: 15, y: 2}
+        - {x: 5, y: 12}
+    - name: Micon_52
       rect:
         serializedVersion: 2
         x: 608
@@ -905,10 +1226,17 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: Micon_53
+      outline:
+      - - {x: 4, y: 13}
+        - {x: -6, y: 13}
+        - {x: -14, y: 10}
+        - {x: -16, y: 8}
+        - {x: -16, y: -13}
+        - {x: 14, y: -13}
+        - {x: 15, y: -12}
+        - {x: 15, y: 8}
+        - {x: 13, y: 10}
+    - name: Micon_53
       rect:
         serializedVersion: 2
         x: 0
@@ -918,10 +1246,14 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: Micon_54
+      outline:
+      - - {x: -6, y: 16}
+        - {x: -16, y: 8}
+        - {x: -16, y: -16}
+        - {x: 6, y: -16}
+        - {x: 16, y: -8}
+        - {x: 16, y: 16}
+    - name: Micon_54
       rect:
         serializedVersion: 2
         x: 32
@@ -931,10 +1263,14 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: Micon_55
+      outline:
+      - - {x: -16, y: 13}
+        - {x: -16, y: -16}
+        - {x: 8, y: -16}
+        - {x: 8, y: 13}
+        - {x: 6, y: 15}
+        - {x: -14, y: 15}
+    - name: Micon_55
       rect:
         serializedVersion: 2
         x: 64
@@ -944,10 +1280,14 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: Micon_56
+      outline:
+      - - {x: -13, y: 11}
+        - {x: -13, y: -16}
+        - {x: 13, y: -16}
+        - {x: 15, y: -15}
+        - {x: 15, y: 15}
+        - {x: -9, y: 15}
+    - name: Micon_56
       rect:
         serializedVersion: 2
         x: 96
@@ -957,10 +1297,15 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: Micon_57
+      outline:
+      - - {x: -16, y: -7}
+        - {x: -8, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: 10}
+        - {x: 13, y: 16}
+        - {x: -12, y: 16}
+        - {x: -16, y: 2}
+    - name: Micon_57
       rect:
         serializedVersion: 2
         x: 128
@@ -970,10 +1315,15 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: Micon_58
+      outline:
+      - - {x: -16, y: -10}
+        - {x: -10, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: 8}
+        - {x: 14, y: 16}
+        - {x: -14, y: 16}
+        - {x: -16, y: 6}
+    - name: Micon_58
       rect:
         serializedVersion: 2
         x: 160
@@ -983,10 +1333,13 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: Micon_59
+      outline:
+      - - {x: -15, y: 16}
+        - {x: -16, y: 13}
+        - {x: -16, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: 16}
+    - name: Micon_59
       rect:
         serializedVersion: 2
         x: 192
@@ -996,10 +1349,13 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: Micon_60
+      outline:
+      - - {x: -15, y: 16}
+        - {x: -16, y: 13}
+        - {x: -16, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: 16}
+    - name: Micon_60
       rect:
         serializedVersion: 2
         x: 224
@@ -1009,10 +1365,14 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: Debuff_AtteckBreak_0
+      outline:
+      - - {x: -8, y: 16}
+        - {x: -11, y: 12}
+        - {x: -11, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: 15}
+        - {x: 12, y: 16}
+    - name: Debuff_AtteckBreak_0
       rect:
         serializedVersion: 2
         x: 256
@@ -1022,10 +1382,15 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: Debuff_MoveBreak_0
+      outline:
+      - - {x: -12, y: 15}
+        - {x: -12, y: 1}
+        - {x: -6, y: -8}
+        - {x: -1, y: -15}
+        - {x: 16, y: -15}
+        - {x: 16, y: 4}
+        - {x: 2, y: 15}
+    - name: Debuff_MoveBreak_0
       rect:
         serializedVersion: 2
         x: 288
@@ -1035,10 +1400,16 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: Micon_63
+      outline:
+      - - {x: -10, y: 15}
+        - {x: -13, y: 14}
+        - {x: -16, y: 0}
+        - {x: -16, y: -9}
+        - {x: -14, y: -11}
+        - {x: 14, y: -11}
+        - {x: 16, y: -10}
+        - {x: 16, y: 15}
+    - name: Micon_63
       rect:
         serializedVersion: 2
         x: 320
@@ -1048,10 +1419,15 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: Micon_64
+      outline:
+      - - {x: -10, y: 16}
+        - {x: -16, y: 12}
+        - {x: -16, y: -16}
+        - {x: 12, y: -16}
+        - {x: 16, y: -8}
+        - {x: 16, y: 11}
+        - {x: 11, y: 16}
+    - name: Micon_64
       rect:
         serializedVersion: 2
         x: 352
@@ -1061,10 +1437,16 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: Micon_65
+      outline:
+      - - {x: 8, y: 16}
+        - {x: -9, y: 16}
+        - {x: -13, y: 14}
+        - {x: -13, y: -11}
+        - {x: -12, y: -16}
+        - {x: 7, y: -16}
+        - {x: 15, y: 0}
+        - {x: 15, y: 10}
+    - name: Micon_65
       rect:
         serializedVersion: 2
         x: 384
@@ -1074,10 +1456,15 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: Micon_66
+      outline:
+      - - {x: 6, y: 16}
+        - {x: -7, y: 9}
+        - {x: -16, y: -3}
+        - {x: -16, y: -16}
+        - {x: 5, y: -16}
+        - {x: 16, y: -2}
+        - {x: 16, y: 16}
+    - name: Micon_66
       rect:
         serializedVersion: 2
         x: 416
@@ -1087,10 +1474,16 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: Micon_67
+      outline:
+      - - {x: -12, y: 16}
+        - {x: -16, y: 13}
+        - {x: -16, y: -15}
+        - {x: -12, y: -16}
+        - {x: 14, y: -16}
+        - {x: 16, y: -12}
+        - {x: 16, y: 13}
+        - {x: 9, y: 16}
+    - name: Micon_67
       rect:
         serializedVersion: 2
         x: 448
@@ -1100,10 +1493,15 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: Micon_68
+      outline:
+      - - {x: -14, y: 12}
+        - {x: -15, y: 5}
+        - {x: -15, y: -13}
+        - {x: -13, y: -13}
+        - {x: 15, y: -12}
+        - {x: 15, y: 5}
+        - {x: 10, y: 12}
+    - name: Micon_68
       rect:
         serializedVersion: 2
         x: 480
@@ -1113,10 +1511,16 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: Micon_69
+      outline:
+      - - {x: -4, y: 16}
+        - {x: -11, y: 12}
+        - {x: -14, y: 1}
+        - {x: -14, y: -14}
+        - {x: -12, y: -16}
+        - {x: 15, y: -16}
+        - {x: 15, y: 5}
+        - {x: 7, y: 16}
+    - name: Micon_69
       rect:
         serializedVersion: 2
         x: 512
@@ -1126,10 +1530,21 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: Micon_70
+      outline:
+      - - {x: 16, y: 0}
+        - {x: 16, y: 13}
+        - {x: 8, y: 15}
+        - {x: -5, y: 15}
+        - {x: -5, y: 9}
+        - {x: -6, y: 11}
+        - {x: -9, y: 15}
+        - {x: -13, y: 15}
+        - {x: -16, y: 12}
+        - {x: -16, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: -8}
+        - {x: 14, y: -6}
+    - name: Micon_70
       rect:
         serializedVersion: 2
         x: 544
@@ -1139,10 +1554,14 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: CastleGateOpen
+      outline:
+      - - {x: -9, y: 16}
+        - {x: -16, y: 16}
+        - {x: -16, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: -6}
+        - {x: 1, y: 13}
+    - name: CastleGateOpen
       rect:
         serializedVersion: 2
         x: 0
@@ -1152,10 +1571,12 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: Micon_72
+      outline:
+      - - {x: -16, y: 16}
+        - {x: -16, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: 16}
+    - name: Micon_72
       rect:
         serializedVersion: 2
         x: 32
@@ -1165,10 +1586,14 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: Micon_73
+      outline:
+      - - {x: -16, y: 16}
+        - {x: -16, y: -16}
+        - {x: 8, y: -16}
+        - {x: 16, y: -12}
+        - {x: 16, y: 12}
+        - {x: -1, y: 16}
+    - name: Micon_73
       rect:
         serializedVersion: 2
         x: 64
@@ -1178,10 +1603,15 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: Micon_74
+      outline:
+      - - {x: -7, y: 16}
+        - {x: -16, y: 12}
+        - {x: -16, y: -12}
+        - {x: 0, y: -16}
+        - {x: 13, y: -16}
+        - {x: 16, y: -15}
+        - {x: 16, y: 16}
+    - name: Micon_74
       rect:
         serializedVersion: 2
         x: 96
@@ -1191,10 +1621,14 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: Move_Not_01
+      outline:
+      - - {x: -13, y: 16}
+        - {x: -16, y: 10}
+        - {x: -16, y: -16}
+        - {x: 14, y: -16}
+        - {x: 16, y: -10}
+        - {x: 16, y: 16}
+    - name: Micon_75
       rect:
         serializedVersion: 2
         x: 128
@@ -1204,10 +1638,15 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: Attack_Not_01
+      outline:
+      - - {x: -11, y: -8}
+        - {x: -10, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: 10}
+        - {x: 14, y: 16}
+        - {x: -5, y: 16}
+        - {x: -11, y: 8}
+    - name: Micon_76
       rect:
         serializedVersion: 2
         x: 160
@@ -1217,10 +1656,14 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: Magic_Not_01
+      outline:
+      - - {x: -16, y: 16}
+        - {x: -16, y: -7}
+        - {x: -4, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: 8}
+        - {x: 4, y: 16}
+    - name: Micon_77
       rect:
         serializedVersion: 2
         x: 192
@@ -1230,10 +1673,19 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: Pocket_Not_01
+      outline:
+      - - {x: -9, y: 16}
+        - {x: -16, y: 10}
+        - {x: -16, y: 9}
+        - {x: -15, y: 5}
+        - {x: -16, y: -3}
+        - {x: -16, y: -16}
+        - {x: -1, y: -16}
+        - {x: 5, y: -15}
+        - {x: 16, y: -2}
+        - {x: 16, y: 12}
+        - {x: 11, y: 16}
+    - name: Micon_78
       rect:
         serializedVersion: 2
         x: 224
@@ -1243,10 +1695,15 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: Rest_Not_01
+      outline:
+      - - {x: -13, y: 16}
+        - {x: -15, y: 14}
+        - {x: -16, y: 8}
+        - {x: -16, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: 14}
+        - {x: 14, y: 16}
+    - name: Micon_79
       rect:
         serializedVersion: 2
         x: 256
@@ -1256,10 +1713,15 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: SpacialSkill_Not_01
+      outline:
+      - - {x: -11, y: 16}
+        - {x: -16, y: 2}
+        - {x: -16, y: -14}
+        - {x: -13, y: -16}
+        - {x: 14, y: -16}
+        - {x: 16, y: -10}
+        - {x: 16, y: 16}
+    - name: Micon_80
       rect:
         serializedVersion: 2
         x: 288
@@ -1269,10 +1731,14 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: Order_Not_01
+      outline:
+      - - {x: -13, y: 16}
+        - {x: -13, y: -16}
+        - {x: 12, y: -16}
+        - {x: 15, y: -14}
+        - {x: 15, y: 13}
+        - {x: 14, y: 16}
+    - name: Micon_81
       rect:
         serializedVersion: 2
         x: 320
@@ -1282,10 +1748,15 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: System_Not_01
+      outline:
+      - - {x: -9, y: 16}
+        - {x: -16, y: -3}
+        - {x: -16, y: -16}
+        - {x: 7, y: -16}
+        - {x: 16, y: -6}
+        - {x: 16, y: 9}
+        - {x: 12, y: 16}
+    - name: Micon_82
       rect:
         serializedVersion: 2
         x: 352
@@ -1295,10 +1766,14 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: Move_02
+      outline:
+      - - {x: -15, y: 16}
+        - {x: -16, y: 4}
+        - {x: -16, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: 2}
+        - {x: 14, y: 16}
+    - name: Micon_83
       rect:
         serializedVersion: 2
         x: 0
@@ -1308,10 +1783,13 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: Attack_02
+      outline:
+      - - {x: -9, y: 16}
+        - {x: -9, y: -14}
+        - {x: -7, y: -16}
+        - {x: 13, y: -16}
+        - {x: 13, y: 16}
+    - name: Micon_84
       rect:
         serializedVersion: 2
         x: 32
@@ -1321,10 +1799,14 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: Magic_02
+      outline:
+      - - {x: -16, y: 16}
+        - {x: -16, y: -7}
+        - {x: -4, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: 8}
+        - {x: 4, y: 16}
+    - name: Micon_85
       rect:
         serializedVersion: 2
         x: 64
@@ -1334,10 +1816,19 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: Pocket_02
+      outline:
+      - - {x: -9, y: 16}
+        - {x: -16, y: 10}
+        - {x: -16, y: 9}
+        - {x: -15, y: 5}
+        - {x: -16, y: -3}
+        - {x: -16, y: -16}
+        - {x: -1, y: -16}
+        - {x: 5, y: -15}
+        - {x: 16, y: -2}
+        - {x: 16, y: 12}
+        - {x: 11, y: 16}
+    - name: Micon_86
       rect:
         serializedVersion: 2
         x: 96
@@ -1347,10 +1838,15 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: Order_02
+      outline:
+      - - {x: -13, y: 16}
+        - {x: -15, y: 14}
+        - {x: -16, y: 8}
+        - {x: -16, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: 14}
+        - {x: 14, y: 16}
+    - name: Micon_87
       rect:
         serializedVersion: 2
         x: 128
@@ -1360,10 +1856,15 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: System_02
+      outline:
+      - - {x: -9, y: 16}
+        - {x: -16, y: -3}
+        - {x: -16, y: -16}
+        - {x: 7, y: -16}
+        - {x: 16, y: -6}
+        - {x: 16, y: 9}
+        - {x: 12, y: 16}
+    - name: Micon_88
       rect:
         serializedVersion: 2
         x: 160
@@ -1373,10 +1874,13 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: Micon_89
+      outline:
+      - - {x: -15, y: 16}
+        - {x: -16, y: 12}
+        - {x: -16, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: 16}
+    - name: Micon_89
       rect:
         serializedVersion: 2
         x: 192
@@ -1386,10 +1890,13 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: Micon_90
+      outline:
+      - - {x: -6, y: 16}
+        - {x: -16, y: 5}
+        - {x: -16, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: 16}
+    - name: Micon_90
       rect:
         serializedVersion: 2
         x: 224
@@ -1399,10 +1906,21 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: Rest_02
+      outline:
+      - - {x: 12, y: 6}
+        - {x: 13, y: 6}
+        - {x: 16, y: 9}
+        - {x: 16, y: 12}
+        - {x: 13, y: 16}
+        - {x: -11, y: 16}
+        - {x: -16, y: 11}
+        - {x: -16, y: -5}
+        - {x: -13, y: -16}
+        - {x: 11, y: -16}
+        - {x: 16, y: -11}
+        - {x: 16, y: 4}
+        - {x: 13, y: 6}
+    - name: Relax_01
       rect:
         serializedVersion: 2
         x: 256
@@ -1412,10 +1930,16 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: 1
+      outline:
+      - - {x: -7, y: 16}
+        - {x: -16, y: 5}
+        - {x: -16, y: -13}
+        - {x: -14, y: -16}
+        - {x: 14, y: -16}
+        - {x: 16, y: -10}
+        - {x: 16, y: 10}
+        - {x: 8, y: 16}
+    - name: 1
       rect:
         serializedVersion: 2
         x: 288
@@ -1425,10 +1949,16 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: Micon_93
+      outline:
+      - - {x: -16, y: 16}
+        - {x: -16, y: 6}
+        - {x: -13, y: 2}
+        - {x: -5, y: -7}
+        - {x: 5, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: 0}
+        - {x: -6, y: 16}
+    - name: Micon_93
       rect:
         serializedVersion: 2
         x: 320
@@ -1438,10 +1968,15 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: Micon_94
+      outline:
+      - - {x: -16, y: 16}
+        - {x: -16, y: -9}
+        - {x: -6, y: -16}
+        - {x: 7, y: -16}
+        - {x: 16, y: -8}
+        - {x: 16, y: 14}
+        - {x: 15, y: 16}
+    - name: Micon_94
       rect:
         serializedVersion: 2
         x: 352
@@ -1451,10 +1986,15 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: Spacial_02
+      outline:
+      - - {x: -6, y: 12}
+        - {x: -10, y: 10}
+        - {x: -16, y: 2}
+        - {x: -16, y: -14}
+        - {x: 16, y: -14}
+        - {x: 16, y: 11}
+        - {x: 8, y: 12}
+    - name: Micon_95
       rect:
         serializedVersion: 2
         x: 384
@@ -1464,10 +2004,17 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: Micon_96
+      outline:
+      - - {x: 7, y: 15}
+        - {x: -8, y: 15}
+        - {x: -11, y: 6}
+        - {x: -11, y: -10}
+        - {x: -6, y: -15}
+        - {x: 5, y: -15}
+        - {x: 11, y: -8}
+        - {x: 11, y: 0}
+        - {x: 9, y: 11}
+    - name: Micon_96
       rect:
         serializedVersion: 2
         x: 0
@@ -1477,10 +2024,17 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: Micon_97
+      outline:
+      - - {x: -16, y: 0}
+        - {x: -16, y: -14}
+        - {x: -14, y: -16}
+        - {x: 1, y: -16}
+        - {x: 4, y: -15}
+        - {x: 16, y: 0}
+        - {x: 16, y: 16}
+        - {x: 5, y: 16}
+        - {x: -8, y: 13}
+    - name: Micon_97
       rect:
         serializedVersion: 2
         x: 32
@@ -1490,10 +2044,14 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: Micon_98
+      outline:
+      - - {x: -6, y: 16}
+        - {x: -16, y: 11}
+        - {x: -16, y: -16}
+        - {x: 13, y: -16}
+        - {x: 16, y: -10}
+        - {x: 16, y: 16}
+    - name: Micon_98
       rect:
         serializedVersion: 2
         x: 64
@@ -1503,10 +2061,16 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: Micon_99
+      outline:
+      - - {x: -8, y: 16}
+        - {x: -14, y: 6}
+        - {x: -14, y: -6}
+        - {x: -8, y: -16}
+        - {x: 4, y: -16}
+        - {x: 13, y: -11}
+        - {x: 13, y: 11}
+        - {x: 4, y: 16}
+    - name: Micon_99
       rect:
         serializedVersion: 2
         x: 96
@@ -1516,10 +2080,17 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: Micon_100
+      outline:
+      - - {x: -14, y: 16}
+        - {x: -16, y: 11}
+        - {x: -16, y: -5}
+        - {x: -14, y: -10}
+        - {x: -5, y: -16}
+        - {x: 6, y: -16}
+        - {x: 15, y: -2}
+        - {x: 15, y: 10}
+        - {x: 12, y: 16}
+    - name: Micon_100
       rect:
         serializedVersion: 2
         x: 128
@@ -1529,10 +2100,18 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: Micon_101
+      outline:
+      - - {x: 9, y: 15}
+        - {x: -12, y: 3}
+        - {x: -11, y: 0}
+        - {x: -14, y: -9}
+        - {x: -14, y: -14}
+        - {x: -13, y: -16}
+        - {x: -9, y: -16}
+        - {x: 12, y: -5}
+        - {x: 15, y: 12}
+        - {x: 15, y: 15}
+    - name: Micon_101
       rect:
         serializedVersion: 2
         x: 160
@@ -1542,10 +2121,13 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: Micon_102
+      outline:
+      - - {x: -16, y: 16}
+        - {x: -16, y: -16}
+        - {x: 14, y: -16}
+        - {x: 16, y: -10}
+        - {x: 16, y: 16}
+    - name: Micon_102
       rect:
         serializedVersion: 2
         x: 192
@@ -1555,10 +2137,17 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: Micon_103
+      outline:
+      - - {x: -10, y: 15}
+        - {x: -15, y: 12}
+        - {x: -15, y: -9}
+        - {x: -9, y: -16}
+        - {x: 4, y: -16}
+        - {x: 12, y: -11}
+        - {x: 14, y: -9}
+        - {x: 14, y: 8}
+        - {x: 10, y: 15}
+    - name: Micon_103
       rect:
         serializedVersion: 2
         x: 224
@@ -1568,10 +2157,17 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: Earthquake_1
+      outline:
+      - - {x: 13, y: 16}
+        - {x: -14, y: 16}
+        - {x: -14, y: 8}
+        - {x: -10, y: -15}
+        - {x: -8, y: -16}
+        - {x: 10, y: -16}
+        - {x: 13, y: -13}
+        - {x: 14, y: 1}
+        - {x: 14, y: 15}
+    - name: Earthquake_1
       rect:
         serializedVersion: 2
         x: 256
@@ -1581,10 +2177,15 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: MeteorIcon_1
+      outline:
+      - - {x: -12, y: 16}
+        - {x: -16, y: 11}
+        - {x: -16, y: -14}
+        - {x: -14, y: -16}
+        - {x: 13, y: -16}
+        - {x: 16, y: -15}
+        - {x: 16, y: 16}
+    - name: MeteorIcon_1
       rect:
         serializedVersion: 2
         x: 288
@@ -1594,10 +2195,14 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: Micon_106
+      outline:
+      - - {x: -14, y: 16}
+        - {x: -16, y: 10}
+        - {x: -16, y: -16}
+        - {x: 9, y: -16}
+        - {x: 16, y: -8}
+        - {x: 16, y: 16}
+    - name: Micon_106
       rect:
         serializedVersion: 2
         x: 320
@@ -1607,10 +2212,12 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: Micon_107
+      outline:
+      - - {x: -16, y: 16}
+        - {x: -16, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: 16}
+    - name: Micon_107
       rect:
         serializedVersion: 2
         x: 352
@@ -1620,10 +2227,15 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: Micon_108
+      outline:
+      - - {x: -13, y: 13}
+        - {x: -13, y: -12}
+        - {x: -12, y: -16}
+        - {x: 10, y: -16}
+        - {x: 13, y: -12}
+        - {x: 13, y: 12}
+        - {x: 10, y: 13}
+    - name: Micon_108
       rect:
         serializedVersion: 2
         x: 384
@@ -1633,10 +2245,15 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: Micon_109
+      outline:
+      - - {x: -13, y: 13}
+        - {x: -13, y: -12}
+        - {x: -12, y: -16}
+        - {x: 10, y: -16}
+        - {x: 13, y: -12}
+        - {x: 13, y: 12}
+        - {x: 10, y: 13}
+    - name: Micon_109
       rect:
         serializedVersion: 2
         x: 416
@@ -1646,10 +2263,17 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: EnergyCanon_1
+      outline:
+      - - {x: 5, y: 15}
+        - {x: -7, y: 15}
+        - {x: -15, y: 11}
+        - {x: -15, y: -10}
+        - {x: -10, y: -15}
+        - {x: 7, y: -15}
+        - {x: 15, y: -11}
+        - {x: 15, y: 6}
+        - {x: 9, y: 14}
+    - name: EnergyCanon_1
       rect:
         serializedVersion: 2
         x: 448
@@ -1659,10 +2283,24 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: Micon_111
+      outline:
+      - - {x: -4, y: -6}
+        - {x: -5, y: -8}
+        - {x: -5, y: -16}
+        - {x: 4, y: -16}
+        - {x: 6, y: -15}
+        - {x: 6, y: -8}
+        - {x: 2, y: -6}
+      - - {x: -4, y: 16}
+        - {x: -6, y: 15}
+        - {x: -6, y: 7}
+        - {x: -4, y: -4}
+        - {x: -2, y: -6}
+        - {x: 4, y: -6}
+        - {x: 7, y: 2}
+        - {x: 7, y: 15}
+        - {x: 6, y: 16}
+    - name: Micon_111
       rect:
         serializedVersion: 2
         x: 480
@@ -1672,10 +2310,16 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: Micon_112
+      outline:
+      - - {x: -10, y: 16}
+        - {x: -16, y: 7}
+        - {x: -16, y: -4}
+        - {x: -13, y: -9}
+        - {x: -9, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: 15}
+        - {x: 13, y: 16}
+    - name: Micon_112
       rect:
         serializedVersion: 2
         x: 512
@@ -1685,10 +2329,33 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: Micon_113
+      outline:
+      - - {x: -4, y: -6}
+        - {x: -5, y: -8}
+        - {x: -5, y: -16}
+        - {x: 4, y: -16}
+        - {x: 6, y: -15}
+        - {x: 6, y: -8}
+        - {x: 2, y: -6}
+      - - {x: -14, y: 16}
+        - {x: -14, y: 2}
+        - {x: -13, y: -4}
+        - {x: -11, y: -6}
+        - {x: -7, y: -6}
+        - {x: -3, y: -4}
+        - {x: -1, y: 7}
+        - {x: -1, y: 13}
+        - {x: -3, y: 16}
+      - - {x: 4, y: 16}
+        - {x: 2, y: 11}
+        - {x: 2, y: 3}
+        - {x: 5, y: -4}
+        - {x: 8, y: -6}
+        - {x: 11, y: -6}
+        - {x: 15, y: 2}
+        - {x: 15, y: 15}
+        - {x: 13, y: 16}
+    - name: Micon_113
       rect:
         serializedVersion: 2
         x: 544
@@ -1698,10 +2365,13 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: Micon_114
+      outline:
+      - - {x: -16, y: 16}
+        - {x: -16, y: -12}
+        - {x: -12, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: 16}
+    - name: Micon_114
       rect:
         serializedVersion: 2
         x: 576
@@ -1711,10 +2381,17 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: Micon_115
+      outline:
+      - - {x: -13, y: 16}
+        - {x: -16, y: 13}
+        - {x: -16, y: 1}
+        - {x: -14, y: -6}
+        - {x: -8, y: -16}
+        - {x: 8, y: -16}
+        - {x: 16, y: -10}
+        - {x: 16, y: 14}
+        - {x: 13, y: 16}
+    - name: Micon_115
       rect:
         serializedVersion: 2
         x: 608
@@ -1724,10 +2401,16 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: Micon_116
+      outline:
+      - - {x: -9, y: 16}
+        - {x: -16, y: 9}
+        - {x: -16, y: -9}
+        - {x: -9, y: -16}
+        - {x: 9, y: -16}
+        - {x: 16, y: -9}
+        - {x: 16, y: 9}
+        - {x: 9, y: 16}
+    - name: Micon_116
       rect:
         serializedVersion: 2
         x: 0
@@ -1737,10 +2420,13 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: Micon_117
+      outline:
+      - - {x: -16, y: 16}
+        - {x: -16, y: -15}
+        - {x: -14, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: 16}
+    - name: Micon_117
       rect:
         serializedVersion: 2
         x: 32
@@ -1750,10 +2436,12 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: Micon_118
+      outline:
+      - - {x: -16, y: 16}
+        - {x: -16, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: 16}
+    - name: Micon_118
       rect:
         serializedVersion: 2
         x: 64
@@ -1763,10 +2451,13 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: Micon_119
+      outline:
+      - - {x: -16, y: 16}
+        - {x: -16, y: -15}
+        - {x: -14, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: 16}
+    - name: Micon_119
       rect:
         serializedVersion: 2
         x: 96
@@ -1776,10 +2467,16 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: Micon_120
+      outline:
+      - - {x: 6, y: 16}
+        - {x: -7, y: 16}
+        - {x: -16, y: 11}
+        - {x: -16, y: -10}
+        - {x: -5, y: -16}
+        - {x: 15, y: -16}
+        - {x: 16, y: -12}
+        - {x: 16, y: 7}
+    - name: Micon_120
       rect:
         serializedVersion: 2
         x: 128
@@ -1789,10 +2486,16 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: Cure_1
+      outline:
+      - - {x: -11, y: 16}
+        - {x: -16, y: -6}
+        - {x: -16, y: -13}
+        - {x: -12, y: -16}
+        - {x: 12, y: -16}
+        - {x: 16, y: -12}
+        - {x: 16, y: -6}
+        - {x: 13, y: 16}
+    - name: Cure_1
       rect:
         serializedVersion: 2
         x: 160
@@ -1802,10 +2505,20 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: Micon_122
+      outline:
+      - - {x: -15, y: 16}
+        - {x: -16, y: 13}
+        - {x: -16, y: -12}
+        - {x: -11, y: -16}
+        - {x: 10, y: -16}
+        - {x: 16, y: -10}
+        - {x: 16, y: 9}
+        - {x: 12, y: 16}
+      - - {x: -1, y: 3}
+        - {x: 1, y: 11}
+        - {x: 11, y: 3}
+        - {x: 7, y: -9}
+    - name: Micon_122
       rect:
         serializedVersion: 2
         x: 192
@@ -1815,10 +2528,16 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: Micon_123
+      outline:
+      - - {x: 11, y: 16}
+        - {x: -14, y: 16}
+        - {x: -16, y: 9}
+        - {x: -16, y: -15}
+        - {x: -15, y: -16}
+        - {x: 15, y: -16}
+        - {x: 16, y: -15}
+        - {x: 16, y: 14}
+    - name: Micon_123
       rect:
         serializedVersion: 2
         x: 224
@@ -1828,10 +2547,16 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: Buff_Ditection_1
+      outline:
+      - - {x: -12, y: 16}
+        - {x: -16, y: 8}
+        - {x: -16, y: -14}
+        - {x: -12, y: -16}
+        - {x: 14, y: -16}
+        - {x: 16, y: -13}
+        - {x: 16, y: 9}
+        - {x: 14, y: 16}
+    - name: Buff_Ditection_1
       rect:
         serializedVersion: 2
         x: 256
@@ -1841,10 +2566,16 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: Buff_Attack_1
+      outline:
+      - - {x: -10, y: 16}
+        - {x: -16, y: 10}
+        - {x: -16, y: -11}
+        - {x: -14, y: -16}
+        - {x: 12, y: -16}
+        - {x: 16, y: -15}
+        - {x: 16, y: 9}
+        - {x: 10, y: 16}
+    - name: Buff_Attack_1
       rect:
         serializedVersion: 2
         x: 288
@@ -1854,10 +2585,15 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: Micon_126
+      outline:
+      - - {x: -16, y: 16}
+        - {x: -16, y: 1}
+        - {x: -10, y: -14}
+        - {x: -6, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: 6}
+        - {x: 2, y: 16}
+    - name: Micon_126
       rect:
         serializedVersion: 2
         x: 320
@@ -1867,10 +2603,16 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: Buff_Regist_1
+      outline:
+      - - {x: -12, y: 16}
+        - {x: -16, y: 3}
+        - {x: -16, y: -14}
+        - {x: -2, y: -16}
+        - {x: 13, y: -16}
+        - {x: 16, y: -5}
+        - {x: 16, y: 13}
+        - {x: -2, y: 16}
+    - name: Buff_Regist_1
       rect:
         serializedVersion: 2
         x: 352
@@ -1880,10 +2622,16 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: Hill_1
+      outline:
+      - - {x: -12, y: 16}
+        - {x: -16, y: 8}
+        - {x: -16, y: -14}
+        - {x: -12, y: -16}
+        - {x: 14, y: -16}
+        - {x: 16, y: -13}
+        - {x: 16, y: 9}
+        - {x: 14, y: 16}
+    - name: Hill_1
       rect:
         serializedVersion: 2
         x: 384
@@ -1893,10 +2641,24 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: HighHill_1
+      outline:
+      - - {x: 12, y: 6}
+        - {x: 13, y: 6}
+        - {x: 16, y: 9}
+        - {x: 16, y: 13}
+        - {x: 15, y: 16}
+        - {x: -16, y: 16}
+        - {x: -16, y: 2}
+        - {x: -7, y: -5}
+        - {x: -6, y: -5}
+        - {x: -3, y: -2}
+        - {x: -6, y: -8}
+        - {x: -1, y: -16}
+        - {x: 14, y: -16}
+        - {x: 16, y: -15}
+        - {x: 16, y: 4}
+        - {x: 13, y: 6}
+    - name: HighHill_1
       rect:
         serializedVersion: 2
         x: 416
@@ -1906,10 +2668,24 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: Micon_130
+      outline:
+      - - {x: 12, y: 6}
+        - {x: 13, y: 6}
+        - {x: 16, y: 9}
+        - {x: 16, y: 13}
+        - {x: 15, y: 16}
+        - {x: -16, y: 16}
+        - {x: -16, y: 2}
+        - {x: -7, y: -5}
+        - {x: -6, y: -5}
+        - {x: -3, y: -2}
+        - {x: -6, y: -8}
+        - {x: -1, y: -16}
+        - {x: 14, y: -16}
+        - {x: 16, y: -15}
+        - {x: 16, y: 4}
+        - {x: 13, y: 6}
+    - name: Micon_130
       rect:
         serializedVersion: 2
         x: 448
@@ -1919,10 +2695,15 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: Micon_131
+      outline:
+      - - {x: -16, y: 16}
+        - {x: -16, y: 2}
+        - {x: -15, y: -1}
+        - {x: -1, y: -12}
+        - {x: 16, y: -12}
+        - {x: 16, y: 10}
+        - {x: 8, y: 16}
+    - name: Micon_131
       rect:
         serializedVersion: 2
         x: 480
@@ -1932,10 +2713,16 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: Micon_132
+      outline:
+      - - {x: -10, y: 16}
+        - {x: -16, y: 7}
+        - {x: -16, y: -4}
+        - {x: -6, y: -16}
+        - {x: 10, y: -16}
+        - {x: 16, y: -11}
+        - {x: 16, y: 15}
+        - {x: 14, y: 16}
+    - name: Micon_132
       rect:
         serializedVersion: 2
         x: 512
@@ -1945,10 +2732,16 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: Micon_133
+      outline:
+      - - {x: -5, y: 16}
+        - {x: -16, y: 12}
+        - {x: -16, y: -6}
+        - {x: -11, y: -16}
+        - {x: 12, y: -16}
+        - {x: 16, y: -14}
+        - {x: 16, y: 10}
+        - {x: 15, y: 16}
+    - name: Micon_133
       rect:
         serializedVersion: 2
         x: 544
@@ -1958,10 +2751,14 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: Micon_134
+      outline:
+      - - {x: 7, y: 15}
+        - {x: -4, y: 15}
+        - {x: -12, y: 12}
+        - {x: -12, y: -16}
+        - {x: 11, y: -16}
+        - {x: 11, y: 7}
+    - name: Micon_134
       rect:
         serializedVersion: 2
         x: 576
@@ -1971,10 +2768,14 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: Micon_135
+      outline:
+      - - {x: -7, y: 12}
+        - {x: -16, y: 3}
+        - {x: -16, y: -13}
+        - {x: 15, y: -13}
+        - {x: 15, y: 2}
+        - {x: 5, y: 12}
+    - name: Micon_135
       rect:
         serializedVersion: 2
         x: 608
@@ -1984,10 +2785,12 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: Micon_136
+      outline:
+      - - {x: -16, y: 13}
+        - {x: -16, y: -13}
+        - {x: 15, y: -13}
+        - {x: 15, y: 13}
+    - name: Micon_136
       rect:
         serializedVersion: 2
         x: 0
@@ -1997,10 +2800,14 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: Micon_137
+      outline:
+      - - {x: -6, y: 16}
+        - {x: -16, y: 8}
+        - {x: -16, y: -16}
+        - {x: 6, y: -16}
+        - {x: 16, y: -8}
+        - {x: 16, y: 16}
+    - name: Micon_137
       rect:
         serializedVersion: 2
         x: 32
@@ -2010,10 +2817,13 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: Micon_138
+      outline:
+      - - {x: -16, y: 16}
+        - {x: -16, y: -16}
+        - {x: 8, y: -16}
+        - {x: 16, y: -8}
+        - {x: 16, y: 16}
+    - name: Micon_138
       rect:
         serializedVersion: 2
         x: 64
@@ -2023,10 +2833,14 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: Micon_139
+      outline:
+      - - {x: -13, y: 11}
+        - {x: -13, y: -16}
+        - {x: 13, y: -16}
+        - {x: 15, y: -15}
+        - {x: 15, y: 15}
+        - {x: -9, y: 15}
+    - name: Micon_139
       rect:
         serializedVersion: 2
         x: 96
@@ -2036,10 +2850,14 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: Micon_140
+      outline:
+      - - {x: -12, y: 16}
+        - {x: -16, y: 6}
+        - {x: -16, y: -15}
+        - {x: 14, y: -15}
+        - {x: 16, y: -12}
+        - {x: 16, y: 16}
+    - name: Micon_140
       rect:
         serializedVersion: 2
         x: 128
@@ -2049,10 +2867,15 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: Micon_141
+      outline:
+      - - {x: -13, y: 16}
+        - {x: -16, y: 8}
+        - {x: -16, y: -10}
+        - {x: -10, y: -15}
+        - {x: 15, y: -15}
+        - {x: 16, y: -12}
+        - {x: 16, y: 16}
+    - name: Micon_141
       rect:
         serializedVersion: 2
         x: 160
@@ -2062,10 +2885,16 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: Micon_142
+      outline:
+      - - {x: -16, y: 10}
+        - {x: -16, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: -1}
+        - {x: 15, y: 10}
+        - {x: 11, y: 16}
+        - {x: -3, y: 16}
+        - {x: -10, y: 14}
+    - name: Micon_142
       rect:
         serializedVersion: 2
         x: 192
@@ -2075,10 +2904,12 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: Micon_143
+      outline:
+      - - {x: -16, y: 16}
+        - {x: -16, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: 16}
+    - name: Micon_143
       rect:
         serializedVersion: 2
         x: 224
@@ -2088,10 +2919,14 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: Debuff_AtteckBreak_1
+      outline:
+      - - {x: -8, y: 16}
+        - {x: -11, y: 12}
+        - {x: -11, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: 15}
+        - {x: 12, y: 16}
+    - name: Debuff_AtteckBreak_1
       rect:
         serializedVersion: 2
         x: 256
@@ -2101,10 +2936,15 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: Debuff_MoveBreak_1
+      outline:
+      - - {x: -15, y: 14}
+        - {x: -15, y: 0}
+        - {x: -2, y: -15}
+        - {x: 6, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: 2}
+        - {x: 1, y: 14}
+    - name: Debuff_MoveBreak_1
       rect:
         serializedVersion: 2
         x: 288
@@ -2114,10 +2954,18 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: Micon_146
+      outline:
+      - - {x: 16, y: 14}
+        - {x: 15, y: 15}
+        - {x: -10, y: 15}
+        - {x: -14, y: 13}
+        - {x: -16, y: 5}
+        - {x: -16, y: -11}
+        - {x: 8, y: -11}
+        - {x: 11, y: -10}
+        - {x: 14, y: -8}
+        - {x: 16, y: -3}
+    - name: Micon_146
       rect:
         serializedVersion: 2
         x: 320
@@ -2127,10 +2975,16 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: Micon_147
+      outline:
+      - - {x: -15, y: 16}
+        - {x: -16, y: 15}
+        - {x: -16, y: -12}
+        - {x: -9, y: -16}
+        - {x: 15, y: -16}
+        - {x: 16, y: -15}
+        - {x: 16, y: 14}
+        - {x: 11, y: 16}
+    - name: Micon_147
       rect:
         serializedVersion: 2
         x: 352
@@ -2140,10 +2994,16 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: Micon_148
+      outline:
+      - - {x: 10, y: 16}
+        - {x: -8, y: 16}
+        - {x: -14, y: 13}
+        - {x: -14, y: -4}
+        - {x: -6, y: -16}
+        - {x: 8, y: -16}
+        - {x: 15, y: -7}
+        - {x: 15, y: 6}
+    - name: Micon_148
       rect:
         serializedVersion: 2
         x: 384
@@ -2153,10 +3013,15 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: Micon_149
+      outline:
+      - - {x: -4, y: 16}
+        - {x: -16, y: -1}
+        - {x: -16, y: -16}
+        - {x: -7, y: -16}
+        - {x: 15, y: -5}
+        - {x: 16, y: 1}
+        - {x: 16, y: 16}
+    - name: Micon_149
       rect:
         serializedVersion: 2
         x: 416
@@ -2166,10 +3031,16 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: Micon_150
+      outline:
+      - - {x: -7, y: 14}
+        - {x: -14, y: 9}
+        - {x: -14, y: -9}
+        - {x: -8, y: -16}
+        - {x: 13, y: -16}
+        - {x: 14, y: -15}
+        - {x: 14, y: 8}
+        - {x: 12, y: 14}
+    - name: Micon_150
       rect:
         serializedVersion: 2
         x: 448
@@ -2179,10 +3050,15 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: Micon_151
+      outline:
+      - - {x: -12, y: 13}
+        - {x: -15, y: 7}
+        - {x: -15, y: -10}
+        - {x: -14, y: -12}
+        - {x: 15, y: -12}
+        - {x: 15, y: 7}
+        - {x: 12, y: 13}
+    - name: Micon_151
       rect:
         serializedVersion: 2
         x: 480
@@ -2192,10 +3068,16 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: Micon_152
+      outline:
+      - - {x: 7, y: 16}
+        - {x: -7, y: 16}
+        - {x: -15, y: 9}
+        - {x: -15, y: -16}
+        - {x: 15, y: -16}
+        - {x: 16, y: -14}
+        - {x: 16, y: -4}
+        - {x: 11, y: 14}
+    - name: Micon_152
       rect:
         serializedVersion: 2
         x: 512
@@ -2205,10 +3087,13 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: Micon_153
+      outline:
+      - - {x: -16, y: 16}
+        - {x: -16, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: 14}
+        - {x: 11, y: 16}
+    - name: Micon_153
       rect:
         serializedVersion: 2
         x: 544
@@ -2218,10 +3103,19 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: CastleGateClose
+      outline:
+      - - {x: -2, y: 16}
+        - {x: -5, y: 16}
+        - {x: -7, y: 15}
+        - {x: -8, y: 10}
+        - {x: -11, y: 13}
+        - {x: -15, y: 14}
+        - {x: -16, y: 14}
+        - {x: -16, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: -5}
+        - {x: 11, y: 2}
+    - name: CastleGateClose
       rect:
         serializedVersion: 2
         x: 0
@@ -2231,10 +3125,12 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: Micon_155
+      outline:
+      - - {x: -16, y: 16}
+        - {x: -16, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: 16}
+    - name: Micon_155
       rect:
         serializedVersion: 2
         x: 32
@@ -2244,10 +3140,14 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: Micon_156
+      outline:
+      - - {x: -16, y: 16}
+        - {x: -16, y: -16}
+        - {x: 8, y: -16}
+        - {x: 16, y: -12}
+        - {x: 16, y: 12}
+        - {x: -1, y: 16}
+    - name: Micon_156
       rect:
         serializedVersion: 2
         x: 64
@@ -2257,10 +3157,16 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: Micon_157
+      outline:
+      - - {x: -3, y: 16}
+        - {x: -16, y: 12}
+        - {x: -16, y: -12}
+        - {x: 0, y: -16}
+        - {x: 12, y: -16}
+        - {x: 16, y: -12}
+        - {x: 16, y: 14}
+        - {x: 15, y: 16}
+    - name: Micon_157
       rect:
         serializedVersion: 2
         x: 96
@@ -2270,10 +3176,15 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: Move_Not_02
+      outline:
+      - - {x: 16, y: 12}
+        - {x: 12, y: 16}
+        - {x: -9, y: 16}
+        - {x: -16, y: 10}
+        - {x: -16, y: -16}
+        - {x: 11, y: -16}
+        - {x: 16, y: -11}
+    - name: Micon_158
       rect:
         serializedVersion: 2
         x: 128
@@ -2283,10 +3194,15 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: Attack_Not_02
+      outline:
+      - - {x: -11, y: -8}
+        - {x: -10, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: 10}
+        - {x: 14, y: 16}
+        - {x: -5, y: 16}
+        - {x: -11, y: 8}
+    - name: Micon_159
       rect:
         serializedVersion: 2
         x: 160
@@ -2296,10 +3212,14 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: Magic_Not_02
+      outline:
+      - - {x: -16, y: 16}
+        - {x: -16, y: -7}
+        - {x: -4, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: 8}
+        - {x: 4, y: 16}
+    - name: Micon_160
       rect:
         serializedVersion: 2
         x: 192
@@ -2309,10 +3229,19 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: Pocket_Not_02
+      outline:
+      - - {x: -9, y: 16}
+        - {x: -16, y: 10}
+        - {x: -16, y: 9}
+        - {x: -15, y: 5}
+        - {x: -16, y: -3}
+        - {x: -16, y: -16}
+        - {x: -1, y: -16}
+        - {x: 5, y: -15}
+        - {x: 16, y: -2}
+        - {x: 16, y: 12}
+        - {x: 11, y: 16}
+    - name: Micon_161
       rect:
         serializedVersion: 2
         x: 224
@@ -2322,10 +3251,15 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: Rest_Not_02
+      outline:
+      - - {x: -13, y: 16}
+        - {x: -15, y: 14}
+        - {x: -16, y: 8}
+        - {x: -16, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: 14}
+        - {x: 14, y: 16}
+    - name: Micon_162
       rect:
         serializedVersion: 2
         x: 256
@@ -2335,10 +3269,15 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: SpacialSkill_Not_02
+      outline:
+      - - {x: -11, y: 16}
+        - {x: -16, y: 2}
+        - {x: -16, y: -14}
+        - {x: -13, y: -16}
+        - {x: 14, y: -16}
+        - {x: 16, y: -10}
+        - {x: 16, y: 16}
+    - name: Micon_163
       rect:
         serializedVersion: 2
         x: 288
@@ -2348,10 +3287,14 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: Order_Not_02
+      outline:
+      - - {x: -13, y: 16}
+        - {x: -13, y: -16}
+        - {x: 12, y: -16}
+        - {x: 15, y: -14}
+        - {x: 15, y: 13}
+        - {x: 14, y: 16}
+    - name: Micon_164
       rect:
         serializedVersion: 2
         x: 320
@@ -2361,10 +3304,15 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: System_Not_02
+      outline:
+      - - {x: -9, y: 16}
+        - {x: -16, y: -3}
+        - {x: -16, y: -16}
+        - {x: 7, y: -16}
+        - {x: 16, y: -6}
+        - {x: 16, y: 9}
+        - {x: 12, y: 16}
+    - name: Micon_165
       rect:
         serializedVersion: 2
         x: 352
@@ -2374,10 +3322,14 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: Micon_166
+      outline:
+      - - {x: -15, y: 16}
+        - {x: -16, y: 4}
+        - {x: -16, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: 2}
+        - {x: 14, y: 16}
+    - name: Micon_166
       rect:
         serializedVersion: 2
         x: 480
@@ -2387,8 +3339,12 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: -1
+      outline:
+      - - {x: -7, y: 16}
+        - {x: -6, y: 13}
+        - {x: 6, y: 13}
+        - {x: 8, y: 15}
+        - {x: 8, y: 16}
     outline: []
   spritePackingTag: 
   userData: 

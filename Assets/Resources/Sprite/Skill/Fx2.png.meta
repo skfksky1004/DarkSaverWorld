@@ -223,12 +223,12 @@ TextureImporter:
     21300432: Fx2_13
     21300434: RightSwordSlash_2
     21300436: LeftSwordSlash_2
-  serializedVersion: 2
+  serializedVersion: 4
   mipmaps:
     mipMapMode: 0
     enableMipMap: 1
+    sRGBTexture: 1
     linearTexture: 0
-    correctGamma: 0
     fadeOut: 0
     borderMipMap: 0
     mipMapFadeDistanceStart: 1
@@ -240,10 +240,8 @@ TextureImporter:
     normalMapFilter: 0
   isReadable: 0
   grayScaleToAlpha: 0
-  generateCubemap: 0
+  generateCubemap: 6
   cubemapConvolution: 0
-  cubemapConvolutionSteps: 8
-  cubemapConvolutionExponent: 1.5
   seamlessCubemap: 0
   textureFormat: -2
   maxTextureSize: 1024
@@ -254,9 +252,7 @@ TextureImporter:
     wrapMode: 1
   nPOTScale: 0
   lightmap: 0
-  rGBM: 0
   compressionQuality: 50
-  allowsAlphaSplitting: 0
   spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
@@ -264,12 +260,52 @@ TextureImporter:
   spritePivot: {x: 0.5, y: 0.5}
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spritePixelsToUnits: 32
+  alphaUsage: 1
   alphaIsTransparency: 1
+  spriteTessellationDetail: -1
   textureType: 8
-  buildTargetSettings: []
+  textureShape: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - buildTarget: DefaultTexturePlatform
+    maxTextureSize: 1024
+    textureFormat: 2
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: Standalone
+    maxTextureSize: 1024
+    textureFormat: 2
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: Android
+    maxTextureSize: 1024
+    textureFormat: 2
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: Windows Store Apps
+    maxTextureSize: 1024
+    textureFormat: 2
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
   spriteSheet:
+    serializedVersion: 2
     sprites:
-    - name: Arrow_0
+    - serializedVersion: 2
+      name: Arrow_0
       rect:
         serializedVersion: 2
         x: 0
@@ -279,14 +315,10 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: -4, y: 16}
-        - {x: -6, y: 14}
-        - {x: -6, y: -16}
-        - {x: 7, y: -16}
-        - {x: 7, y: 15}
-        - {x: 6, y: 16}
-    - name: Arrow_1
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Arrow_1
       rect:
         serializedVersion: 2
         x: 32
@@ -296,14 +328,10 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: 2, y: 14}
-        - {x: -14, y: 3}
-        - {x: -14, y: -14}
-        - {x: -3, y: -14}
-        - {x: 14, y: -5}
-        - {x: 14, y: 14}
-    - name: Arrow_2
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Arrow_2
       rect:
         serializedVersion: 2
         x: 64
@@ -313,15 +341,10 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: -14, y: 6}
-        - {x: -16, y: 5}
-        - {x: -16, y: -6}
-        - {x: -13, y: -7}
-        - {x: 15, y: -7}
-        - {x: 16, y: -6}
-        - {x: 16, y: 6}
-    - name: Arrow_3
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Arrow_3
       rect:
         serializedVersion: 2
         x: 96
@@ -331,16 +354,10 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: -14, y: 0}
-        - {x: 2, y: -14}
-        - {x: 14, y: -14}
-        - {x: 14, y: -5}
-        - {x: 12, y: 1}
-        - {x: -1, y: 14}
-        - {x: -12, y: 14}
-        - {x: -14, y: 13}
-    - name: Arrow_4
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Arrow_4
       rect:
         serializedVersion: 2
         x: 128
@@ -350,12 +367,10 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: -7, y: 16}
-        - {x: -7, y: -16}
-        - {x: 6, y: -16}
-        - {x: 6, y: 16}
-    - name: Arrow_5
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Arrow_5
       rect:
         serializedVersion: 2
         x: 160
@@ -365,18 +380,10 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: 5, y: 14}
-        - {x: -5, y: 7}
-        - {x: -14, y: -2}
-        - {x: -14, y: -11}
-        - {x: -13, y: -14}
-        - {x: -6, y: -14}
-        - {x: 2, y: -12}
-        - {x: 14, y: 4}
-        - {x: 14, y: 13}
-        - {x: 13, y: 14}
-    - name: Arrow_6
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Arrow_6
       rect:
         serializedVersion: 2
         x: 192
@@ -386,14 +393,10 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: -15, y: 7}
-        - {x: -16, y: 6}
-        - {x: -16, y: -6}
-        - {x: 16, y: -6}
-        - {x: 16, y: 6}
-        - {x: 13, y: 7}
-    - name: Arrow_7
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Arrow_7
       rect:
         serializedVersion: 2
         x: 224
@@ -403,15 +406,10 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: -14, y: 14}
-        - {x: -14, y: 0}
-        - {x: 4, y: -14}
-        - {x: 13, y: -14}
-        - {x: 14, y: -13}
-        - {x: 14, y: -4}
-        - {x: 2, y: 14}
-    - name: EnergyBall_0
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: EnergyBall_0
       rect:
         serializedVersion: 2
         x: 256
@@ -421,16 +419,10 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: -7, y: 7}
-        - {x: -13, y: 5}
-        - {x: -13, y: -2}
-        - {x: -8, y: -7}
-        - {x: -1, y: -7}
-        - {x: 2, y: -2}
-        - {x: 2, y: 4}
-        - {x: -2, y: 7}
-    - name: EnergyBall_1
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: EnergyBall_1
       rect:
         serializedVersion: 2
         x: 288
@@ -440,19 +432,10 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: 6, y: 14}
-        - {x: 0, y: 14}
-        - {x: -9, y: 9}
-        - {x: -13, y: 5}
-        - {x: -13, y: -6}
-        - {x: -4, y: -12}
-        - {x: 10, y: -12}
-        - {x: 11, y: -11}
-        - {x: 12, y: -8}
-        - {x: 12, y: 8}
-        - {x: 10, y: 13}
-    - name: EnergyBall_2
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: EnergyBall_2
       rect:
         serializedVersion: 2
         x: 320
@@ -462,16 +445,10 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: 2, y: 16}
-        - {x: -13, y: 6}
-        - {x: -13, y: -2}
-        - {x: -12, y: -8}
-        - {x: 8, y: -16}
-        - {x: 13, y: -13}
-        - {x: 16, y: -10}
-        - {x: 16, y: 16}
-    - name: RightSwordSlash_0
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: RightSwordSlash_0
       rect:
         serializedVersion: 2
         x: 15
@@ -481,15 +458,10 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: 10, y: 16}
-        - {x: 1, y: 16}
-        - {x: 1, y: -3}
-        - {x: 9, y: -3}
-        - {x: 14, y: 2}
-        - {x: 14, y: 9}
-        - {x: 12, y: 15}
-    - name: RightSwordSlash_1
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: RightSwordSlash_1
       rect:
         serializedVersion: 2
         x: 32
@@ -499,15 +471,10 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: -1, y: 16}
-        - {x: -16, y: -10}
-        - {x: -16, y: -16}
-        - {x: 1, y: -16}
-        - {x: 16, y: -5}
-        - {x: 16, y: 9}
-        - {x: 7, y: 16}
-    - name: LeftSwordSlash_0
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: LeftSwordSlash_0
       rect:
         serializedVersion: 2
         x: 65
@@ -517,15 +484,10 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: -8, y: 16}
-        - {x: -14, y: 14}
-        - {x: -14, y: 4}
-        - {x: -9, y: -2}
-        - {x: -8, y: -3}
-        - {x: -1, y: -3}
-        - {x: -1, y: 16}
-    - name: LeftSwordSlash_1
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: LeftSwordSlash_1
       rect:
         serializedVersion: 2
         x: 96
@@ -535,16 +497,10 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: -16, y: 0}
-        - {x: -15, y: -7}
-        - {x: 2, y: -16}
-        - {x: 16, y: -16}
-        - {x: 16, y: -7}
-        - {x: 5, y: 16}
-        - {x: -9, y: 16}
-        - {x: -16, y: 8}
-    - name: FireExplosion_2
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: FireExplosion_2
       rect:
         serializedVersion: 2
         x: 0
@@ -555,7 +511,9 @@ TextureImporter:
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: FireExplosion_3
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: FireExplosion_3
       rect:
         serializedVersion: 2
         x: 24
@@ -566,7 +524,9 @@ TextureImporter:
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: FireExplosion_4
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: FireExplosion_4
       rect:
         serializedVersion: 2
         x: 48
@@ -577,7 +537,9 @@ TextureImporter:
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: FireExplosion_0
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: FireExplosion_0
       rect:
         serializedVersion: 2
         x: 72
@@ -587,20 +549,10 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: 14, y: 24}
-        - {x: -7, y: 24}
-        - {x: -8, y: 21}
-        - {x: -6, y: 14}
-        - {x: -8, y: 17}
-        - {x: -12, y: 24}
-        - {x: -20, y: 24}
-        - {x: -24, y: 23}
-        - {x: -24, y: -22}
-        - {x: 24, y: -22}
-        - {x: 24, y: 21}
-        - {x: 21, y: 22}
-    - name: FireExplosion_1
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: FireExplosion_1
       rect:
         serializedVersion: 2
         x: 120
@@ -610,23 +562,10 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: -8, y: 24}
-        - {x: -21, y: 17}
-        - {x: -24, y: 3}
-        - {x: -24, y: -22}
-        - {x: 24, y: -22}
-        - {x: 24, y: 22}
-        - {x: 10, y: 24}
-      - - {x: -16, y: 24}
-        - {x: -21, y: 24}
-        - {x: -24, y: 21}
-        - {x: -24, y: 13}
-        - {x: -22, y: 11}
-        - {x: -18, y: 11}
-        - {x: -14, y: 17}
-        - {x: -14, y: 22}
-    - name: RightSeaWave_0
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: RightSeaWave_0
       rect:
         serializedVersion: 2
         x: 168
@@ -636,14 +575,10 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: -37.5, y: -18}
-        - {x: -37.5, y: -32}
-        - {x: 37.5, y: -32}
-        - {x: 37.5, y: 32}
-        - {x: 15.5, y: 32}
-        - {x: -4.5, y: 28}
-    - name: RightSeaWave_1
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: RightSeaWave_1
       rect:
         serializedVersion: 2
         x: 243
@@ -653,14 +588,10 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: -5.5, y: 29}
-        - {x: -37.5, y: -18}
-        - {x: -37.5, y: -32}
-        - {x: 37.5, y: -32}
-        - {x: 37.5, y: 26}
-        - {x: 32.5, y: 29}
-    - name: RightSeaWave_2
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: RightSeaWave_2
       rect:
         serializedVersion: 2
         x: 318
@@ -670,15 +601,10 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: -37.5, y: -32}
-        - {x: 37.5, y: -32}
-        - {x: 37.5, y: 22}
-        - {x: 34.5, y: 31}
-        - {x: 6.5, y: 31}
-        - {x: -34.5, y: -5}
-        - {x: -37.5, y: -18}
-    - name: RightSeaWave_3
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: RightSeaWave_3
       rect:
         serializedVersion: 2
         x: 393
@@ -688,21 +614,10 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: 16.5, y: 16}
-        - {x: 17.5, y: 23}
-        - {x: 14.5, y: 31}
-        - {x: 6.5, y: 32}
-        - {x: -34.5, y: 32}
-        - {x: -37.5, y: 29}
-        - {x: -37.5, y: -1}
-        - {x: -33.5, y: -28}
-        - {x: -26.5, y: -32}
-        - {x: 20.5, y: -32}
-        - {x: 37.5, y: -10}
-        - {x: 37.5, y: 15}
-        - {x: 34.5, y: 17}
-    - name: RightSeaWave_4
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: RightSeaWave_4
       rect:
         serializedVersion: 2
         x: 468
@@ -712,18 +627,10 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: -18.5, y: 32}
-        - {x: -20.5, y: 31}
-        - {x: -20.5, y: 7}
-        - {x: -3.5, y: -27}
-        - {x: 4.5, y: -28}
-        - {x: 28.5, y: -28}
-        - {x: 34.5, y: -26}
-        - {x: 37.5, y: -14}
-        - {x: 37.5, y: 11}
-        - {x: 7.5, y: 32}
-    - name: Fx2_36
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Fx2_36
       rect:
         serializedVersion: 2
         x: 543
@@ -734,7 +641,9 @@ TextureImporter:
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: Fx2_37
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Fx2_37
       rect:
         serializedVersion: 2
         x: 571
@@ -745,7 +654,9 @@ TextureImporter:
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: Fx2_38
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Fx2_38
       rect:
         serializedVersion: 2
         x: 593
@@ -756,7 +667,9 @@ TextureImporter:
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: Fx2_39
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Fx2_39
       rect:
         serializedVersion: 2
         x: 637
@@ -766,15 +679,10 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: 7, y: 16}
-        - {x: -7, y: 16}
-        - {x: -9, y: 14}
-        - {x: -9, y: -14}
-        - {x: 9, y: -14}
-        - {x: 9, y: 10}
-        - {x: 8, y: 14}
-    - name: Fx2_40
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Fx2_40
       rect:
         serializedVersion: 2
         x: 669
@@ -784,29 +692,10 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: 11, y: 4}
-        - {x: 10, y: 4}
-        - {x: 11, y: 4}
-        - {x: 14, y: 6}
-        - {x: 14, y: 8}
-        - {x: 12, y: 13}
-        - {x: 1, y: 13}
-        - {x: -15, y: -1}
-        - {x: -15, y: -5}
-        - {x: -12, y: -9}
-        - {x: -10, y: -9}
-        - {x: -5, y: -5}
-        - {x: -4, y: -3}
-        - {x: -5, y: -6}
-        - {x: -3, y: -8}
-        - {x: -4, y: -9}
-        - {x: -5, y: -13}
-        - {x: -3, y: -15}
-        - {x: 0, y: -14}
-        - {x: 14, y: -2}
-        - {x: 14, y: 1}
-    - name: Fx2_41
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Fx2_41
       rect:
         serializedVersion: 2
         x: 701
@@ -816,14 +705,10 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: -14, y: 10}
-        - {x: -14, y: -8}
-        - {x: 15, y: -8}
-        - {x: 16, y: -7}
-        - {x: 16, y: 5}
-        - {x: 13, y: 10}
-    - name: Fx2_42
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Fx2_42
       rect:
         serializedVersion: 2
         x: 733
@@ -833,29 +718,10 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: 9, y: -16}
-        - {x: 15, y: -16}
-        - {x: 16, y: -14}
-        - {x: 16, y: -4}
-        - {x: -1, y: 12}
-        - {x: -2, y: 12}
-        - {x: -6, y: 8}
-        - {x: -6, y: 7}
-        - {x: -2, y: 2}
-        - {x: 0, y: 1}
-        - {x: -3, y: 2}
-        - {x: -5, y: 0}
-        - {x: -6, y: 1}
-        - {x: -10, y: 2}
-        - {x: -12, y: 0}
-        - {x: -11, y: -3}
-        - {x: 1, y: -16}
-        - {x: 5, y: -16}
-        - {x: 7, y: -14}
-        - {x: 7, y: -13}
-        - {x: 7, y: -14}
-    - name: Fx2_43
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Fx2_43
       rect:
         serializedVersion: 2
         x: 765
@@ -865,29 +731,10 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: 1, y: 8}
-        - {x: -1, y: 6}
-        - {x: -1, y: -16}
-        - {x: 6, y: -16}
-        - {x: 6, y: 7}
-        - {x: 4, y: 8}
-      - - {x: -12, y: 14}
-        - {x: -12, y: -12}
-        - {x: -9, y: -13}
-        - {x: -8, y: -13}
-        - {x: -5, y: -10}
-        - {x: -5, y: 12}
-        - {x: -7, y: 14}
-      - - {x: 13, y: 13}
-        - {x: 11, y: 14}
-        - {x: 8, y: 14}
-        - {x: 6, y: 12}
-        - {x: 6, y: -10}
-        - {x: 9, y: -12}
-        - {x: 10, y: -12}
-        - {x: 13, y: -9}
-    - name: Fx2_44
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Fx2_44
       rect:
         serializedVersion: 2
         x: 797
@@ -897,29 +744,10 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: -4, y: -10}
-        - {x: -4, y: -16}
-        - {x: 1, y: -16}
-        - {x: 14, y: -5}
-        - {x: 14, y: -1}
-        - {x: 12, y: 1}
-        - {x: 10, y: 1}
-      - - {x: 2, y: 3}
-        - {x: -13, y: -7}
-        - {x: -13, y: -14}
-        - {x: -11, y: -15}
-        - {x: -7, y: -15}
-        - {x: 5, y: -1}
-        - {x: 5, y: 3}
-      - - {x: 2, y: 16}
-        - {x: -4, y: 16}
-        - {x: -16, y: 2}
-        - {x: -16, y: -5}
-        - {x: -13, y: -5}
-        - {x: 4, y: 12}
-        - {x: 4, y: 15}
-    - name: Fx2_45
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Fx2_45
       rect:
         serializedVersion: 2
         x: 829
@@ -929,26 +757,10 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: -11, y: -5}
-        - {x: -12, y: -8}
-        - {x: -12, y: -9}
-        - {x: -9, y: -12}
-        - {x: 14, y: -12}
-        - {x: 14, y: -5}
-      - - {x: -16, y: 2}
-        - {x: -16, y: -5}
-        - {x: 8, y: -5}
-        - {x: 8, y: 2}
-      - - {x: -10, y: 13}
-        - {x: -13, y: 10}
-        - {x: -13, y: 9}
-        - {x: -10, y: 6}
-        - {x: 12, y: 6}
-        - {x: 14, y: 8}
-        - {x: 14, y: 11}
-        - {x: 12, y: 13}
-    - name: Fx2_46
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Fx2_46
       rect:
         serializedVersion: 2
         x: 861
@@ -958,31 +770,10 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: -16, y: -1}
-        - {x: -5, y: -14}
-        - {x: 2, y: -14}
-        - {x: 2, y: -11}
-        - {x: -7, y: 1}
-        - {x: -10, y: 4}
-        - {x: -14, y: 4}
-        - {x: -16, y: 3}
-      - - {x: -14, y: 8}
-        - {x: -3, y: -5}
-        - {x: 4, y: -5}
-        - {x: 4, y: -2}
-        - {x: -5, y: 10}
-        - {x: -8, y: 13}
-        - {x: -12, y: 13}
-        - {x: -14, y: 12}
-      - - {x: -4, y: 16}
-        - {x: -4, y: 13}
-        - {x: 13, y: -4}
-        - {x: 14, y: -4}
-        - {x: 16, y: -2}
-        - {x: 16, y: 3}
-        - {x: 3, y: 16}
-    - name: Fx2_64
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Fx2_64
       rect:
         serializedVersion: 2
         x: 543
@@ -993,7 +784,9 @@ TextureImporter:
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: Fx2_65
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Fx2_65
       rect:
         serializedVersion: 2
         x: 571
@@ -1004,7 +797,9 @@ TextureImporter:
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: Fx2_66
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Fx2_66
       rect:
         serializedVersion: 2
         x: 593
@@ -1015,7 +810,9 @@ TextureImporter:
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: Fx2_67
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Fx2_67
       rect:
         serializedVersion: 2
         x: 637
@@ -1025,24 +822,10 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: 5, y: 16}
-        - {x: -4, y: 16}
-        - {x: -10, y: 10}
-        - {x: -10, y: -12}
-        - {x: -8, y: -13}
-        - {x: -5, y: -13}
-        - {x: -3, y: -11}
-        - {x: 1, y: -9}
-        - {x: 3, y: -7}
-        - {x: 2, y: -10}
-        - {x: 2, y: -13}
-        - {x: 3, y: -15}
-        - {x: 7, y: -15}
-        - {x: 9, y: -14}
-        - {x: 9, y: 8}
-        - {x: 8, y: 13}
-    - name: Fx2_68
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Fx2_68
       rect:
         serializedVersion: 2
         x: 669
@@ -1052,19 +835,10 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: 1, y: 15}
-        - {x: -12, y: 7}
-        - {x: -12, y: -2}
-        - {x: -10, y: -4}
-        - {x: -7, y: -3}
-        - {x: -7, y: -4}
-        - {x: -5, y: -12}
-        - {x: -3, y: -14}
-        - {x: 0, y: -13}
-        - {x: 16, y: -1}
-        - {x: 16, y: 15}
-    - name: Fx2_69
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Fx2_69
       rect:
         serializedVersion: 2
         x: 701
@@ -1074,20 +848,10 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: -13, y: 13}
-        - {x: -14, y: 12}
-        - {x: -12, y: 5}
-        - {x: -7, y: 0}
-        - {x: -10, y: 1}
-        - {x: -13, y: 1}
-        - {x: -15, y: -1}
-        - {x: -15, y: -6}
-        - {x: 14, y: -6}
-        - {x: 16, y: -4}
-        - {x: 16, y: 8}
-        - {x: 13, y: 13}
-    - name: Fx2_70
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Fx2_70
       rect:
         serializedVersion: 2
         x: 733
@@ -1097,14 +861,10 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: -3, y: 12}
-        - {x: -15, y: 12}
-        - {x: -15, y: -16}
-        - {x: 14, y: -16}
-        - {x: 14, y: 1}
-        - {x: 1, y: 11}
-    - name: Fx2_71
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Fx2_71
       rect:
         serializedVersion: 2
         x: 765
@@ -1114,24 +874,10 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: 8, y: 8}
-        - {x: 6, y: 6}
-        - {x: 6, y: -16}
-        - {x: 13, y: -16}
-        - {x: 13, y: 7}
-        - {x: 11, y: 8}
-      - - {x: -12, y: 12}
-        - {x: -12, y: -14}
-        - {x: -5, y: -14}
-        - {x: -5, y: 12}
-      - - {x: -1, y: 16}
-        - {x: -1, y: -6}
-        - {x: 2, y: -9}
-        - {x: 3, y: -9}
-        - {x: 6, y: -6}
-        - {x: 6, y: 16}
-    - name: Fx2_72
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Fx2_72
       rect:
         serializedVersion: 2
         x: 797
@@ -1141,30 +887,10 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: 10, y: 0}
-        - {x: -4, y: -13}
-        - {x: -4, y: -15}
-        - {x: -3, y: -16}
-        - {x: 2, y: -16}
-        - {x: 14, y: -4}
-        - {x: 14, y: -2}
-        - {x: 12, y: 0}
-      - - {x: 2, y: 2}
-        - {x: -13, y: -8}
-        - {x: -13, y: -15}
-        - {x: -11, y: -16}
-        - {x: -7, y: -16}
-        - {x: 5, y: -2}
-        - {x: 5, y: 2}
-      - - {x: -1, y: 16}
-        - {x: -16, y: 1}
-        - {x: -16, y: -6}
-        - {x: -13, y: -6}
-        - {x: 4, y: 11}
-        - {x: 4, y: 12}
-        - {x: 0, y: 16}
-    - name: Fx2_73
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Fx2_73
       rect:
         serializedVersion: 2
         x: 829
@@ -1174,27 +900,10 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: -16, y: -3}
-        - {x: -16, y: -9}
-        - {x: -15, y: -10}
-        - {x: 8, y: -10}
-        - {x: 8, y: -3}
-      - - {x: -9, y: 1}
-        - {x: -9, y: 0}
-        - {x: -6, y: -3}
-        - {x: 16, y: -3}
-        - {x: 16, y: 4}
-        - {x: -6, y: 4}
-      - - {x: 10, y: 15}
-        - {x: -12, y: 15}
-        - {x: -14, y: 12}
-        - {x: -14, y: 11}
-        - {x: -11, y: 8}
-        - {x: 11, y: 8}
-        - {x: 12, y: 10}
-        - {x: 12, y: 13}
-    - name: Fx2_74
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Fx2_74
       rect:
         serializedVersion: 2
         x: 861
@@ -1204,31 +913,10 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: 8, y: -16}
-        - {x: 12, y: -16}
-        - {x: 15, y: -14}
-        - {x: 15, y: -10}
-        - {x: 1, y: 6}
-        - {x: -5, y: 6}
-        - {x: -7, y: 5}
-        - {x: -7, y: 1}
-      - - {x: -15, y: 7}
-        - {x: -16, y: 6}
-        - {x: -16, y: 1}
-        - {x: -4, y: -11}
-        - {x: -2, y: -11}
-        - {x: 0, y: -9}
-        - {x: 0, y: -7}
-        - {x: -13, y: 7}
-      - - {x: -2, y: 16}
-        - {x: -2, y: 12}
-        - {x: 9, y: -1}
-        - {x: 14, y: -1}
-        - {x: 16, y: 0}
-        - {x: 16, y: 3}
-        - {x: 5, y: 16}
-    - name: LightExplosion_2
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: LightExplosion_2
       rect:
         serializedVersion: 2
         x: 0
@@ -1239,7 +927,9 @@ TextureImporter:
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: LightExplosion_3
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: LightExplosion_3
       rect:
         serializedVersion: 2
         x: 24
@@ -1250,7 +940,9 @@ TextureImporter:
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: LightExplosion_4
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: LightExplosion_4
       rect:
         serializedVersion: 2
         x: 48
@@ -1261,7 +953,9 @@ TextureImporter:
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: LightExplosion_0
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: LightExplosion_0
       rect:
         serializedVersion: 2
         x: 72
@@ -1271,20 +965,10 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: 14, y: 24}
-        - {x: -7, y: 24}
-        - {x: -8, y: 21}
-        - {x: -6, y: 14}
-        - {x: -8, y: 17}
-        - {x: -12, y: 24}
-        - {x: -20, y: 24}
-        - {x: -24, y: 23}
-        - {x: -24, y: -22}
-        - {x: 24, y: -22}
-        - {x: 24, y: 21}
-        - {x: 21, y: 22}
-    - name: LightExplosion_1
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: LightExplosion_1
       rect:
         serializedVersion: 2
         x: 120
@@ -1294,23 +978,10 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: -8, y: 24}
-        - {x: -21, y: 17}
-        - {x: -24, y: 3}
-        - {x: -24, y: -22}
-        - {x: 24, y: -22}
-        - {x: 24, y: 22}
-        - {x: 10, y: 24}
-      - - {x: -16, y: 24}
-        - {x: -21, y: 24}
-        - {x: -24, y: 21}
-        - {x: -24, y: 13}
-        - {x: -22, y: 11}
-        - {x: -18, y: 11}
-        - {x: -14, y: 17}
-        - {x: -14, y: 22}
-    - name: LeftSeaWave_0
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: LeftSeaWave_0
       rect:
         serializedVersion: 2
         x: 168
@@ -1320,16 +991,10 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: -8.5, y: 29}
-        - {x: -19.5, y: 32}
-        - {x: -37.5, y: 32}
-        - {x: -37.5, y: -32}
-        - {x: 36.5, y: -32}
-        - {x: 37.5, y: -31}
-        - {x: 37.5, y: -22}
-        - {x: 15.5, y: 3}
-    - name: LeftSeaWave_1
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: LeftSeaWave_1
       rect:
         serializedVersion: 2
         x: 243
@@ -1339,13 +1004,10 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: 37.5, y: -16}
-        - {x: 8.5, y: 29}
-        - {x: -37.5, y: 29}
-        - {x: -37.5, y: -32}
-        - {x: 37.5, y: -32}
-    - name: LeftSeaWave_2
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: LeftSeaWave_2
       rect:
         serializedVersion: 2
         x: 318
@@ -1355,15 +1017,10 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: -11.5, y: 31}
-        - {x: -25.5, y: 31}
-        - {x: -37.5, y: 17}
-        - {x: -37.5, y: -32}
-        - {x: 37.5, y: -32}
-        - {x: 37.5, y: -11}
-        - {x: 8.5, y: 24}
-    - name: LeftSeaWave_3
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: LeftSeaWave_3
       rect:
         serializedVersion: 2
         x: 393
@@ -1373,16 +1030,10 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: -24.5, y: 32}
-        - {x: -37.5, y: 22}
-        - {x: -37.5, y: -4}
-        - {x: -26.5, y: -28}
-        - {x: -19.5, y: -32}
-        - {x: 37.5, y: -32}
-        - {x: 37.5, y: 31}
-        - {x: 35.5, y: 32}
-    - name: LeftSeaWave_4
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: LeftSeaWave_4
       rect:
         serializedVersion: 2
         x: 468
@@ -1392,15 +1043,10 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: -37.5, y: -28}
-        - {x: -1.5, y: -28}
-        - {x: 20.5, y: -8}
-        - {x: 20.5, y: 32}
-        - {x: -6.5, y: 32}
-        - {x: -25.5, y: 27}
-        - {x: -37.5, y: 16}
-    - name: Fx2_92
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Fx2_92
       rect:
         serializedVersion: 2
         x: 543
@@ -1411,7 +1057,9 @@ TextureImporter:
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: Fx2_93
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Fx2_93
       rect:
         serializedVersion: 2
         x: 571
@@ -1422,7 +1070,9 @@ TextureImporter:
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: Fx2_94
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Fx2_94
       rect:
         serializedVersion: 2
         x: 611
@@ -1433,7 +1083,9 @@ TextureImporter:
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: SwordBreak_0
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: SwordBreak_0
       rect:
         serializedVersion: 2
         x: 637
@@ -1443,14 +1095,10 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: -12, y: 14}
-        - {x: -12, y: 0}
-        - {x: 1, y: -16}
-        - {x: 16, y: -16}
-        - {x: 16, y: 2}
-        - {x: 1, y: 14}
-    - name: SwordBreak_1
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: SwordBreak_1
       rect:
         serializedVersion: 2
         x: 669
@@ -1460,14 +1108,10 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: -12, y: 14}
-        - {x: -12, y: 0}
-        - {x: 1, y: -16}
-        - {x: 16, y: -16}
-        - {x: 16, y: 3}
-        - {x: 1, y: 14}
-    - name: SwordBreak_2
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: SwordBreak_2
       rect:
         serializedVersion: 2
         x: 701
@@ -1477,15 +1121,10 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: -13, y: 13}
-        - {x: -15, y: 12}
-        - {x: -15, y: 2}
-        - {x: 2, y: -16}
-        - {x: 16, y: -16}
-        - {x: 16, y: 4}
-        - {x: 3, y: 13}
-    - name: SwordBreak_3
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: SwordBreak_3
       rect:
         serializedVersion: 2
         x: 733
@@ -1495,16 +1134,10 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: 2, y: 11}
-        - {x: -14, y: 11}
-        - {x: -16, y: 10}
-        - {x: -16, y: -3}
-        - {x: 0, y: -16}
-        - {x: 16, y: -16}
-        - {x: 16, y: 1}
-        - {x: 12, y: 5}
-    - name: SwordBreak_4
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: SwordBreak_4
       rect:
         serializedVersion: 2
         x: 765
@@ -1514,14 +1147,10 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: -16, y: 9}
-        - {x: -16, y: -10}
-        - {x: -2, y: -16}
-        - {x: 16, y: -16}
-        - {x: 16, y: 3}
-        - {x: 5, y: 9}
-    - name: Fx2_120
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Fx2_120
       rect:
         serializedVersion: 2
         x: 543
@@ -1532,7 +1161,9 @@ TextureImporter:
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: Fx2_121
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Fx2_121
       rect:
         serializedVersion: 2
         x: 571
@@ -1543,7 +1174,9 @@ TextureImporter:
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: Fx2_122
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Fx2_122
       rect:
         serializedVersion: 2
         x: 593
@@ -1554,7 +1187,9 @@ TextureImporter:
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: MoveBreak_0
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: MoveBreak_0
       rect:
         serializedVersion: 2
         x: 637
@@ -1564,15 +1199,10 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: -8, y: 14}
-        - {x: -14, y: 3}
-        - {x: -14, y: -8}
-        - {x: -13, y: -10}
-        - {x: 12, y: -10}
-        - {x: 15, y: -8}
-        - {x: 15, y: 14}
-    - name: MoveBreak_1
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: MoveBreak_1
       rect:
         serializedVersion: 2
         x: 669
@@ -1582,15 +1212,10 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: -8, y: 14}
-        - {x: -14, y: 3}
-        - {x: -14, y: -8}
-        - {x: -13, y: -10}
-        - {x: 12, y: -10}
-        - {x: 15, y: -8}
-        - {x: 15, y: 14}
-    - name: MoveBreak_2
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: MoveBreak_2
       rect:
         serializedVersion: 2
         x: 701
@@ -1600,17 +1225,10 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: -7, y: 15}
-        - {x: -9, y: 13}
-        - {x: -15, y: -2}
-        - {x: -15, y: -10}
-        - {x: -13, y: -11}
-        - {x: 10, y: -11}
-        - {x: 16, y: -9}
-        - {x: 16, y: 14}
-        - {x: 10, y: 15}
-    - name: MoveBreak_3
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: MoveBreak_3
       rect:
         serializedVersion: 2
         x: 733
@@ -1620,18 +1238,10 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: -9, y: 15}
-        - {x: -15, y: -2}
-        - {x: -15, y: -6}
-        - {x: -14, y: -8}
-        - {x: -12, y: -11}
-        - {x: 0, y: -11}
-        - {x: 13, y: -10}
-        - {x: 16, y: -8}
-        - {x: 16, y: 14}
-        - {x: 13, y: 15}
-    - name: MoveBreak_4
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: MoveBreak_4
       rect:
         serializedVersion: 2
         x: 765
@@ -1641,15 +1251,10 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: -13, y: 15}
-        - {x: -16, y: 14}
-        - {x: -16, y: -11}
-        - {x: 15, y: -11}
-        - {x: 16, y: -7}
-        - {x: 16, y: 14}
-        - {x: 14, y: 15}
-    - name: WindHurricane_0
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: WindHurricane_0
       rect:
         serializedVersion: 2
         x: 1
@@ -1659,15 +1264,10 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: -19.5, y: -20}
-        - {x: -17.5, y: -32}
-        - {x: 7.5, y: -32}
-        - {x: 19.5, y: -23}
-        - {x: 19.5, y: 34}
-        - {x: -9.5, y: 34}
-        - {x: -19.5, y: 28}
-    - name: WindHurricane_1
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: WindHurricane_1
       rect:
         serializedVersion: 2
         x: 41
@@ -1677,16 +1277,10 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: -16.5, y: 34}
-        - {x: -19.5, y: 28}
-        - {x: -19.5, y: 0}
-        - {x: -10.5, y: -31}
-        - {x: -7.5, y: -32}
-        - {x: 16.5, y: -32}
-        - {x: 19.5, y: -27}
-        - {x: 19.5, y: 34}
-    - name: WindHurricane_2
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: WindHurricane_2
       rect:
         serializedVersion: 2
         x: 80
@@ -1696,19 +1290,10 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: 17.5, y: 34}
-        - {x: -14.5, y: 34}
-        - {x: -19.5, y: 29}
-        - {x: -19.5, y: 6}
-        - {x: -17.5, y: 4}
-        - {x: -10.5, y: -25}
-        - {x: -6.5, y: -32}
-        - {x: 9.5, y: -32}
-        - {x: 15.5, y: -29}
-        - {x: 19.5, y: 9}
-        - {x: 19.5, y: 29}
-    - name: WindHurricane_3
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: WindHurricane_3
       rect:
         serializedVersion: 2
         x: 122
@@ -1718,68 +1303,10 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: 23.5, y: 34}
-        - {x: 8.5, y: 34}
-        - {x: 4.5, y: 28}
-        - {x: 5.5, y: 25}
-        - {x: 8.5, y: 25}
-        - {x: 3.5, y: 4}
-        - {x: 4.5, y: 1}
-        - {x: 9.5, y: 1}
-        - {x: 10.5, y: 2}
-        - {x: 16.5, y: 2}
-        - {x: 15.5, y: 2}
-        - {x: 11.5, y: 1}
-        - {x: 1.5, y: 0}
-        - {x: -0.5, y: -1}
-        - {x: 1.5, y: 8}
-        - {x: 0.5, y: 12}
-        - {x: 3.5, y: 26}
-        - {x: -12.5, y: 34}
-        - {x: -24.5, y: 34}
-        - {x: -30.5, y: 30}
-        - {x: -30.5, y: 19}
-        - {x: -27.5, y: 4}
-        - {x: -23.5, y: 0}
-        - {x: -19.5, y: -5}
-        - {x: -24.5, y: 0}
-        - {x: -25.5, y: 0}
-        - {x: -30.5, y: -3}
-        - {x: -30.5, y: -4}
-        - {x: -28.5, y: -13}
-        - {x: -14.5, y: -19}
-        - {x: -11.5, y: -20}
-        - {x: -4.5, y: -20}
-        - {x: -2.5, y: -18}
-        - {x: -3.5, y: -15}
-        - {x: -11.5, y: -7}
-        - {x: -8.5, y: -8}
-        - {x: -0.5, y: -8}
-        - {x: -1.5, y: -13}
-        - {x: -2.5, y: -19}
-        - {x: -6.5, y: -22}
-        - {x: -0.5, y: -34}
-        - {x: 13.5, y: -34}
-        - {x: 25.5, y: -17}
-        - {x: 29.5, y: -5}
-        - {x: 29.5, y: 23}
-      - - {x: -12.5, y: -18}
-        - {x: -20.5, y: -18}
-        - {x: -22.5, y: -21}
-        - {x: -22.5, y: -27}
-        - {x: -12.5, y: -34}
-        - {x: 0.5, y: -34}
-        - {x: 0.5, y: -28}
-        - {x: -5.5, y: -22}
-      - - {x: -30.5, y: 16}
-        - {x: -31.5, y: 15}
-        - {x: -31.5, y: 5}
-        - {x: -27.5, y: 1}
-        - {x: -21.5, y: 1}
-        - {x: -20.5, y: 2}
-        - {x: -20.5, y: 16}
-    - name: WindHurricane_4
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: WindHurricane_4
       rect:
         serializedVersion: 2
         x: 185
@@ -1789,87 +1316,10 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: -20.5, y: -26}
-        - {x: -20.5, y: -30}
-        - {x: -18.5, y: -34}
-        - {x: -14.5, y: -34}
-        - {x: -12.5, y: -32}
-        - {x: -15.5, y: -25}
-        - {x: -17.5, y: -25}
-      - - {x: 23.5, y: -17}
-        - {x: 17.5, y: -20}
-        - {x: 17.5, y: -31}
-        - {x: 22.5, y: -31}
-        - {x: 27.5, y: -29}
-        - {x: 28.5, y: -24}
-        - {x: 28.5, y: -17}
-      - - {x: -25.5, y: -21}
-        - {x: -28.5, y: -24}
-        - {x: -28.5, y: -26}
-        - {x: -25.5, y: -29}
-        - {x: -21.5, y: -29}
-        - {x: -20.5, y: -27}
-        - {x: -20.5, y: -24}
-        - {x: -24.5, y: -21}
-      - - {x: 15.5, y: -12}
-        - {x: 11.5, y: -20}
-        - {x: 13.5, y: -22}
-        - {x: 16.5, y: -22}
-        - {x: 21.5, y: -17}
-        - {x: 21.5, y: -14}
-        - {x: 18.5, y: -11}
-      - - {x: -26.5, y: -15}
-        - {x: -24.5, y: -19}
-        - {x: -17.5, y: -19}
-        - {x: -17.5, y: -13}
-        - {x: -19.5, y: -9}
-        - {x: -24.5, y: -9}
-        - {x: -26.5, y: -10}
-      - - {x: -28.5, y: 0}
-        - {x: -32.5, y: 0}
-        - {x: -32.5, y: -7}
-        - {x: -29.5, y: -10}
-        - {x: -27.5, y: -10}
-        - {x: -25.5, y: -8}
-        - {x: -25.5, y: -7}
-        - {x: -26.5, y: -1}
-      - - {x: 29.5, y: 6}
-        - {x: 26.5, y: 6}
-        - {x: 18.5, y: 0}
-        - {x: 18.5, y: -3}
-        - {x: 19.5, y: -6}
-        - {x: 26.5, y: -6}
-        - {x: 30.5, y: -1}
-        - {x: 30.5, y: 4}
-      - - {x: -31.5, y: 16}
-        - {x: -32.5, y: 15}
-        - {x: -32.5, y: 6}
-        - {x: -31.5, y: 5}
-        - {x: -27.5, y: 6}
-        - {x: -27.5, y: 15}
-        - {x: -29.5, y: 16}
-      - - {x: -22.5, y: 31}
-        - {x: -28.5, y: 26}
-        - {x: -28.5, y: 15}
-        - {x: -19.5, y: 8}
-        - {x: -9.5, y: 8}
-        - {x: -9.5, y: 31}
-      - - {x: 10.5, y: 34}
-        - {x: 10.5, y: 30}
-        - {x: 12.5, y: 27}
-        - {x: 29.5, y: 13}
-        - {x: 31.5, y: 13}
-        - {x: 32.5, y: 14}
-        - {x: 32.5, y: 30}
-        - {x: 27.5, y: 34}
-      - - {x: -30.5, y: 34}
-        - {x: -32.5, y: 32}
-        - {x: -32.5, y: 23}
-        - {x: -29.5, y: 24}
-        - {x: -24.5, y: 33}
-        - {x: -25.5, y: 34}
-    - name: RightBigArrow_0
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: RightBigArrow_0
       rect:
         serializedVersion: 2
         x: 250
@@ -1880,7 +1330,9 @@ TextureImporter:
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: RightBigArrow_1
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: RightBigArrow_1
       rect:
         serializedVersion: 2
         x: 281
@@ -1891,7 +1343,9 @@ TextureImporter:
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: RightBigArrow_2
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: RightBigArrow_2
       rect:
         serializedVersion: 2
         x: 330
@@ -1902,7 +1356,9 @@ TextureImporter:
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: RightSlash_0
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: RightSlash_0
       rect:
         serializedVersion: 2
         x: 399
@@ -1912,16 +1368,10 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: -11, y: 26.5}
-        - {x: -21, y: 11.5}
-        - {x: -21, y: -20.5}
-        - {x: -9, y: -26.5}
-        - {x: 18, y: -26.5}
-        - {x: 21, y: -23.5}
-        - {x: 21, y: 15.5}
-        - {x: 15, y: 26.5}
-    - name: RightSlash_1
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: RightSlash_1
       rect:
         serializedVersion: 2
         x: 442
@@ -1931,14 +1381,10 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: -10, y: 26.5}
-        - {x: -10, y: -26.5}
-        - {x: 13, y: -26.5}
-        - {x: 21, y: -24.5}
-        - {x: 21, y: 21.5}
-        - {x: 18, y: 26.5}
-    - name: LeftSlash_0
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: LeftSlash_0
       rect:
         serializedVersion: 2
         x: 484
@@ -1948,23 +1394,10 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: 20, y: -10.5}
-        - {x: 15, y: -8.5}
-        - {x: 21, y: -2.5}
-        - {x: 21, y: 17.5}
-        - {x: 17, y: 26.5}
-        - {x: -8, y: 26.5}
-        - {x: -21, y: 20.5}
-        - {x: -21, y: -11.5}
-        - {x: -18, y: -18.5}
-        - {x: -11, y: -24.5}
-        - {x: -8, y: -26.5}
-        - {x: 8, y: -26.5}
-        - {x: 9, y: -25.5}
-        - {x: 8, y: -22.5}
-        - {x: 14, y: -18.5}
-    - name: LeftSlash_1
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: LeftSlash_1
       rect:
         serializedVersion: 2
         x: 526
@@ -1974,19 +1407,10 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: -10, y: 26.5}
-        - {x: -18, y: 17.5}
-        - {x: -20, y: 12.5}
-        - {x: -21, y: 9.5}
-        - {x: -21, y: -11.5}
-        - {x: -18, y: -18.5}
-        - {x: -11, y: -24.5}
-        - {x: -8, y: -26.5}
-        - {x: 10, y: -26.5}
-        - {x: 9, y: -23.5}
-        - {x: 10, y: 26.5}
-    - name: Fx2_146
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Fx2_146
       rect:
         serializedVersion: 2
         x: 543
@@ -1997,7 +1421,9 @@ TextureImporter:
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: Fx2_152
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Fx2_152
       rect:
         serializedVersion: 2
         x: 832
@@ -2007,17 +1433,10 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: -14, y: -7}
-        - {x: -14, y: -11}
-        - {x: -10, y: -16}
-        - {x: 12, y: -16}
-        - {x: 15, y: -15}
-        - {x: 15, y: 4}
-        - {x: 7, y: 16}
-        - {x: -4, y: 16}
-        - {x: -10, y: 12}
-    - name: Fx2_153
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Fx2_153
       rect:
         serializedVersion: 2
         x: 864
@@ -2027,19 +1446,10 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: 4, y: 16}
-        - {x: -2, y: 16}
-        - {x: -10, y: 11}
-        - {x: -13, y: 2}
-        - {x: -13, y: -10}
-        - {x: -9, y: -13}
-        - {x: -2, y: -16}
-        - {x: 9, y: -16}
-        - {x: 14, y: -10}
-        - {x: 14, y: -1}
-        - {x: 9, y: 10}
-    - name: Fx2_154
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Fx2_154
       rect:
         serializedVersion: 2
         x: 896
@@ -2049,17 +1459,10 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: -14, y: -7}
-        - {x: -14, y: -11}
-        - {x: -10, y: -16}
-        - {x: 12, y: -16}
-        - {x: 15, y: -15}
-        - {x: 15, y: 4}
-        - {x: 7, y: 16}
-        - {x: -4, y: 16}
-        - {x: -10, y: 12}
-    - name: Fx2_155
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Fx2_155
       rect:
         serializedVersion: 2
         x: 928
@@ -2069,19 +1472,10 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: 9, y: 10}
-        - {x: 4, y: 16}
-        - {x: -2, y: 16}
-        - {x: -13, y: 2}
-        - {x: -13, y: -9}
-        - {x: -11, y: -15}
-        - {x: -8, y: -16}
-        - {x: 6, y: -16}
-        - {x: 12, y: -11}
-        - {x: 14, y: -6}
-        - {x: 14, y: -2}
-    - name: LeftBigArrow_0
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: LeftBigArrow_0
       rect:
         serializedVersion: 2
         x: 250
@@ -2092,7 +1486,9 @@ TextureImporter:
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: LeftBigArrow_1
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: LeftBigArrow_1
       rect:
         serializedVersion: 2
         x: 281
@@ -2103,7 +1499,9 @@ TextureImporter:
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: LeftBigArrow_2
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: LeftBigArrow_2
       rect:
         serializedVersion: 2
         x: 330
@@ -2114,7 +1512,9 @@ TextureImporter:
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: Mist_0
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Mist_0
       rect:
         serializedVersion: 2
         x: 576
@@ -2124,15 +1524,10 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: -10, y: 16}
-        - {x: -16, y: 8}
-        - {x: -16, y: -16}
-        - {x: 11, y: -16}
-        - {x: 16, y: -9}
-        - {x: 16, y: 8}
-        - {x: 10, y: 16}
-    - name: Mist_1
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Mist_1
       rect:
         serializedVersion: 2
         x: 608
@@ -2142,14 +1537,10 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: -16, y: 16}
-        - {x: -16, y: -12}
-        - {x: -11, y: -16}
-        - {x: 16, y: -16}
-        - {x: 16, y: 12}
-        - {x: 13, y: 16}
-    - name: Mist_2
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Mist_2
       rect:
         serializedVersion: 2
         x: 640
@@ -2159,15 +1550,10 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: -14, y: 16}
-        - {x: -16, y: 10}
-        - {x: -16, y: -11}
-        - {x: -10, y: -16}
-        - {x: 8, y: -16}
-        - {x: 16, y: -8}
-        - {x: 16, y: 16}
-    - name: Mist_3
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Mist_3
       rect:
         serializedVersion: 2
         x: 672
@@ -2177,16 +1563,10 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: -8, y: 16}
-        - {x: -16, y: 10}
-        - {x: -16, y: -10}
-        - {x: -8, y: -16}
-        - {x: 15, y: -16}
-        - {x: 16, y: -15}
-        - {x: 16, y: 9}
-        - {x: 8, y: 16}
-    - name: Mist_4
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Mist_4
       rect:
         serializedVersion: 2
         x: 704
@@ -2196,15 +1576,10 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: -10, y: 16}
-        - {x: -16, y: 8}
-        - {x: -16, y: -16}
-        - {x: 11, y: -16}
-        - {x: 16, y: -9}
-        - {x: 16, y: 8}
-        - {x: 10, y: 16}
-    - name: HellFire_Front
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: HellFire_Front
       rect:
         serializedVersion: 2
         x: 801
@@ -2214,17 +1589,10 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: -12.5, y: 29.5}
-        - {x: -20.5, y: 26.5}
-        - {x: -20.5, y: -17.5}
-        - {x: -19.5, y: -20.5}
-        - {x: -9.5, y: -29.5}
-        - {x: 3.5, y: -29.5}
-        - {x: 20.5, y: -18.5}
-        - {x: 20.5, y: 22.5}
-        - {x: 12.5, y: 29.5}
-    - name: HellFire_Right
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: HellFire_Right
       rect:
         serializedVersion: 2
         x: 842
@@ -2234,17 +1602,10 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: -7, y: 29.5}
-        - {x: -21, y: 16.5}
-        - {x: -23, y: 12.5}
-        - {x: -23, y: -17.5}
-        - {x: -12, y: -29.5}
-        - {x: 10, y: -29.5}
-        - {x: 23, y: -12.5}
-        - {x: 23, y: 17.5}
-        - {x: 12, y: 29.5}
-    - name: HellFire_Back
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: HellFire_Back
       rect:
         serializedVersion: 2
         x: 887
@@ -2254,18 +1615,10 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: 20.5, y: 20.5}
-        - {x: 14.5, y: 29.5}
-        - {x: -6.5, y: 29.5}
-        - {x: -20.5, y: 25.5}
-        - {x: -20.5, y: -24.5}
-        - {x: -4.5, y: -29.5}
-        - {x: 3.5, y: -29.5}
-        - {x: 10.5, y: -25.5}
-        - {x: 19.5, y: -18.5}
-        - {x: 20.5, y: -15.5}
-    - name: HellFire_Left
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: HellFire_Left
       rect:
         serializedVersion: 2
         x: 929
@@ -2275,17 +1628,10 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: -11, y: 29.5}
-        - {x: -20, y: 18.5}
-        - {x: -23, y: 9.5}
-        - {x: -23, y: -12.5}
-        - {x: -7, y: -29.5}
-        - {x: 9, y: -29.5}
-        - {x: 23, y: -23.5}
-        - {x: 23, y: 25.5}
-        - {x: 13, y: 29.5}
-    - name: Fx2_193
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Fx2_193
       rect:
         serializedVersion: 2
         x: 257
@@ -2295,94 +1641,10 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: -53.5, y: 0}
-        - {x: -55.5, y: 0}
-        - {x: -60.5, y: -2}
-        - {x: -61.5, y: -8}
-        - {x: -61.5, y: -16}
-        - {x: -53.5, y: -16}
-        - {x: -47.5, y: -14}
-        - {x: -47.5, y: -1}
-        - {x: -49.5, y: -1}
-      - - {x: 22.5, y: 2}
-        - {x: 25.5, y: 0}
-        - {x: 40.5, y: 4}
-        - {x: 44.5, y: 10}
-        - {x: 44.5, y: 16}
-        - {x: -74.5, y: 16}
-        - {x: -74.5, y: -9}
-        - {x: -45.5, y: -16}
-        - {x: -31.5, y: -16}
-        - {x: -23.5, y: 1}
-        - {x: -28.5, y: -10}
-        - {x: -29.5, y: -15}
-        - {x: -29.5, y: -16}
-        - {x: 3.5, y: -16}
-        - {x: 14.5, y: -15}
-        - {x: 21.5, y: -3}
-        - {x: 22.5, y: 1}
-        - {x: 20.5, y: 3}
-      - - {x: 31.5, y: -2}
-        - {x: 29.5, y: 0}
-        - {x: 21.5, y: 0}
-        - {x: 17.5, y: -4}
-        - {x: 17.5, y: -16}
-        - {x: 23.5, y: -16}
-        - {x: 29.5, y: -11}
-        - {x: 31.5, y: -8}
-      - - {x: 95.5, y: 9}
-        - {x: 71.5, y: 16}
-        - {x: 58.5, y: 16}
-        - {x: 57.5, y: 15}
-        - {x: 54.5, y: 2}
-        - {x: 57.5, y: 0}
-        - {x: 55.5, y: 0}
-        - {x: 51.5, y: -3}
-        - {x: 49.5, y: -6}
-        - {x: 49.5, y: -16}
-        - {x: 86.5, y: -16}
-        - {x: 97.5, y: -9}
-        - {x: 99.5, y: -3}
-        - {x: 99.5, y: 3}
-      - - {x: -68.5, y: 16}
-        - {x: -109.5, y: 16}
-        - {x: -109.5, y: -15}
-        - {x: -68.5, y: -15}
-        - {x: -65.5, y: -9}
-        - {x: -62.5, y: -1}
-        - {x: -66.5, y: 12}
-      - - {x: 44.5, y: 6}
-        - {x: 32.5, y: -5}
-        - {x: 32.5, y: -15}
-        - {x: 40.5, y: -15}
-        - {x: 52.5, y: -9}
-        - {x: 54.5, y: -3}
-        - {x: 54.5, y: 2}
-        - {x: 47.5, y: 6}
-      - - {x: 99.5, y: 3}
-        - {x: 104.5, y: -2}
-        - {x: 107.5, y: 0}
-        - {x: 106.5, y: 4}
-        - {x: 102.5, y: 7}
-        - {x: 99.5, y: 6}
-      - - {x: 85.5, y: 16}
-        - {x: 82.5, y: 16}
-        - {x: 74.5, y: 8}
-        - {x: 74.5, y: 6}
-        - {x: 75.5, y: 4}
-        - {x: 84.5, y: 4}
-        - {x: 88.5, y: 8}
-        - {x: 89.5, y: 11}
-        - {x: 89.5, y: 13}
-      - - {x: 5.5, y: 16}
-        - {x: -2.5, y: 8}
-        - {x: -0.5, y: 5}
-        - {x: 3.5, y: 6}
-        - {x: 9.5, y: 10}
-        - {x: 9.5, y: 14}
-        - {x: 8.5, y: 16}
-    - name: Fx2_208
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Fx2_208
       rect:
         serializedVersion: 2
         x: 0
@@ -2392,16 +1654,10 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: -15, y: 8}
-        - {x: -16, y: 5}
-        - {x: -16, y: -22}
-        - {x: 8, y: -22}
-        - {x: 14, y: -21}
-        - {x: 16, y: -21}
-        - {x: 16, y: -7}
-        - {x: 9, y: 8}
-    - name: Fx2_209
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Fx2_209
       rect:
         serializedVersion: 2
         x: 32
@@ -2411,15 +1667,10 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: -7, y: 15}
-        - {x: -16, y: 10}
-        - {x: -16, y: -22}
-        - {x: -14, y: -23}
-        - {x: 16, y: -23}
-        - {x: 16, y: 13}
-        - {x: 14, y: 15}
-    - name: Fx2_210
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Fx2_210
       rect:
         serializedVersion: 2
         x: 64
@@ -2429,24 +1680,10 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: -13, y: 20}
-        - {x: -16, y: 11}
-        - {x: -16, y: 1}
-        - {x: -9, y: -3}
-        - {x: -3, y: -6}
-        - {x: -5, y: -8}
-        - {x: -5, y: -10}
-        - {x: -5, y: -7}
-        - {x: -9, y: -3}
-        - {x: -12, y: -3}
-        - {x: -16, y: -7}
-        - {x: -16, y: -20}
-        - {x: -9, y: -23}
-        - {x: 11, y: -23}
-        - {x: 16, y: -21}
-        - {x: 16, y: 20}
-    - name: Fx2_211
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Fx2_211
       rect:
         serializedVersion: 2
         x: 96
@@ -2456,14 +1693,10 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: -14, y: 24}
-        - {x: -14, y: 5}
-        - {x: -6, y: -22}
-        - {x: 11, y: -22}
-        - {x: 14, y: -13}
-        - {x: 14, y: 24}
-    - name: Fx2_212
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Fx2_212
       rect:
         serializedVersion: 2
         x: 128
@@ -2473,33 +1706,10 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: -1, y: -6}
-        - {x: -1, y: -17}
-        - {x: 1, y: -19}
-        - {x: 5, y: -18}
-        - {x: 6, y: -16}
-        - {x: 6, y: -9}
-        - {x: 4, y: -6}
-      - - {x: 4, y: -6}
-        - {x: 6, y: -8}
-        - {x: 9, y: -7}
-        - {x: 9, y: -3}
-        - {x: 7, y: -1}
-        - {x: 4, y: -2}
-      - - {x: -1, y: -5}
-        - {x: 2, y: -4}
-        - {x: 2, y: -1}
-        - {x: -1, y: 0}
-        - {x: -3, y: -2}
-      - - {x: -7, y: 23}
-        - {x: -12, y: 22}
-        - {x: -12, y: 8}
-        - {x: -8, y: 5}
-        - {x: 12, y: 5}
-        - {x: 12, y: 21}
-        - {x: 11, y: 23}
-    - name: Fx2_213
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Fx2_213
       rect:
         serializedVersion: 2
         x: 257
@@ -2509,108 +1719,10 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: -40.5, y: 0}
-        - {x: -49.5, y: 0}
-        - {x: -53.5, y: -4}
-        - {x: -53.5, y: -16}
-        - {x: -46.5, y: -16}
-        - {x: -40.5, y: -12}
-        - {x: -39.5, y: -8}
-        - {x: -39.5, y: -1}
-      - - {x: 30.5, y: 2}
-        - {x: 33.5, y: 0}
-        - {x: 48.5, y: 4}
-        - {x: 52.5, y: 7}
-        - {x: 52.5, y: 16}
-        - {x: -15.5, y: 16}
-        - {x: -21.5, y: 6}
-        - {x: -21.5, y: -16}
-        - {x: 12.5, y: -16}
-        - {x: 22.5, y: -15}
-        - {x: 29.5, y: -3}
-        - {x: 30.5, y: 1}
-        - {x: 28.5, y: 3}
-      - - {x: 39.5, y: -2}
-        - {x: 36.5, y: 0}
-        - {x: 31.5, y: 0}
-        - {x: 26.5, y: -3}
-        - {x: 25.5, y: -5}
-        - {x: 25.5, y: -16}
-        - {x: 31.5, y: -16}
-        - {x: 37.5, y: -11}
-        - {x: 39.5, y: -8}
-      - - {x: 101.5, y: 5}
-        - {x: 98.5, y: 6}
-        - {x: 72.5, y: 13}
-        - {x: 66.5, y: 13}
-        - {x: 64.5, y: 11}
-        - {x: 61.5, y: 1}
-        - {x: 65.5, y: 0}
-        - {x: 63.5, y: 0}
-        - {x: 59.5, y: -3}
-        - {x: 57.5, y: -6}
-        - {x: 57.5, y: -16}
-        - {x: 94.5, y: -16}
-        - {x: 105.5, y: -9}
-        - {x: 107.5, y: -3}
-        - {x: 107.5, y: 1}
-      - - {x: -57.5, y: 2}
-        - {x: -55.5, y: 16}
-        - {x: -109.5, y: 16}
-        - {x: -109.5, y: -13}
-        - {x: -104.5, y: -15}
-        - {x: -94.5, y: -15}
-        - {x: -88.5, y: -11}
-        - {x: -88.5, y: -9}
-        - {x: -92.5, y: -5}
-        - {x: -93.5, y: -5}
-        - {x: -93.5, y: -1}
-        - {x: -85.5, y: 2}
-        - {x: -90.5, y: -1}
-        - {x: -92.5, y: -3}
-        - {x: -92.5, y: -4}
-        - {x: -83.5, y: -13}
-        - {x: -81.5, y: -13}
-        - {x: -73.5, y: -15}
-        - {x: -64.5, y: -15}
-        - {x: -59.5, y: -11}
-        - {x: -57.5, y: -9}
-        - {x: -54.5, y: -1}
-      - - {x: -52.5, y: 16}
-        - {x: -64.5, y: 8}
-        - {x: -66.5, y: 4}
-        - {x: -66.5, y: -4}
-        - {x: -44.5, y: -15}
-        - {x: -28.5, y: -15}
-        - {x: -20.5, y: -7}
-        - {x: -12.5, y: 2}
-        - {x: -12.5, y: 16}
-      - - {x: 52.5, y: 6}
-        - {x: 40.5, y: -5}
-        - {x: 40.5, y: -15}
-        - {x: 48.5, y: -15}
-        - {x: 60.5, y: -9}
-        - {x: 62.5, y: -3}
-        - {x: 62.5, y: 2}
-        - {x: 55.5, y: 6}
-      - - {x: 93.5, y: 16}
-        - {x: 90.5, y: 16}
-        - {x: 82.5, y: 8}
-        - {x: 82.5, y: 6}
-        - {x: 83.5, y: 4}
-        - {x: 92.5, y: 4}
-        - {x: 96.5, y: 8}
-        - {x: 97.5, y: 11}
-        - {x: 97.5, y: 13}
-      - - {x: 13.5, y: 16}
-        - {x: 5.5, y: 8}
-        - {x: 7.5, y: 5}
-        - {x: 11.5, y: 6}
-        - {x: 17.5, y: 10}
-        - {x: 17.5, y: 14}
-        - {x: 16.5, y: 16}
-    - name: FireArrow_0
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: FireArrow_0
       rect:
         serializedVersion: 2
         x: 544
@@ -2620,16 +1732,10 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: -6, y: 16}
-        - {x: -12, y: 7}
-        - {x: -12, y: -7}
-        - {x: -6, y: -16}
-        - {x: 10, y: -16}
-        - {x: 11, y: -11}
-        - {x: 11, y: 15}
-        - {x: 8, y: 16}
-    - name: FireArrow_1
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: FireArrow_1
       rect:
         serializedVersion: 2
         x: 576
@@ -2639,18 +1745,10 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: -2, y: 15}
-        - {x: -8, y: 13}
-        - {x: -16, y: -3}
-        - {x: -16, y: -13}
-        - {x: -12, y: -16}
-        - {x: -3, y: -16}
-        - {x: 11, y: -11}
-        - {x: 16, y: -2}
-        - {x: 16, y: 11}
-        - {x: 14, y: 15}
-    - name: FireArrow_2
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: FireArrow_2
       rect:
         serializedVersion: 2
         x: 608
@@ -2660,17 +1758,10 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: 6, y: 12}
-        - {x: -7, y: 12}
-        - {x: -16, y: 7}
-        - {x: -16, y: -10}
-        - {x: -11, y: -11}
-        - {x: 15, y: -11}
-        - {x: 16, y: -8}
-        - {x: 16, y: 4}
-        - {x: 11, y: 9}
-    - name: FireArrow_3
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: FireArrow_3
       rect:
         serializedVersion: 2
         x: 640
@@ -2680,17 +1771,10 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: -16, y: 5}
-        - {x: -8, y: -13}
-        - {x: -4, y: -15}
-        - {x: 16, y: -15}
-        - {x: 16, y: -2}
-        - {x: 12, y: 12}
-        - {x: -1, y: 16}
-        - {x: -13, y: 16}
-        - {x: -16, y: 12}
-    - name: FireArrow_4
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: FireArrow_4
       rect:
         serializedVersion: 2
         x: 672
@@ -2700,18 +1784,10 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: 7, y: 16}
-        - {x: -6, y: 16}
-        - {x: -7, y: 15}
-        - {x: -12, y: 4}
-        - {x: -12, y: -7}
-        - {x: -6, y: -16}
-        - {x: 5, y: -16}
-        - {x: 10, y: -11}
-        - {x: 11, y: -3}
-        - {x: 11, y: 7}
-    - name: FireArrow_5
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: FireArrow_5
       rect:
         serializedVersion: 2
         x: 704
@@ -2721,19 +1797,10 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: 11, y: -4}
-        - {x: 16, y: 6}
-        - {x: 16, y: 12}
-        - {x: 12, y: 16}
-        - {x: -7, y: 16}
-        - {x: -16, y: 3}
-        - {x: -16, y: -15}
-        - {x: -2, y: -15}
-        - {x: 7, y: -12}
-        - {x: 9, y: -8}
-        - {x: 8, y: -5}
-    - name: FireArrow_6
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: FireArrow_6
       rect:
         serializedVersion: 2
         x: 736
@@ -2743,14 +1810,10 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: -15, y: 12}
-        - {x: -16, y: 8}
-        - {x: -16, y: -11}
-        - {x: 16, y: -11}
-        - {x: 16, y: 11}
-        - {x: 7, y: 12}
-    - name: FireArrow_7
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: FireArrow_7
       rect:
         serializedVersion: 2
         x: 768
@@ -2760,16 +1823,10 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: -16, y: -5}
-        - {x: -12, y: -12}
-        - {x: -4, y: -16}
-        - {x: 16, y: -16}
-        - {x: 16, y: 2}
-        - {x: 7, y: 15}
-        - {x: -14, y: 15}
-        - {x: -16, y: 11}
-    - name: Fx2_228
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Fx2_228
       rect:
         serializedVersion: 2
         x: 0
@@ -2779,15 +1836,10 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: -11, y: 14}
-        - {x: -16, y: 7}
-        - {x: -16, y: -3}
-        - {x: -1, y: -3}
-        - {x: 10, y: 3}
-        - {x: 10, y: 9}
-        - {x: 1, y: 14}
-    - name: Fx2_229
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Fx2_229
       rect:
         serializedVersion: 2
         x: 32
@@ -2797,15 +1849,10 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: -12, y: 14}
-        - {x: -16, y: 6}
-        - {x: -16, y: -9}
-        - {x: -7, y: -9}
-        - {x: 16, y: -2}
-        - {x: 16, y: 9}
-        - {x: 13, y: 14}
-    - name: Fx2_230
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Fx2_230
       rect:
         serializedVersion: 2
         x: 64
@@ -2815,16 +1862,10 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: -8, y: 14}
-        - {x: -16, y: 10}
-        - {x: -16, y: -11}
-        - {x: -12, y: -16}
-        - {x: 1, y: -16}
-        - {x: 16, y: -6}
-        - {x: 16, y: 10}
-        - {x: 11, y: 14}
-    - name: Fx2_231
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Fx2_231
       rect:
         serializedVersion: 2
         x: 257
@@ -2834,98 +1875,10 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: -67.5, y: -16}
-        - {x: -63.5, y: -16}
-        - {x: -63.5, y: -13}
-        - {x: -66.5, y: -12}
-        - {x: -68.5, y: -14}
-      - - {x: 29.5, y: 16}
-        - {x: 21.5, y: 13}
-        - {x: 15.5, y: 16}
-        - {x: 0.5, y: 16}
-        - {x: -10.5, y: 3}
-        - {x: -11.5, y: -1}
-        - {x: -9.5, y: -3}
-        - {x: -11.5, y: -2}
-        - {x: -14.5, y: 0}
-        - {x: -19.5, y: -1}
-        - {x: -28.5, y: -4}
-        - {x: -33.5, y: -11}
-        - {x: -33.5, y: -16}
-        - {x: 32.5, y: -16}
-        - {x: 39.5, y: -9}
-        - {x: 40.5, y: -6}
-        - {x: 40.5, y: 16}
-      - - {x: 8.5, y: -5}
-        - {x: 1.5, y: -11}
-        - {x: 0.5, y: -15}
-        - {x: 1.5, y: -16}
-        - {x: 6.5, y: -16}
-        - {x: 13.5, y: -8}
-        - {x: 12.5, y: -5}
-      - - {x: 44.5, y: 15}
-        - {x: 31.5, y: 5}
-        - {x: 31.5, y: -16}
-        - {x: 68.5, y: -16}
-        - {x: 82.5, y: -13}
-        - {x: 85.5, y: -7}
-        - {x: 85.5, y: 10}
-        - {x: 76.5, y: 15}
-      - - {x: 82.5, y: 15}
-        - {x: 73.5, y: 11}
-        - {x: 73.5, y: -9}
-        - {x: 76.5, y: -16}
-        - {x: 99.5, y: -16}
-        - {x: 104.5, y: -15}
-        - {x: 109.5, y: -11}
-        - {x: 109.5, y: 12}
-        - {x: 108.5, y: 15}
-      - - {x: -74.5, y: -4}
-        - {x: -78.5, y: -10}
-        - {x: -78.5, y: -14}
-        - {x: -74.5, y: -16}
-        - {x: -70.5, y: -15}
-        - {x: -63.5, y: -7}
-        - {x: -64.5, y: -4}
-      - - {x: -46.5, y: 0}
-        - {x: -44.5, y: -1}
-        - {x: -38.5, y: 7}
-        - {x: -38.5, y: 16}
-        - {x: -107.5, y: 16}
-        - {x: -109.5, y: 14}
-        - {x: -109.5, y: -14}
-        - {x: -45.5, y: -14}
-        - {x: -43.5, y: -12}
-        - {x: -43.5, y: -2}
-      - - {x: -24.5, y: 15}
-        - {x: -33.5, y: 12}
-        - {x: -42.5, y: 3}
-        - {x: -43.5, y: -1}
-        - {x: -41.5, y: -3}
-        - {x: -36.5, y: -6}
-        - {x: -33.5, y: -6}
-        - {x: -21.5, y: 5}
-        - {x: -21.5, y: 13}
-        - {x: -23.5, y: 15}
-      - - {x: -14.5, y: 16}
-        - {x: -19.5, y: 12}
-        - {x: -20.5, y: 8}
-        - {x: -20.5, y: 1}
-        - {x: -18.5, y: 0}
-        - {x: -11.5, y: 0}
-        - {x: -8.5, y: 5}
-        - {x: -6.5, y: 10}
-        - {x: -6.5, y: 16}
-      - - {x: 58.5, y: 8}
-        - {x: 58.5, y: 2}
-        - {x: 60.5, y: 0}
-        - {x: 68.5, y: 0}
-        - {x: 72.5, y: 4}
-        - {x: 72.5, y: 16}
-        - {x: 66.5, y: 16}
-        - {x: 60.5, y: 11}
-    - name: Fx2_238
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Fx2_238
       rect:
         serializedVersion: 2
         x: 544
@@ -2935,14 +1888,10 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: -5, y: 16}
-        - {x: -10, y: 13}
-        - {x: -10, y: -13}
-        - {x: -7, y: -16}
-        - {x: 9, y: -16}
-        - {x: 9, y: 16}
-    - name: Fx2_239
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Fx2_239
       rect:
         serializedVersion: 2
         x: 576
@@ -2952,15 +1901,10 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: -16, y: 1}
-        - {x: -16, y: -16}
-        - {x: 2, y: -16}
-        - {x: 16, y: -6}
-        - {x: 16, y: 16}
-        - {x: 2, y: 16}
-        - {x: -1, y: 15}
-    - name: Fx2_240
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Fx2_240
       rect:
         serializedVersion: 2
         x: 608
@@ -2970,15 +1914,10 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: -16, y: 9}
-        - {x: -16, y: -6}
-        - {x: -10, y: -10}
-        - {x: -7, y: -10}
-        - {x: 12, y: -8}
-        - {x: 16, y: -4}
-        - {x: 16, y: 9}
-    - name: Fx2_241
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Fx2_241
       rect:
         serializedVersion: 2
         x: 640
@@ -2988,15 +1927,10 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: 1, y: 16}
-        - {x: -16, y: 16}
-        - {x: -16, y: -2}
-        - {x: -4, y: -16}
-        - {x: 16, y: -16}
-        - {x: 16, y: -1}
-        - {x: 3, y: 15}
-    - name: Fx2_242
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Fx2_242
       rect:
         serializedVersion: 2
         x: 672
@@ -3006,16 +1940,10 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: -7, y: 16}
-        - {x: -10, y: 14}
-        - {x: -10, y: -13}
-        - {x: -7, y: -16}
-        - {x: 5, y: -16}
-        - {x: 9, y: -12}
-        - {x: 9, y: 14}
-        - {x: 7, y: 16}
-    - name: Fx2_243
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Fx2_243
       rect:
         serializedVersion: 2
         x: 704
@@ -3025,15 +1953,10 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: -2, y: 16}
-        - {x: -16, y: 6}
-        - {x: -16, y: -16}
-        - {x: -8, y: -16}
-        - {x: 1, y: -14}
-        - {x: 16, y: 1}
-        - {x: 16, y: 16}
-    - name: Fx2_244
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Fx2_244
       rect:
         serializedVersion: 2
         x: 736
@@ -3043,17 +1966,10 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: -4, y: 9}
-        - {x: -16, y: 5}
-        - {x: -16, y: -5}
-        - {x: -13, y: -9}
-        - {x: 0, y: -10}
-        - {x: 12, y: -10}
-        - {x: 16, y: -6}
-        - {x: 16, y: 7}
-        - {x: 13, y: 9}
-    - name: Fx2_245
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Fx2_245
       rect:
         serializedVersion: 2
         x: 768
@@ -3063,16 +1979,10 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: -4, y: 16}
-        - {x: -16, y: 16}
-        - {x: -16, y: 1}
-        - {x: -3, y: -15}
-        - {x: 1, y: -16}
-        - {x: 16, y: -16}
-        - {x: 16, y: -1}
-        - {x: 1, y: 15}
-    - name: WindStorm_0
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: WindStorm_0
       rect:
         serializedVersion: 2
         x: 0
@@ -3082,25 +1992,10 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: -7, y: 35}
-        - {x: -7, y: 31}
-        - {x: -4, y: 26}
-        - {x: -11, y: 28}
-        - {x: -22, y: 26}
-        - {x: -32, y: 18}
-        - {x: -29, y: 10}
-        - {x: -22, y: 11}
-        - {x: -34, y: -1}
-        - {x: -34, y: -9}
-        - {x: -32, y: -20}
-        - {x: -23, y: -34}
-        - {x: -19, y: -35}
-        - {x: 33, y: -35}
-        - {x: 34, y: -34}
-        - {x: 34, y: 24}
-        - {x: 18, y: 35}
-    - name: WindStorm_1
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: WindStorm_1
       rect:
         serializedVersion: 2
         x: 70
@@ -3110,22 +2005,10 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: 27, y: 13}
-        - {x: 23, y: 8}
-        - {x: 22, y: 28}
-        - {x: 14, y: 35}
-        - {x: -5, y: 35}
-        - {x: -30, y: 33}
-        - {x: -35, y: 18}
-        - {x: -35, y: -15}
-        - {x: -33, y: -26}
-        - {x: -16, y: -34}
-        - {x: 18, y: -34}
-        - {x: 35, y: -24}
-        - {x: 35, y: 14}
-        - {x: 32, y: 15}
-    - name: WindStorm_2
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: WindStorm_2
       rect:
         serializedVersion: 2
         x: 140
@@ -3135,29 +2018,10 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: 29, y: -18}
-        - {x: 35, y: -9}
-        - {x: 35, y: 4}
-        - {x: 32, y: 4}
-        - {x: 25, y: 2}
-        - {x: 31, y: 12}
-        - {x: 29, y: 25}
-        - {x: 22, y: 33}
-        - {x: -13, y: 33}
-        - {x: -15, y: 31}
-        - {x: -16, y: 27}
-        - {x: -8, y: 21}
-        - {x: -17, y: 22}
-        - {x: -28, y: 22}
-        - {x: -35, y: 15}
-        - {x: -35, y: -24}
-        - {x: -30, y: -34}
-        - {x: 19, y: -34}
-        - {x: 21, y: -32}
-        - {x: 17, y: -22}
-        - {x: 11, y: -20}
-    - name: Fx2_260
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Fx2_260
       rect:
         serializedVersion: 2
         x: 544
@@ -3167,14 +2031,10 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: -7, y: 15}
-        - {x: -12, y: 5}
-        - {x: -12, y: -15}
-        - {x: 13, y: -15}
-        - {x: 13, y: 6}
-        - {x: 3, y: 15}
-    - name: Fx2_261
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Fx2_261
       rect:
         serializedVersion: 2
         x: 576
@@ -3184,15 +2044,10 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: -5, y: 13}
-        - {x: -15, y: 2}
-        - {x: -15, y: -5}
-        - {x: -3, y: -14}
-        - {x: 6, y: -14}
-        - {x: 13, y: -6}
-        - {x: 13, y: 13}
-    - name: Fx2_262
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Fx2_262
       rect:
         serializedVersion: 2
         x: 608
@@ -3202,17 +2057,10 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: -8, y: 13}
-        - {x: -15, y: 11}
-        - {x: -15, y: -8}
-        - {x: -12, y: -12}
-        - {x: 1, y: -12}
-        - {x: 6, y: -11}
-        - {x: 15, y: -3}
-        - {x: 15, y: 1}
-        - {x: 7, y: 13}
-    - name: Fx2_263
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Fx2_263
       rect:
         serializedVersion: 2
         x: 640
@@ -3222,15 +2070,10 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: -4, y: 14}
-        - {x: -15, y: 5}
-        - {x: -15, y: -5}
-        - {x: -4, y: -13}
-        - {x: 13, y: -13}
-        - {x: 13, y: 5}
-        - {x: 6, y: 14}
-    - name: Fx2_264
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Fx2_264
       rect:
         serializedVersion: 2
         x: 672
@@ -3240,17 +2083,10 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: -10, y: 15}
-        - {x: -12, y: 10}
-        - {x: -12, y: -3}
-        - {x: -2, y: -15}
-        - {x: 1, y: -15}
-        - {x: 12, y: -7}
-        - {x: 13, y: -5}
-        - {x: 13, y: 8}
-        - {x: 11, y: 15}
-    - name: Fx2_265
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Fx2_265
       rect:
         serializedVersion: 2
         x: 704
@@ -3260,17 +2096,10 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: 5, y: 14}
-        - {x: -2, y: 14}
-        - {x: -10, y: 10}
-        - {x: -13, y: 5}
-        - {x: -13, y: -13}
-        - {x: 3, y: -13}
-        - {x: 12, y: -6}
-        - {x: 15, y: -1}
-        - {x: 15, y: 4}
-    - name: Fx2_266
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Fx2_266
       rect:
         serializedVersion: 2
         x: 736
@@ -3280,17 +2109,10 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: -3, y: 13}
-        - {x: -15, y: 4}
-        - {x: -15, y: 0}
-        - {x: -6, y: -11}
-        - {x: -1, y: -12}
-        - {x: 11, y: -12}
-        - {x: 15, y: -9}
-        - {x: 15, y: 11}
-        - {x: 10, y: 13}
-    - name: Fx2_267
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Fx2_267
       rect:
         serializedVersion: 2
         x: 768
@@ -3300,17 +2122,10 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: 7, y: 13}
-        - {x: -13, y: 13}
-        - {x: -13, y: -2}
-        - {x: -5, y: -12}
-        - {x: -2, y: -14}
-        - {x: 5, y: -14}
-        - {x: 13, y: -3}
-        - {x: 15, y: 0}
-        - {x: 12, y: 6}
-    - name: Fx2_275
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Fx2_275
       rect:
         serializedVersion: 2
         x: 544
@@ -3320,17 +2135,10 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: -14, y: -7}
-        - {x: -14, y: -11}
-        - {x: -10, y: -16}
-        - {x: 12, y: -16}
-        - {x: 15, y: -15}
-        - {x: 15, y: 4}
-        - {x: 7, y: 16}
-        - {x: -4, y: 16}
-        - {x: -10, y: 12}
-    - name: Fx2_276
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Fx2_276
       rect:
         serializedVersion: 2
         x: 576
@@ -3340,20 +2148,10 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: -5, y: 14}
-        - {x: -13, y: 14}
-        - {x: -14, y: 12}
-        - {x: -14, y: 10}
-        - {x: -13, y: 2}
-        - {x: -10, y: -11}
-        - {x: -7, y: -14}
-        - {x: -5, y: -15}
-        - {x: 7, y: -15}
-        - {x: 16, y: -7}
-        - {x: 16, y: 4}
-        - {x: 11, y: 13}
-    - name: Fx2_277
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Fx2_277
       rect:
         serializedVersion: 2
         x: 608
@@ -3363,19 +2161,10 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: 4, y: 16}
-        - {x: -2, y: 16}
-        - {x: -10, y: 11}
-        - {x: -13, y: 2}
-        - {x: -13, y: -10}
-        - {x: -9, y: -13}
-        - {x: -2, y: -16}
-        - {x: 9, y: -16}
-        - {x: 14, y: -10}
-        - {x: 14, y: -1}
-        - {x: 9, y: 10}
-    - name: Fx2_278
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Fx2_278
       rect:
         serializedVersion: 2
         x: 640
@@ -3385,15 +2174,10 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: -7, y: 14}
-        - {x: -16, y: 9}
-        - {x: -16, y: -9}
-        - {x: -12, y: -16}
-        - {x: 9, y: -16}
-        - {x: 13, y: -4}
-        - {x: 13, y: 14}
-    - name: Fx2_279
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Fx2_279
       rect:
         serializedVersion: 2
         x: 672
@@ -3403,17 +2187,10 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: -14, y: -7}
-        - {x: -14, y: -11}
-        - {x: -10, y: -16}
-        - {x: 12, y: -16}
-        - {x: 15, y: -15}
-        - {x: 15, y: 4}
-        - {x: 7, y: 16}
-        - {x: -4, y: 16}
-        - {x: -10, y: 12}
-    - name: Fx2_280
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Fx2_280
       rect:
         serializedVersion: 2
         x: 704
@@ -3423,18 +2200,10 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: 0, y: 14}
-        - {x: -14, y: 14}
-        - {x: -14, y: 7}
-        - {x: -12, y: -11}
-        - {x: -2, y: -16}
-        - {x: 6, y: -16}
-        - {x: 14, y: -13}
-        - {x: 15, y: -4}
-        - {x: 15, y: 8}
-        - {x: 8, y: 13}
-    - name: Fx2_281
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Fx2_281
       rect:
         serializedVersion: 2
         x: 736
@@ -3444,17 +2213,10 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: -14, y: 3}
-        - {x: -14, y: -9}
-        - {x: -11, y: -16}
-        - {x: 6, y: -16}
-        - {x: 13, y: -10}
-        - {x: 13, y: 1}
-        - {x: 8, y: 10}
-        - {x: 3, y: 16}
-        - {x: -3, y: 16}
-    - name: Fx2_282
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Fx2_282
       rect:
         serializedVersion: 2
         x: 768
@@ -3464,17 +2226,10 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: -2, y: 14}
-        - {x: -14, y: 7}
-        - {x: -16, y: 3}
-        - {x: -16, y: -8}
-        - {x: -8, y: -15}
-        - {x: 7, y: -15}
-        - {x: 12, y: -8}
-        - {x: 14, y: 3}
-        - {x: 14, y: 14}
-    - name: FastFire_3
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: FastFire_3
       rect:
         serializedVersion: 2
         x: 339
@@ -3484,19 +2239,10 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: 6, y: 50}
-        - {x: -12, y: 50}
-        - {x: -36, y: 27}
-        - {x: -38, y: 9}
-        - {x: -38, y: -9}
-        - {x: -27, y: -41}
-        - {x: -13, y: -62}
-        - {x: 11, y: -62}
-        - {x: 36, y: -22}
-        - {x: 36, y: 29}
-        - {x: 35, y: 31}
-    - name: FastFire_0
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: FastFire_0
       rect:
         serializedVersion: 2
         x: 35
@@ -3506,16 +2252,10 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: -1, y: -8}
-        - {x: -5, y: -12}
-        - {x: -5, y: -16}
-        - {x: -1, y: -20}
-        - {x: 1, y: -20}
-        - {x: 5, y: -16}
-        - {x: 5, y: -12}
-        - {x: 1, y: -8}
-    - name: FastFire_1
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: FastFire_1
       rect:
         serializedVersion: 2
         x: 91
@@ -3525,17 +2265,10 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: -20, y: -44}
-        - {x: -10, y: -58}
-        - {x: 1, y: -58}
-        - {x: 14, y: -45}
-        - {x: 14, y: -17}
-        - {x: 13, y: -13}
-        - {x: 9, y: -2}
-        - {x: -10, y: -2}
-        - {x: -20, y: -7}
-    - name: FastFire_2
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: FastFire_2
       rect:
         serializedVersion: 2
         x: 215
@@ -3545,16 +2278,10 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: -6, y: 26}
-        - {x: -25, y: 4}
-        - {x: -25, y: -37}
-        - {x: -14, y: -58}
-        - {x: 7, y: -58}
-        - {x: 21, y: -42}
-        - {x: 21, y: -2}
-        - {x: 10, y: 26}
-    - name: FastFire_4
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: FastFire_4
       rect:
         serializedVersion: 2
         x: 463
@@ -3564,20 +2291,10 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: 48, y: 25}
-        - {x: 42, y: 46}
-        - {x: 31, y: 55}
-        - {x: 16, y: 62}
-        - {x: -53, y: 62}
-        - {x: -53, y: -50}
-        - {x: -31, y: -62}
-        - {x: 14, y: -62}
-        - {x: 46, y: -48}
-        - {x: 53, y: -25}
-        - {x: 53, y: 23}
-        - {x: 52, y: 25}
-    - name: FastFire_5
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: FastFire_5
       rect:
         serializedVersion: 2
         x: 587
@@ -3587,22 +2304,10 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: -31, y: 62}
-        - {x: -44, y: 55}
-        - {x: -42, y: 40}
-        - {x: -40, y: 26}
-        - {x: -38, y: 20}
-        - {x: -47, y: 35}
-        - {x: -53, y: 44}
-        - {x: -62, y: 44}
-        - {x: -62, y: -54}
-        - {x: -41, y: -62}
-        - {x: 54, y: -62}
-        - {x: 62, y: -53}
-        - {x: 62, y: 54}
-        - {x: 40, y: 62}
-    - name: Fx2_343
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Fx2_343
       rect:
         serializedVersion: 2
         x: 0
@@ -3613,7 +2318,9 @@ TextureImporter:
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: Fx2_348
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Fx2_348
       rect:
         serializedVersion: 2
         x: 181
@@ -3623,16 +2330,10 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: -43, y: 17}
-        - {x: -43, y: 14}
-        - {x: -39, y: 6}
-        - {x: -21, y: -6}
-        - {x: 4, y: -17}
-        - {x: 43, y: -17}
-        - {x: 43, y: -7}
-        - {x: -27, y: 17}
-    - name: Fx2_349
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Fx2_349
       rect:
         serializedVersion: 2
         x: 267
@@ -3643,7 +2344,9 @@ TextureImporter:
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: Fx2_350
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Fx2_350
       rect:
         serializedVersion: 2
         x: 293
@@ -3654,7 +2357,9 @@ TextureImporter:
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: Fx2_354
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Fx2_354
       rect:
         serializedVersion: 2
         x: 366
@@ -3665,7 +2370,9 @@ TextureImporter:
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: Fx2_363
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Fx2_363
       rect:
         serializedVersion: 2
         x: 72
@@ -3676,7 +2383,9 @@ TextureImporter:
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: Fx2_364
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Fx2_364
       rect:
         serializedVersion: 2
         x: 98
@@ -3686,16 +2395,10 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: 41.5, y: 13}
-        - {x: 41.5, y: 17}
-        - {x: 23.5, y: 17}
-        - {x: -41.5, y: -8}
-        - {x: -41.5, y: -17}
-        - {x: -7.5, y: -17}
-        - {x: 20.5, y: -6}
-        - {x: 33.5, y: 4}
-    - name: Fx2_371
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Fx2_371
       rect:
         serializedVersion: 2
         x: 367
@@ -3705,16 +2408,10 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: 28.5, y: 40.5}
-        - {x: -34.5, y: -31.5}
-        - {x: -37.5, y: -34.5}
-        - {x: -37.5, y: -40.5}
-        - {x: -25.5, y: -40.5}
-        - {x: -16.5, y: -37.5}
-        - {x: 37.5, y: 33.5}
-        - {x: 37.5, y: 40.5}
-    - name: Fx2_373
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Fx2_373
       rect:
         serializedVersion: 2
         x: 442
@@ -3724,18 +2421,10 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: -33, y: 30.5}
-        - {x: -13, y: 6.5}
-        - {x: 17, y: -30.5}
-        - {x: 26, y: -41.5}
-        - {x: 35, y: -41.5}
-        - {x: 35, y: -32.5}
-        - {x: -9, y: 38.5}
-        - {x: -20, y: 41.5}
-        - {x: -35, y: 41.5}
-        - {x: -35, y: 32.5}
-    - name: Fx2_376
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Fx2_376
       rect:
         serializedVersion: 2
         x: 513
@@ -3745,15 +2434,10 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: 32, y: 36}
-        - {x: -32, y: -19}
-        - {x: -42, y: -29}
-        - {x: -42, y: -36}
-        - {x: -32, y: -36}
-        - {x: 42, y: 31}
-        - {x: 42, y: 36}
-    - name: LeftUpDragon_Close
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: LeftUpDragon_Close
       rect:
         serializedVersion: 2
         x: 631
@@ -3763,17 +2447,10 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: -23.5, y: 31}
-        - {x: -25.5, y: 30}
-        - {x: -25.5, y: -8}
-        - {x: -24.5, y: -14}
-        - {x: -8.5, y: -31}
-        - {x: 23.5, y: -31}
-        - {x: 25.5, y: -25}
-        - {x: 25.5, y: 9}
-        - {x: 3.5, y: 31}
-    - name: LeftUpDragon_Open
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: LeftUpDragon_Open
       rect:
         serializedVersion: 2
         x: 695
@@ -3783,16 +2460,10 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: -25, y: 30}
-        - {x: -28, y: 26}
-        - {x: -28, y: -15}
-        - {x: -15, y: -30}
-        - {x: 23, y: -30}
-        - {x: 28, y: -20}
-        - {x: 28, y: 3}
-        - {x: 2, y: 30}
-    - name: RightUpDragon_Close
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: RightUpDragon_Close
       rect:
         serializedVersion: 2
         x: 767
@@ -3802,20 +2473,10 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: 19.5, y: 30.5}
-        - {x: 0.5, y: 30.5}
-        - {x: -2.5, y: 29.5}
-        - {x: -3.5, y: 22.5}
-        - {x: -25.5, y: -3.5}
-        - {x: -25.5, y: -23.5}
-        - {x: -17.5, y: -30.5}
-        - {x: 2.5, y: -30.5}
-        - {x: 10.5, y: -24.5}
-        - {x: 22.5, y: -6.5}
-        - {x: 25.5, y: 5.5}
-        - {x: 25.5, y: 23.5}
-    - name: RightUpDragon_Open
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: RightUpDragon_Open
       rect:
         serializedVersion: 2
         x: 833
@@ -3825,18 +2486,10 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: 27, y: 30}
-        - {x: -10, y: 30}
-        - {x: -28, y: 18}
-        - {x: -28, y: -27}
-        - {x: -21, y: -30}
-        - {x: 0, y: -30}
-        - {x: 9, y: -28}
-        - {x: 21, y: -18}
-        - {x: 28, y: 6}
-        - {x: 28, y: 29}
-    - name: Fx2_389
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Fx2_389
       rect:
         serializedVersion: 2
         x: 0
@@ -3846,15 +2499,10 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: -37, y: 16.5}
-        - {x: -48, y: 14.5}
-        - {x: -70, y: -10.5}
-        - {x: -70, y: -16.5}
-        - {x: 70, y: -16.5}
-        - {x: 70, y: -8.5}
-        - {x: 38, y: 16.5}
-    - name: Fx2_412
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Fx2_412
       rect:
         serializedVersion: 2
         x: 0
@@ -3865,7 +2513,9 @@ TextureImporter:
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: Fx2_415
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Fx2_415
       rect:
         serializedVersion: 2
         x: 140
@@ -3876,7 +2526,9 @@ TextureImporter:
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: Fx2_416
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Fx2_416
       rect:
         serializedVersion: 2
         x: 161
@@ -3887,7 +2539,9 @@ TextureImporter:
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: Fx2_418
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Fx2_418
       rect:
         serializedVersion: 2
         x: 182
@@ -3898,7 +2552,9 @@ TextureImporter:
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: Fx2_419
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Fx2_419
       rect:
         serializedVersion: 2
         x: 233
@@ -3909,7 +2565,9 @@ TextureImporter:
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: Fx2_426
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Fx2_426
       rect:
         serializedVersion: 2
         x: 366
@@ -3920,7 +2578,9 @@ TextureImporter:
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: Fx2_436
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Fx2_436
       rect:
         serializedVersion: 2
         x: 0
@@ -3931,7 +2591,9 @@ TextureImporter:
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: RightDownDragon_Close
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: RightDownDragon_Close
       rect:
         serializedVersion: 2
         x: 629
@@ -3941,16 +2603,10 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: -24, y: 4}
-        - {x: -18, y: -16}
-        - {x: -9, y: -30}
-        - {x: 24, y: -30}
-        - {x: 24, y: 2}
-        - {x: 10, y: 30}
-        - {x: -18, y: 30}
-        - {x: -24, y: 25}
-    - name: RightDownDragon_Open
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: RightDownDragon_Open
       rect:
         serializedVersion: 2
         x: 698
@@ -3960,15 +2616,10 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: -24, y: 32}
-        - {x: -24, y: -13}
-        - {x: -10, y: -32}
-        - {x: 14, y: -32}
-        - {x: 24, y: -27}
-        - {x: 24, y: -1}
-        - {x: 12, y: 32}
-    - name: LeftDownDragon_Close
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: LeftDownDragon_Close
       rect:
         serializedVersion: 2
         x: 764
@@ -3978,15 +2629,10 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: -7, y: 30}
-        - {x: -14, y: 26}
-        - {x: -24, y: -4}
-        - {x: -24, y: -30}
-        - {x: 16, y: -30}
-        - {x: 24, y: -7}
-        - {x: 24, y: 30}
-    - name: LeftDownDragon_Open
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: LeftDownDragon_Open
       rect:
         serializedVersion: 2
         x: 834
@@ -3996,16 +2642,10 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: -13, y: 32}
-        - {x: -24, y: -5}
-        - {x: -24, y: -27}
-        - {x: -19, y: -31}
-        - {x: -18, y: -32}
-        - {x: 14, y: -32}
-        - {x: 24, y: -6}
-        - {x: 24, y: 32}
-    - name: Fx2_456
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Fx2_456
       rect:
         serializedVersion: 2
         x: 0
@@ -4016,7 +2656,9 @@ TextureImporter:
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: Fx2_458
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Fx2_458
       rect:
         serializedVersion: 2
         x: 366
@@ -4026,15 +2668,10 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: -41, y: 36.5}
-        - {x: -41, y: 31.5}
-        - {x: 31, y: -36.5}
-        - {x: 40, y: -36.5}
-        - {x: 41, y: -34.5}
-        - {x: 41, y: -28.5}
-        - {x: -30, y: 36.5}
-    - name: EnergyShock_0
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: EnergyShock_0
       rect:
         serializedVersion: 2
         x: 0
@@ -4044,28 +2681,10 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: 14, y: -25}
-        - {x: 16, y: -27}
-        - {x: 26, y: -27}
-        - {x: 33, y: -25}
-        - {x: 33, y: 27}
-        - {x: -3, y: 27}
-        - {x: -5, y: 25}
-        - {x: -12, y: 29}
-        - {x: -15, y: 29}
-        - {x: -17, y: 27}
-        - {x: -23, y: 31}
-        - {x: -25, y: 31}
-        - {x: -32, y: 21}
-        - {x: -32, y: -30}
-        - {x: -23, y: -35}
-        - {x: -14, y: -35}
-        - {x: -12, y: -34}
-        - {x: 11, y: -32}
-        - {x: 14, y: -25}
-        - {x: 14, y: -22}
-    - name: EnergyShock_1
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: EnergyShock_1
       rect:
         serializedVersion: 2
         x: 80
@@ -4075,12 +2694,10 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: -33, y: 35}
-        - {x: -33, y: -33}
-        - {x: 36, y: -33}
-        - {x: 36, y: 35}
-    - name: EnergyShock_2
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: EnergyShock_2
       rect:
         serializedVersion: 2
         x: 160
@@ -4090,27 +2707,10 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: -13, y: 39}
-        - {x: -35, y: 31}
-        - {x: -40, y: 15}
-        - {x: -40, y: -38}
-        - {x: -26, y: -40}
-        - {x: 36, y: -40}
-        - {x: 40, y: -29}
-        - {x: 40, y: 14}
-        - {x: 19, y: 39}
-      - - {x: -27, y: 15}
-        - {x: -24, y: 16}
-        - {x: -24, y: 19}
-        - {x: -27, y: 20}
-        - {x: -29, y: 18}
-      - - {x: -14, y: 35}
-        - {x: -11, y: 36}
-        - {x: -11, y: 39}
-        - {x: -14, y: 40}
-        - {x: -16, y: 38}
-    - name: EarthQuake_0
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: EarthQuake_0
       rect:
         serializedVersion: 2
         x: 240
@@ -4120,27 +2720,10 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: 13, y: 4}
-        - {x: 15, y: 11}
-        - {x: 12, y: 12}
-        - {x: 8, y: 12}
-        - {x: -1, y: 17}
-        - {x: -3, y: 17}
-        - {x: -9, y: 14}
-        - {x: -9, y: 12}
-        - {x: -6, y: 9}
-        - {x: -10, y: 11}
-        - {x: -14, y: 9}
-        - {x: -16, y: 6}
-        - {x: -16, y: -10}
-        - {x: -13, y: -14}
-        - {x: 3, y: -14}
-        - {x: 10, y: -10}
-        - {x: 15, y: -1}
-        - {x: 14, y: 2}
-        - {x: 8, y: 2}
-    - name: EarthQuake_1
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: EarthQuake_1
       rect:
         serializedVersion: 2
         x: 320
@@ -4150,23 +2733,10 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: -11, y: 25}
-        - {x: -21, y: 14}
-        - {x: -19, y: 7}
-        - {x: -18, y: 4}
-        - {x: -24, y: 3}
-        - {x: -26, y: 1}
-        - {x: -26, y: -5}
-        - {x: -25, y: -8}
-        - {x: -18, y: -17}
-        - {x: -8, y: -24}
-        - {x: 3, y: -24}
-        - {x: 18, y: -15}
-        - {x: 22, y: -11}
-        - {x: 22, y: 15}
-        - {x: 14, y: 25}
-    - name: EarthQuake_2
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: EarthQuake_2
       rect:
         serializedVersion: 2
         x: 400
@@ -4176,34 +2746,10 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: 39, y: 14}
-        - {x: 27, y: 6}
-        - {x: 18, y: 7}
-        - {x: 15, y: 7}
-        - {x: 21, y: 7}
-        - {x: 23, y: 8}
-        - {x: 22, y: 22}
-        - {x: 11, y: 40}
-        - {x: -5, y: 40}
-        - {x: -18, y: 26}
-        - {x: -12, y: 13}
-        - {x: -10, y: 12}
-        - {x: -6, y: 8}
-        - {x: -10, y: 11}
-        - {x: -12, y: 11}
-        - {x: -19, y: 21}
-        - {x: -40, y: 7}
-        - {x: -40, y: 0}
-        - {x: -28, y: -11}
-        - {x: -25, y: -13}
-        - {x: -5, y: -38}
-        - {x: -3, y: -38}
-        - {x: -1, y: -37}
-        - {x: 3, y: -29}
-        - {x: 8, y: -32}
-        - {x: 39, y: -15}
-    - name: FireStorm_0
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: FireStorm_0
       rect:
         serializedVersion: 2
         x: 3
@@ -4213,26 +2759,10 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: 32, y: 23}
-        - {x: 19, y: 34}
-        - {x: -7, y: 34}
-        - {x: -7, y: 30}
-        - {x: -6, y: 24}
-        - {x: -23, y: 26}
-        - {x: -32, y: 25}
-        - {x: -32, y: -21}
-        - {x: -30, y: -23}
-        - {x: -27, y: -22}
-        - {x: -20, y: -14}
-        - {x: -17, y: -29}
-        - {x: -11, y: -33}
-        - {x: -9, y: -34}
-        - {x: 2, y: -34}
-        - {x: 2, y: -31}
-        - {x: 9, y: -33}
-        - {x: 32, y: -25}
-    - name: FireStorm_1
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: FireStorm_1
       rect:
         serializedVersion: 2
         x: 71
@@ -4242,33 +2772,10 @@ TextureImporter:
       alignment: 9
       pivot: {x: 0.5047433, y: 0.48639703}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: 16.686943, y: -32.102203}
-        - {x: 22.686943, y: -31.102203}
-        - {x: 28.686943, y: -21.102203}
-        - {x: 32.686943, y: -11.102203}
-        - {x: 32.686943, y: 14.897797}
-        - {x: 31.686943, y: 14.897797}
-        - {x: 26.686943, y: 12.897797}
-        - {x: 29.686943, y: 31.897797}
-        - {x: 24.686943, y: 33.897797}
-        - {x: -20.313057, y: 33.897797}
-        - {x: -25.313057, y: 25.897797}
-        - {x: -25.313057, y: 21.897797}
-        - {x: -18.313057, y: 16.897797}
-        - {x: -14.313057, y: 17.897797}
-        - {x: -26.313057, y: 13.897797}
-        - {x: -33.313057, y: 8.897797}
-        - {x: -33.313057, y: -11.102203}
-        - {x: -26.313057, y: -12.102203}
-        - {x: -27.313057, y: -11.102203}
-        - {x: -26.313057, y: -23.102203}
-        - {x: -16.313057, y: -32.102203}
-        - {x: -9.313057, y: -32.102203}
-        - {x: -8.313057, y: -28.102203}
-        - {x: -9.313057, y: -22.102203}
-        - {x: 6.686943, y: -32.102203}
-    - name: FireStorm_2
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: FireStorm_2
       rect:
         serializedVersion: 2
         x: 138
@@ -4278,27 +2785,10 @@ TextureImporter:
       alignment: 9
       pivot: {x: 0.4999998, y: 0.5099398}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: 34.500015, y: -10.126205}
-        - {x: 34.500015, y: 3.8737946}
-        - {x: 31.500015, y: 4.8737946}
-        - {x: 22.500015, y: -0.12620544}
-        - {x: 27.500015, y: 6.8737946}
-        - {x: 30.500015, y: 19.873795}
-        - {x: 24.500015, y: 27.873795}
-        - {x: 21.500015, y: 30.873795}
-        - {x: -15.499985, y: 30.873795}
-        - {x: -16.499985, y: 26.873795}
-        - {x: -8.499985, y: 20.873795}
-        - {x: -17.499985, y: 21.873795}
-        - {x: -28.499985, y: 21.873795}
-        - {x: -34.499985, y: 15.873795}
-        - {x: -34.499985, y: -32.126205}
-        - {x: 20.500015, y: -32.126205}
-        - {x: 18.500015, y: -27.126205}
-        - {x: 10.500015, y: -20.126205}
-        - {x: 29.500015, y: -18.126205}
-    - name: FireStorm_3
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: FireStorm_3
       rect:
         serializedVersion: 2
         x: 210
@@ -4308,25 +2798,10 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: 26, y: 24.5}
-        - {x: 21, y: 22.5}
-        - {x: 17, y: 17.5}
-        - {x: 14, y: 34.5}
-        - {x: -9, y: 34.5}
-        - {x: -9, y: 29.5}
-        - {x: -23, y: 26.5}
-        - {x: -32, y: 17.5}
-        - {x: -32, y: -23.5}
-        - {x: -27, y: -22.5}
-        - {x: -20, y: -13.5}
-        - {x: -17, y: -28.5}
-        - {x: -13, y: -34.5}
-        - {x: 16, y: -34.5}
-        - {x: 26, y: -26.5}
-        - {x: 32, y: -19.5}
-        - {x: 32, y: 23.5}
-    - name: FireStorm_4
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: FireStorm_4
       rect:
         serializedVersion: 2
         x: 278
@@ -4336,33 +2811,10 @@ TextureImporter:
       alignment: 9
       pivot: {x: 0.50474364, y: 0.4905125}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: 16.68692, y: -32.373825}
-        - {x: 22.68692, y: -31.373825}
-        - {x: 28.68692, y: -21.373825}
-        - {x: 32.68692, y: -11.373825}
-        - {x: 32.68692, y: 14.626175}
-        - {x: 31.68692, y: 14.626175}
-        - {x: 26.68692, y: 12.626175}
-        - {x: 29.68692, y: 31.626175}
-        - {x: 24.68692, y: 33.626175}
-        - {x: -20.31308, y: 33.626175}
-        - {x: -25.31308, y: 25.626175}
-        - {x: -25.31308, y: 21.626175}
-        - {x: -18.31308, y: 16.626175}
-        - {x: -14.31308, y: 17.626175}
-        - {x: -26.31308, y: 13.626175}
-        - {x: -33.31308, y: 8.626175}
-        - {x: -33.31308, y: -11.373825}
-        - {x: -26.31308, y: -12.373825}
-        - {x: -27.31308, y: -11.373825}
-        - {x: -26.31308, y: -23.373825}
-        - {x: -16.31308, y: -32.373825}
-        - {x: -9.31308, y: -32.373825}
-        - {x: -8.31308, y: -28.373825}
-        - {x: -9.31308, y: -22.373825}
-        - {x: 6.68692, y: -32.373825}
-    - name: FireStorm_5
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: FireStorm_5
       rect:
         serializedVersion: 2
         x: 345
@@ -4372,27 +2824,10 @@ TextureImporter:
       alignment: 9
       pivot: {x: 0.5022685, y: 0.5099398}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: 34.343475, y: -10.126205}
-        - {x: 34.343475, y: 3.8737946}
-        - {x: 31.343475, y: 4.8737946}
-        - {x: 22.343475, y: -0.12620544}
-        - {x: 27.343475, y: 6.8737946}
-        - {x: 30.343475, y: 19.873795}
-        - {x: 24.343475, y: 27.873795}
-        - {x: 21.343475, y: 30.873795}
-        - {x: -15.656525, y: 30.873795}
-        - {x: -16.656525, y: 26.873795}
-        - {x: -8.656525, y: 20.873795}
-        - {x: -17.656525, y: 21.873795}
-        - {x: -28.656525, y: 21.873795}
-        - {x: -34.656525, y: 15.873795}
-        - {x: -34.656525, y: -32.126205}
-        - {x: 20.343475, y: -32.126205}
-        - {x: 18.343475, y: -27.126205}
-        - {x: 10.343475, y: -20.126205}
-        - {x: 29.343475, y: -18.126205}
-    - name: FireStorm_6
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: FireStorm_6
       rect:
         serializedVersion: 2
         x: 417
@@ -4402,25 +2837,10 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: 26, y: 24.5}
-        - {x: 21, y: 22.5}
-        - {x: 17, y: 17.5}
-        - {x: 14, y: 34.5}
-        - {x: -9, y: 34.5}
-        - {x: -9, y: 29.5}
-        - {x: -23, y: 26.5}
-        - {x: -32, y: 17.5}
-        - {x: -32, y: -23.5}
-        - {x: -27, y: -22.5}
-        - {x: -20, y: -13.5}
-        - {x: -17, y: -28.5}
-        - {x: -13, y: -34.5}
-        - {x: 16, y: -34.5}
-        - {x: 26, y: -26.5}
-        - {x: 32, y: -19.5}
-        - {x: 32, y: 23.5}
-    - name: FireStorm_7
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: FireStorm_7
       rect:
         serializedVersion: 2
         x: 485
@@ -4430,33 +2850,10 @@ TextureImporter:
       alignment: 9
       pivot: {x: 0.50474316, y: 0.4905125}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: 16.68695, y: -32.373825}
-        - {x: 22.68695, y: -31.373825}
-        - {x: 28.68695, y: -21.373825}
-        - {x: 32.68695, y: -11.373825}
-        - {x: 32.68695, y: 14.626175}
-        - {x: 31.68695, y: 14.626175}
-        - {x: 26.68695, y: 12.626175}
-        - {x: 29.68695, y: 31.626175}
-        - {x: 24.68695, y: 33.626175}
-        - {x: -20.31305, y: 33.626175}
-        - {x: -25.31305, y: 25.626175}
-        - {x: -25.31305, y: 21.626175}
-        - {x: -18.31305, y: 16.626175}
-        - {x: -14.313049, y: 17.626175}
-        - {x: -26.31305, y: 13.626175}
-        - {x: -33.31305, y: 8.626175}
-        - {x: -33.31305, y: -11.373825}
-        - {x: -26.31305, y: -12.373825}
-        - {x: -27.31305, y: -11.373825}
-        - {x: -26.31305, y: -23.373825}
-        - {x: -16.31305, y: -32.373825}
-        - {x: -9.313049, y: -32.373825}
-        - {x: -8.313049, y: -28.373825}
-        - {x: -9.313049, y: -22.373825}
-        - {x: 6.6869507, y: -32.373825}
-    - name: FireStorm_8
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: FireStorm_8
       rect:
         serializedVersion: 2
         x: 552
@@ -4466,27 +2863,10 @@ TextureImporter:
       alignment: 9
       pivot: {x: 0.502268, y: 0.51242477}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: 34.343506, y: -10.282761}
-        - {x: 34.343506, y: 3.7172394}
-        - {x: 31.343506, y: 4.7172394}
-        - {x: 22.343506, y: -0.28276062}
-        - {x: 27.343506, y: 6.7172394}
-        - {x: 30.343506, y: 19.71724}
-        - {x: 24.343506, y: 27.71724}
-        - {x: 21.343506, y: 30.71724}
-        - {x: -15.656494, y: 30.71724}
-        - {x: -16.656494, y: 26.71724}
-        - {x: -8.656494, y: 20.71724}
-        - {x: -17.656494, y: 21.71724}
-        - {x: -28.656494, y: 21.71724}
-        - {x: -34.656494, y: 15.717239}
-        - {x: -34.656494, y: -32.28276}
-        - {x: 20.343506, y: -32.28276}
-        - {x: 18.343506, y: -27.28276}
-        - {x: 10.343506, y: -20.28276}
-        - {x: 29.343506, y: -18.28276}
-    - name: PoisonExplosion_0
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: PoisonExplosion_0
       rect:
         serializedVersion: 2
         x: 0
@@ -4496,17 +2876,10 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: 9, y: 6.5}
-        - {x: -6, y: 6.5}
-        - {x: -15, y: -1.5}
-        - {x: -16, y: -10.5}
-        - {x: -16, y: -20.5}
-        - {x: -15, y: -22.5}
-        - {x: 13, y: -22.5}
-        - {x: 16, y: -19.5}
-        - {x: 16, y: -14.5}
-    - name: PoisonExplosion_1
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: PoisonExplosion_1
       rect:
         serializedVersion: 2
         x: 32
@@ -4516,14 +2889,10 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: -11, y: 13.5}
-        - {x: -16, y: 7.5}
-        - {x: -16, y: -22.5}
-        - {x: 16, y: -22.5}
-        - {x: 16, y: 11.5}
-        - {x: 11, y: 13.5}
-    - name: PoisonExplosion_2
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: PoisonExplosion_2
       rect:
         serializedVersion: 2
         x: 64
@@ -4533,25 +2902,10 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: 7, y: -12.5}
-        - {x: 7, y: -7.5}
-        - {x: 16, y: -5.5}
-        - {x: 16, y: 18.5}
-        - {x: -16, y: 18.5}
-        - {x: -16, y: -0.5}
-        - {x: -4, y: -6.5}
-        - {x: -5, y: -9.5}
-        - {x: -5, y: -13.5}
-        - {x: -5, y: -8.5}
-        - {x: -9, y: -4.5}
-        - {x: -12, y: -4.5}
-        - {x: -16, y: -8.5}
-        - {x: -16, y: -22.5}
-        - {x: 16, y: -22.5}
-        - {x: 16, y: -10.5}
-        - {x: 9, y: -8.5}
-    - name: PoisonExplosion_3
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: PoisonExplosion_3
       rect:
         serializedVersion: 2
         x: 96
@@ -4561,16 +2915,10 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: -9, y: 22.5}
-        - {x: -14, y: 20.5}
-        - {x: -14, y: 2.5}
-        - {x: -2, y: -22.5}
-        - {x: 10, y: -22.5}
-        - {x: 14, y: -9.5}
-        - {x: 14, y: 20.5}
-        - {x: 13, y: 22.5}
-    - name: PoisonExplosion_4
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: PoisonExplosion_4
       rect:
         serializedVersion: 2
         x: 128
@@ -4580,43 +2928,10 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: 1, y: -7.5}
-        - {x: 0, y: -10.5}
-        - {x: -1, y: -16.5}
-        - {x: -1, y: -19.5}
-        - {x: 1, y: -20.5}
-        - {x: 5, y: -19.5}
-        - {x: 6, y: -17.5}
-        - {x: 6, y: -10.5}
-        - {x: 4, y: -7.5}
-      - - {x: 4, y: -7.5}
-        - {x: 6, y: -9.5}
-        - {x: 9, y: -8.5}
-        - {x: 9, y: -4.5}
-        - {x: 7, y: -2.5}
-        - {x: 4, y: -3.5}
-      - - {x: -1, y: -6.5}
-        - {x: 2, y: -5.5}
-        - {x: 2, y: -2.5}
-        - {x: -1, y: -1.5}
-        - {x: -3, y: -3.5}
-      - - {x: 1, y: 14.5}
-        - {x: 1, y: 11.5}
-        - {x: 6, y: 4.5}
-        - {x: 12, y: 4.5}
-        - {x: 12, y: 15.5}
-        - {x: 7, y: 21.5}
-        - {x: -7, y: 21.5}
-        - {x: -12, y: 17.5}
-        - {x: -12, y: 5.5}
-        - {x: -10, y: 3.5}
-        - {x: -1, y: 3.5}
-        - {x: 0, y: 5.5}
-        - {x: 1, y: 11.5}
-        - {x: 1, y: 12.5}
-        - {x: 0, y: 13.5}
-    - name: Fx2_551
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Fx2_551
       rect:
         serializedVersion: 2
         x: 226
@@ -4626,16 +2941,10 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: -11, y: 26.5}
-        - {x: -21, y: 11.5}
-        - {x: -21, y: -20.5}
-        - {x: -9, y: -26.5}
-        - {x: 18, y: -26.5}
-        - {x: 21, y: -23.5}
-        - {x: 21, y: 15.5}
-        - {x: 15, y: 26.5}
-    - name: Fx2_553
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Fx2_553
       rect:
         serializedVersion: 2
         x: 306
@@ -4645,14 +2954,10 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: -10, y: 26.5}
-        - {x: -10, y: -26.5}
-        - {x: 13, y: -26.5}
-        - {x: 21, y: -24.5}
-        - {x: 21, y: 21.5}
-        - {x: 18, y: 26.5}
-    - name: Fx2_554
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Fx2_554
       rect:
         serializedVersion: 2
         x: 372
@@ -4662,23 +2967,10 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: 20, y: -10.5}
-        - {x: 15, y: -8.5}
-        - {x: 21, y: -2.5}
-        - {x: 21, y: 17.5}
-        - {x: 17, y: 26.5}
-        - {x: -8, y: 26.5}
-        - {x: -21, y: 20.5}
-        - {x: -21, y: -11.5}
-        - {x: -18, y: -18.5}
-        - {x: -11, y: -24.5}
-        - {x: -8, y: -26.5}
-        - {x: 8, y: -26.5}
-        - {x: 9, y: -25.5}
-        - {x: 8, y: -22.5}
-        - {x: 14, y: -18.5}
-    - name: Fx2_556
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Fx2_556
       rect:
         serializedVersion: 2
         x: 452
@@ -4688,19 +2980,10 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: -10, y: 26.5}
-        - {x: -18, y: 17.5}
-        - {x: -20, y: 12.5}
-        - {x: -21, y: 9.5}
-        - {x: -21, y: -11.5}
-        - {x: -18, y: -18.5}
-        - {x: -11, y: -24.5}
-        - {x: -8, y: -26.5}
-        - {x: 10, y: -26.5}
-        - {x: 9, y: -23.5}
-        - {x: 10, y: 26.5}
-    - name: Fx2_0
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Fx2_0
       rect:
         serializedVersion: 2
         x: 593
@@ -4711,7 +2994,9 @@ TextureImporter:
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: Fx2_1
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Fx2_1
       rect:
         serializedVersion: 2
         x: 611
@@ -4722,7 +3007,9 @@ TextureImporter:
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: Fx2_2
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Fx2_2
       rect:
         serializedVersion: 2
         x: 611
@@ -4733,7 +3020,9 @@ TextureImporter:
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: Fx2_3
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Fx2_3
       rect:
         serializedVersion: 2
         x: 571
@@ -4744,7 +3033,9 @@ TextureImporter:
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: Fx2_4
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Fx2_4
       rect:
         serializedVersion: 2
         x: 593
@@ -4755,7 +3046,9 @@ TextureImporter:
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: Fx2_5
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Fx2_5
       rect:
         serializedVersion: 2
         x: 611
@@ -4766,7 +3059,9 @@ TextureImporter:
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: Fx2_6
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Fx2_6
       rect:
         serializedVersion: 2
         x: 611
@@ -4777,7 +3072,9 @@ TextureImporter:
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: Fx2_7
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Fx2_7
       rect:
         serializedVersion: 2
         x: 207
@@ -4788,7 +3085,9 @@ TextureImporter:
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: Fx2_11
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Fx2_11
       rect:
         serializedVersion: 2
         x: 261
@@ -4799,7 +3098,9 @@ TextureImporter:
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: Fx2_12
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Fx2_12
       rect:
         serializedVersion: 2
         x: 0
@@ -4810,7 +3111,9 @@ TextureImporter:
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: Fx2_13
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Fx2_13
       rect:
         serializedVersion: 2
         x: 0
@@ -4821,7 +3124,9 @@ TextureImporter:
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: RightSwordSlash_2
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: RightSwordSlash_2
       rect:
         serializedVersion: 2
         x: 128
@@ -4832,7 +3137,9 @@ TextureImporter:
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: LeftSwordSlash_2
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: LeftSwordSlash_2
       rect:
         serializedVersion: 2
         x: 160
@@ -4843,8 +3150,9 @@ TextureImporter:
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      tessellationDetail: -1
     outline: []
-  spritePackingTag: 
+  spritePackingTag: Magic
   userData: 
   assetBundleName: 
   assetBundleVariant: 

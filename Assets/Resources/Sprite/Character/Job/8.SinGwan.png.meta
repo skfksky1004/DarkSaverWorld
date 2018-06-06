@@ -88,12 +88,12 @@ TextureImporter:
     21300162: BiShop_81
     21300164: BiShop_82
     21300166: BiShop_83
-  serializedVersion: 2
+  serializedVersion: 4
   mipmaps:
     mipMapMode: 0
     enableMipMap: 1
+    sRGBTexture: 1
     linearTexture: 0
-    correctGamma: 0
     fadeOut: 0
     borderMipMap: 0
     mipMapFadeDistanceStart: 1
@@ -105,10 +105,8 @@ TextureImporter:
     normalMapFilter: 0
   isReadable: 0
   grayScaleToAlpha: 0
-  generateCubemap: 0
+  generateCubemap: 6
   cubemapConvolution: 0
-  cubemapConvolutionSteps: 7
-  cubemapConvolutionExponent: 1.5
   seamlessCubemap: 0
   textureFormat: -2
   maxTextureSize: 512
@@ -119,9 +117,7 @@ TextureImporter:
     wrapMode: 1
   nPOTScale: 0
   lightmap: 0
-  rGBM: 0
   compressionQuality: 50
-  allowsAlphaSplitting: 0
   spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
@@ -129,12 +125,52 @@ TextureImporter:
   spritePivot: {x: 0.5, y: 0.5}
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spritePixelsToUnits: 32
+  alphaUsage: 1
   alphaIsTransparency: 1
+  spriteTessellationDetail: -1
   textureType: 8
-  buildTargetSettings: []
+  textureShape: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - buildTarget: DefaultTexturePlatform
+    maxTextureSize: 512
+    textureFormat: 2
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: Standalone
+    maxTextureSize: 512
+    textureFormat: 2
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: Android
+    maxTextureSize: 512
+    textureFormat: 2
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: Windows Store Apps
+    maxTextureSize: 512
+    textureFormat: 2
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
   spriteSheet:
+    serializedVersion: 2
     sprites:
-    - name: BiShop_0
+    - serializedVersion: 2
+      name: BiShop_0
       rect:
         serializedVersion: 2
         x: 96
@@ -144,16 +180,10 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: -9, y: 16}
-        - {x: -10, y: 14}
-        - {x: -11, y: 5}
-        - {x: -11, y: -15}
-        - {x: -9, y: -16}
-        - {x: 10, y: -16}
-        - {x: 12, y: -14}
-        - {x: 12, y: 16}
-    - name: BiShop_1
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: BiShop_1
       rect:
         serializedVersion: 2
         x: 128
@@ -163,12 +193,10 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: -12, y: 16}
-        - {x: -12, y: -16}
-        - {x: 13, y: -16}
-        - {x: 13, y: 16}
-    - name: BiShop_2
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: BiShop_2
       rect:
         serializedVersion: 2
         x: 160
@@ -178,15 +206,10 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: 10, y: 16}
-        - {x: -9, y: 16}
-        - {x: -11, y: 15}
-        - {x: -11, y: -16}
-        - {x: 12, y: -16}
-        - {x: 12, y: 5}
-        - {x: 11, y: 14}
-    - name: BiShop_3
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: BiShop_3
       rect:
         serializedVersion: 2
         x: 192
@@ -196,14 +219,10 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: 8, y: 16}
-        - {x: -7, y: 16}
-        - {x: -10, y: 14}
-        - {x: -10, y: -16}
-        - {x: 12, y: -16}
-        - {x: 12, y: 11}
-    - name: BiShop_4
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: BiShop_4
       rect:
         serializedVersion: 2
         x: 224
@@ -213,13 +232,10 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: -12, y: -16}
-        - {x: 13, y: -16}
-        - {x: 13, y: 16}
-        - {x: -9, y: 16}
-        - {x: -12, y: 12}
-    - name: BiShop_5
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: BiShop_5
       rect:
         serializedVersion: 2
         x: 256
@@ -229,14 +245,10 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: -8, y: 16}
-        - {x: -11, y: 9}
-        - {x: -11, y: -16}
-        - {x: 11, y: -16}
-        - {x: 11, y: 13}
-        - {x: 8, y: 16}
-    - name: BiShop_6
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: BiShop_6
       rect:
         serializedVersion: 2
         x: 288
@@ -246,14 +258,10 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: -7, y: 16}
-        - {x: -11, y: 14}
-        - {x: -11, y: -16}
-        - {x: 12, y: -16}
-        - {x: 12, y: 12}
-        - {x: 8, y: 16}
-    - name: BiShop_7
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: BiShop_7
       rect:
         serializedVersion: 2
         x: 320
@@ -263,13 +271,10 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: -12, y: 16}
-        - {x: -12, y: -16}
-        - {x: 13, y: -16}
-        - {x: 13, y: 6}
-        - {x: 12, y: 16}
-    - name: BiShop_8
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: BiShop_8
       rect:
         serializedVersion: 2
         x: 352
@@ -279,14 +284,10 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: -8, y: 16}
-        - {x: -11, y: 12}
-        - {x: -11, y: -16}
-        - {x: 12, y: -16}
-        - {x: 12, y: 6}
-        - {x: 10, y: 16}
-    - name: BiShop_9
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: BiShop_9
       rect:
         serializedVersion: 2
         x: 96
@@ -296,13 +297,10 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: -8, y: 16}
-        - {x: -12, y: 5}
-        - {x: -12, y: -16}
-        - {x: 13, y: -16}
-        - {x: 13, y: 16}
-    - name: BiShop_10
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: BiShop_10
       rect:
         serializedVersion: 2
         x: 128
@@ -312,13 +310,10 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: 11, y: 16}
-        - {x: -11, y: 16}
-        - {x: -11, y: -16}
-        - {x: 12, y: -16}
-        - {x: 12, y: 15}
-    - name: BiShop_11
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: BiShop_11
       rect:
         serializedVersion: 2
         x: 160
@@ -328,16 +323,10 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: 10, y: 16}
-        - {x: -10, y: 16}
-        - {x: -12, y: 15}
-        - {x: -12, y: -11}
-        - {x: -10, y: -16}
-        - {x: 13, y: -16}
-        - {x: 13, y: 1}
-        - {x: 12, y: 14}
-    - name: BiShop_12
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: BiShop_12
       rect:
         serializedVersion: 2
         x: 192
@@ -347,15 +336,10 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: 8, y: 16}
-        - {x: -12, y: 16}
-        - {x: -12, y: -16}
-        - {x: 13, y: -16}
-        - {x: 14, y: -13}
-        - {x: 14, y: 8}
-        - {x: 12, y: 14}
-    - name: BiShop_13
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: BiShop_13
       rect:
         serializedVersion: 2
         x: 224
@@ -365,15 +349,10 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: 10, y: 16}
-        - {x: -7, y: 16}
-        - {x: -13, y: 6}
-        - {x: -13, y: -16}
-        - {x: 14, y: -16}
-        - {x: 14, y: 2}
-        - {x: 12, y: 15}
-    - name: BiShop_14
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: BiShop_14
       rect:
         serializedVersion: 2
         x: 256
@@ -383,16 +362,10 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: 12, y: 14}
-        - {x: 8, y: 16}
-        - {x: -11, y: 16}
-        - {x: -13, y: 15}
-        - {x: -13, y: -16}
-        - {x: 11, y: -16}
-        - {x: 13, y: -7}
-        - {x: 13, y: 5}
-    - name: BiShop_15
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: BiShop_15
       rect:
         serializedVersion: 2
         x: 288
@@ -402,15 +375,10 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: -7, y: 16}
-        - {x: -11, y: 11}
-        - {x: -12, y: 9}
-        - {x: -12, y: -16}
-        - {x: 13, y: -16}
-        - {x: 13, y: 15}
-        - {x: 10, y: 16}
-    - name: BiShop_16
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: BiShop_16
       rect:
         serializedVersion: 2
         x: 320
@@ -420,13 +388,10 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: -12, y: 16}
-        - {x: -12, y: -16}
-        - {x: 13, y: -16}
-        - {x: 13, y: 15}
-        - {x: 10, y: 16}
-    - name: BiShop_17
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: BiShop_17
       rect:
         serializedVersion: 2
         x: 352
@@ -436,14 +401,10 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: -9, y: 16}
-        - {x: -12, y: 13}
-        - {x: -12, y: -16}
-        - {x: 13, y: -16}
-        - {x: 13, y: 15}
-        - {x: 11, y: 16}
-    - name: BiShop_18
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: BiShop_18
       rect:
         serializedVersion: 2
         x: 96
@@ -453,14 +414,10 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: -9, y: 16}
-        - {x: -11, y: 13}
-        - {x: -11, y: -16}
-        - {x: 11, y: -16}
-        - {x: 11, y: 10}
-        - {x: 8, y: 16}
-    - name: BiShop_19
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: BiShop_19
       rect:
         serializedVersion: 2
         x: 128
@@ -470,14 +427,10 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: -12, y: 16}
-        - {x: -12, y: -14}
-        - {x: -10, y: -16}
-        - {x: 9, y: -16}
-        - {x: 10, y: -15}
-        - {x: 10, y: 16}
-    - name: BiShop_20
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: BiShop_20
       rect:
         serializedVersion: 2
         x: 160
@@ -487,13 +440,10 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: -12, y: 16}
-        - {x: -13, y: 13}
-        - {x: -13, y: -16}
-        - {x: 11, y: -16}
-        - {x: 11, y: 16}
-    - name: BiShop_21
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: BiShop_21
       rect:
         serializedVersion: 2
         x: 192
@@ -503,14 +453,10 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: -9, y: 16}
-        - {x: -10, y: 15}
-        - {x: -10, y: -16}
-        - {x: 12, y: -16}
-        - {x: 12, y: 13}
-        - {x: 5, y: 16}
-    - name: BiShop_22
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: BiShop_22
       rect:
         serializedVersion: 2
         x: 224
@@ -520,16 +466,10 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: 5, y: 16}
-        - {x: -7, y: 16}
-        - {x: -11, y: 11}
-        - {x: -11, y: -15}
-        - {x: -10, y: -16}
-        - {x: 11, y: -16}
-        - {x: 11, y: -2}
-        - {x: 10, y: 12}
-    - name: BiShop_23
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: BiShop_23
       rect:
         serializedVersion: 2
         x: 256
@@ -539,15 +479,10 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: -7, y: 16}
-        - {x: -11, y: 14}
-        - {x: -12, y: -7}
-        - {x: -12, y: -16}
-        - {x: 9, y: -16}
-        - {x: 9, y: 14}
-        - {x: 7, y: 16}
-    - name: BiShop_24
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: BiShop_24
       rect:
         serializedVersion: 2
         x: 288
@@ -557,16 +492,10 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: 7, y: 16}
-        - {x: -6, y: 16}
-        - {x: -12, y: 11}
-        - {x: -13, y: 4}
-        - {x: -13, y: -16}
-        - {x: 12, y: -16}
-        - {x: 12, y: -6}
-        - {x: 10, y: 14}
-    - name: BiShop_25
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: BiShop_25
       rect:
         serializedVersion: 2
         x: 320
@@ -576,17 +505,10 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: -7, y: 16}
-        - {x: -11, y: 11}
-        - {x: -12, y: -6}
-        - {x: -12, y: -15}
-        - {x: -10, y: -16}
-        - {x: 12, y: -16}
-        - {x: 13, y: -15}
-        - {x: 13, y: 1}
-        - {x: 9, y: 16}
-    - name: BiShop_26
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: BiShop_26
       rect:
         serializedVersion: 2
         x: 352
@@ -596,14 +518,10 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: -7, y: 16}
-        - {x: -11, y: 11}
-        - {x: -11, y: -16}
-        - {x: 12, y: -16}
-        - {x: 12, y: 3}
-        - {x: 9, y: 16}
-    - name: BiShop_27
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: BiShop_27
       rect:
         serializedVersion: 2
         x: 96
@@ -613,13 +531,10 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: -11, y: 16}
-        - {x: -12, y: 8}
-        - {x: -12, y: -16}
-        - {x: 10, y: -16}
-        - {x: 10, y: 16}
-    - name: BiShop_28
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: BiShop_28
       rect:
         serializedVersion: 2
         x: 128
@@ -629,14 +544,10 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: -11, y: 16}
-        - {x: -11, y: -14}
-        - {x: -9, y: -16}
-        - {x: 10, y: -16}
-        - {x: 11, y: -15}
-        - {x: 11, y: 16}
-    - name: BiShop_29
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: BiShop_29
       rect:
         serializedVersion: 2
         x: 160
@@ -646,14 +557,10 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: -11, y: 16}
-        - {x: -12, y: 15}
-        - {x: -12, y: -14}
-        - {x: -9, y: -16}
-        - {x: 11, y: -16}
-        - {x: 11, y: 16}
-    - name: BiShop_30
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: BiShop_30
       rect:
         serializedVersion: 2
         x: 192
@@ -663,14 +570,10 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: -8, y: 16}
-        - {x: -12, y: 15}
-        - {x: -13, y: 6}
-        - {x: -13, y: -16}
-        - {x: 9, y: -16}
-        - {x: 9, y: 16}
-    - name: BiShop_31
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: BiShop_31
       rect:
         serializedVersion: 2
         x: 224
@@ -680,14 +583,10 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: -9, y: 16}
-        - {x: -11, y: 15}
-        - {x: -12, y: 1}
-        - {x: -12, y: -16}
-        - {x: 10, y: -16}
-        - {x: 10, y: 16}
-    - name: BiShop_32
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: BiShop_32
       rect:
         serializedVersion: 2
         x: 256
@@ -697,13 +596,10 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: -10, y: 16}
-        - {x: -10, y: -16}
-        - {x: 11, y: -16}
-        - {x: 11, y: 13}
-        - {x: 9, y: 16}
-    - name: BiShop_33
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: BiShop_33
       rect:
         serializedVersion: 2
         x: 288
@@ -713,15 +609,10 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: -6, y: 16}
-        - {x: -8, y: 13}
-        - {x: -11, y: -6}
-        - {x: -11, y: -16}
-        - {x: 14, y: -16}
-        - {x: 14, y: 13}
-        - {x: 9, y: 16}
-    - name: BiShop_34
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: BiShop_34
       rect:
         serializedVersion: 2
         x: 320
@@ -731,14 +622,10 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: -11, y: 16}
-        - {x: -12, y: 13}
-        - {x: -12, y: -16}
-        - {x: 12, y: -16}
-        - {x: 13, y: -15}
-        - {x: 13, y: 16}
-    - name: BiShop_35
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: BiShop_35
       rect:
         serializedVersion: 2
         x: 352
@@ -748,15 +635,10 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: -9, y: 16}
-        - {x: -11, y: 7}
-        - {x: -11, y: -16}
-        - {x: 11, y: -16}
-        - {x: 12, y: -15}
-        - {x: 12, y: 12}
-        - {x: 8, y: 16}
-    - name: BiShop_36
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: BiShop_36
       rect:
         serializedVersion: 2
         x: 0
@@ -766,12 +648,10 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: -13, y: 16}
-        - {x: -13, y: -16}
-        - {x: 14, y: -16}
-        - {x: 14, y: 16}
-    - name: BiShop_37
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: BiShop_37
       rect:
         serializedVersion: 2
         x: 32
@@ -781,14 +661,10 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: -13, y: 16}
-        - {x: -13, y: -16}
-        - {x: 14, y: -16}
-        - {x: 14, y: 0}
-        - {x: 12, y: 15}
-        - {x: 11, y: 16}
-    - name: BiShop_38
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: BiShop_38
       rect:
         serializedVersion: 2
         x: 64
@@ -798,13 +674,10 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: -13, y: 16}
-        - {x: -13, y: -16}
-        - {x: 14, y: -16}
-        - {x: 14, y: 7}
-        - {x: 10, y: 16}
-    - name: BiShop_39
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: BiShop_39
       rect:
         serializedVersion: 2
         x: 96
@@ -814,16 +687,10 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: -6, y: 16}
-        - {x: -13, y: 12}
-        - {x: -14, y: -5}
-        - {x: -14, y: -16}
-        - {x: 14, y: -16}
-        - {x: 15, y: -13}
-        - {x: 15, y: 2}
-        - {x: 8, y: 16}
-    - name: BiShop_40
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: BiShop_40
       rect:
         serializedVersion: 2
         x: 128
@@ -833,16 +700,10 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: 8, y: 16}
-        - {x: -6, y: 16}
-        - {x: -9, y: 14}
-        - {x: -13, y: -2}
-        - {x: -13, y: -16}
-        - {x: 14, y: -16}
-        - {x: 14, y: 3}
-        - {x: 13, y: 12}
-    - name: BiShop_41
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: BiShop_41
       rect:
         serializedVersion: 2
         x: 160
@@ -852,15 +713,10 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: -8, y: 16}
-        - {x: -14, y: 3}
-        - {x: -14, y: -13}
-        - {x: -13, y: -16}
-        - {x: 15, y: -16}
-        - {x: 15, y: 13}
-        - {x: 9, y: 16}
-    - name: BiShop_42
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: BiShop_42
       rect:
         serializedVersion: 2
         x: 192
@@ -870,16 +726,10 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: 9, y: 16}
-        - {x: -7, y: 16}
-        - {x: -12, y: 7}
-        - {x: -12, y: -16}
-        - {x: 11, y: -16}
-        - {x: 14, y: -13}
-        - {x: 14, y: -3}
-        - {x: 12, y: 14}
-    - name: BiShop_43
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: BiShop_43
       rect:
         serializedVersion: 2
         x: 224
@@ -889,16 +739,10 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: -9, y: 16}
-        - {x: -12, y: 7}
-        - {x: -12, y: -12}
-        - {x: -9, y: -16}
-        - {x: 11, y: -16}
-        - {x: 13, y: -15}
-        - {x: 13, y: 13}
-        - {x: 8, y: 16}
-    - name: BiShop_44
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: BiShop_44
       rect:
         serializedVersion: 2
         x: 256
@@ -908,18 +752,10 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: 8, y: 16}
-        - {x: -5, y: 16}
-        - {x: -10, y: 13}
-        - {x: -13, y: 6}
-        - {x: -13, y: -11}
-        - {x: -12, y: -16}
-        - {x: 11, y: -16}
-        - {x: 13, y: -13}
-        - {x: 13, y: 5}
-        - {x: 11, y: 13}
-    - name: BiShop_45
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: BiShop_45
       rect:
         serializedVersion: 2
         x: 288
@@ -929,15 +765,10 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: 6, y: 16}
-        - {x: -7, y: 16}
-        - {x: -11, y: 11}
-        - {x: -11, y: -16}
-        - {x: 10, y: -16}
-        - {x: 12, y: -14}
-        - {x: 12, y: 12}
-    - name: BiShop_46
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: BiShop_46
       rect:
         serializedVersion: 2
         x: 320
@@ -947,15 +778,10 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: -8, y: 16}
-        - {x: -12, y: 15}
-        - {x: -12, y: -12}
-        - {x: -10, y: -16}
-        - {x: 10, y: -16}
-        - {x: 13, y: -15}
-        - {x: 13, y: 16}
-    - name: BiShop_47
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: BiShop_47
       rect:
         serializedVersion: 2
         x: 352
@@ -965,14 +791,10 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: -11, y: -16}
-        - {x: 12, y: -16}
-        - {x: 12, y: 10}
-        - {x: 10, y: 16}
-        - {x: -10, y: 16}
-        - {x: -11, y: 13}
-    - name: BiShop_48
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: BiShop_48
       rect:
         serializedVersion: 2
         x: 0
@@ -982,16 +804,10 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: 10, y: 16}
-        - {x: -12, y: 16}
-        - {x: -13, y: 13}
-        - {x: -13, y: -16}
-        - {x: 13, y: -16}
-        - {x: 14, y: -8}
-        - {x: 14, y: 4}
-        - {x: 13, y: 14}
-    - name: BiShop_49
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: BiShop_49
       rect:
         serializedVersion: 2
         x: 32
@@ -1001,13 +817,10 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: -13, y: -16}
-        - {x: 14, y: -16}
-        - {x: 14, y: 16}
-        - {x: -10, y: 16}
-        - {x: -13, y: 10}
-    - name: BiShop_50
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: BiShop_50
       rect:
         serializedVersion: 2
         x: 64
@@ -1017,15 +830,10 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: -10, y: 16}
-        - {x: -13, y: 15}
-        - {x: -13, y: -13}
-        - {x: -12, y: -16}
-        - {x: 14, y: -16}
-        - {x: 14, y: 9}
-        - {x: 11, y: 16}
-    - name: BiShop_51
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: BiShop_51
       rect:
         serializedVersion: 2
         x: 96
@@ -1035,16 +843,10 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: 7, y: 16}
-        - {x: -8, y: 16}
-        - {x: -13, y: 7}
-        - {x: -13, y: -16}
-        - {x: 13, y: -16}
-        - {x: 15, y: -14}
-        - {x: 15, y: 5}
-        - {x: 13, y: 12}
-    - name: BiShop_52
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: BiShop_52
       rect:
         serializedVersion: 2
         x: 128
@@ -1054,14 +856,10 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: -12, y: 16}
-        - {x: -13, y: 5}
-        - {x: -13, y: -16}
-        - {x: 14, y: -16}
-        - {x: 14, y: 3}
-        - {x: 9, y: 16}
-    - name: BiShop_53
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: BiShop_53
       rect:
         serializedVersion: 2
         x: 160
@@ -1071,18 +869,10 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: 7, y: 16}
-        - {x: -5, y: 16}
-        - {x: -11, y: 11}
-        - {x: -14, y: -8}
-        - {x: -14, y: -10}
-        - {x: -12, y: -16}
-        - {x: 12, y: -16}
-        - {x: 14, y: -14}
-        - {x: 14, y: 4}
-        - {x: 12, y: 11}
-    - name: BiShop_54
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: BiShop_54
       rect:
         serializedVersion: 2
         x: 192
@@ -1092,18 +882,10 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: 7, y: 16}
-        - {x: -7, y: 16}
-        - {x: -11, y: 14}
-        - {x: -13, y: 2}
-        - {x: -13, y: -14}
-        - {x: -11, y: -16}
-        - {x: 11, y: -16}
-        - {x: 13, y: -14}
-        - {x: 13, y: -2}
-        - {x: 12, y: 14}
-    - name: BiShop_55
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: BiShop_55
       rect:
         serializedVersion: 2
         x: 224
@@ -1113,15 +895,10 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: -11, y: 16}
-        - {x: -12, y: 13}
-        - {x: -12, y: -16}
-        - {x: 12, y: -16}
-        - {x: 13, y: -14}
-        - {x: 13, y: 6}
-        - {x: 7, y: 16}
-    - name: BiShop_56
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: BiShop_56
       rect:
         serializedVersion: 2
         x: 256
@@ -1131,15 +908,10 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: 6, y: 16}
-        - {x: -8, y: 16}
-        - {x: -12, y: 14}
-        - {x: -12, y: -16}
-        - {x: 14, y: -16}
-        - {x: 14, y: 6}
-        - {x: 11, y: 13}
-    - name: BiShop_57
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: BiShop_57
       rect:
         serializedVersion: 2
         x: 288
@@ -1149,15 +921,10 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: 9, y: 16}
-        - {x: -7, y: 16}
-        - {x: -12, y: 15}
-        - {x: -12, y: -16}
-        - {x: 14, y: -16}
-        - {x: 14, y: -1}
-        - {x: 12, y: 10}
-    - name: BiShop_58
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: BiShop_58
       rect:
         serializedVersion: 2
         x: 320
@@ -1167,19 +934,10 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: 12, y: 16}
-        - {x: -8, y: 16}
-        - {x: -9, y: 14}
-        - {x: -11, y: 7}
-        - {x: -13, y: -3}
-        - {x: -13, y: -10}
-        - {x: -8, y: -16}
-        - {x: 8, y: -16}
-        - {x: 14, y: -11}
-        - {x: 14, y: 0}
-        - {x: 12, y: 8}
-    - name: BiShop_59
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: BiShop_59
       rect:
         serializedVersion: 2
         x: 352
@@ -1189,14 +947,10 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: -8, y: 16}
-        - {x: -13, y: 15}
-        - {x: -13, y: -16}
-        - {x: 13, y: -16}
-        - {x: 13, y: 9}
-        - {x: 7, y: 16}
-    - name: BiShop_60
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: BiShop_60
       rect:
         serializedVersion: 2
         x: 0
@@ -1206,15 +960,10 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: -5, y: 16}
-        - {x: -12, y: 10}
-        - {x: -13, y: -8}
-        - {x: -13, y: -16}
-        - {x: 12, y: -16}
-        - {x: 12, y: 10}
-        - {x: 8, y: 16}
-    - name: BiShop_61
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: BiShop_61
       rect:
         serializedVersion: 2
         x: 32
@@ -1224,14 +973,10 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: -6, y: 16}
-        - {x: -12, y: 11}
-        - {x: -12, y: -16}
-        - {x: 11, y: -16}
-        - {x: 11, y: 13}
-        - {x: 8, y: 16}
-    - name: BiShop_62
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: BiShop_62
       rect:
         serializedVersion: 2
         x: 64
@@ -1241,16 +986,10 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: -5, y: 16}
-        - {x: -7, y: 15}
-        - {x: -11, y: 10}
-        - {x: -12, y: -6}
-        - {x: -12, y: -16}
-        - {x: 11, y: -16}
-        - {x: 11, y: 11}
-        - {x: 8, y: 16}
-    - name: BiShop_63
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: BiShop_63
       rect:
         serializedVersion: 2
         x: 96
@@ -1260,14 +999,10 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: -8, y: 16}
-        - {x: -13, y: 6}
-        - {x: -13, y: -16}
-        - {x: 12, y: -16}
-        - {x: 11, y: 12}
-        - {x: 7, y: 16}
-    - name: BiShop_64
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: BiShop_64
       rect:
         serializedVersion: 2
         x: 128
@@ -1277,14 +1012,10 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: -10, y: 16}
-        - {x: -14, y: 0}
-        - {x: -14, y: -16}
-        - {x: 13, y: -16}
-        - {x: 13, y: 4}
-        - {x: 10, y: 16}
-    - name: BiShop_65
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: BiShop_65
       rect:
         serializedVersion: 2
         x: 160
@@ -1294,15 +1025,10 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: -6, y: 16}
-        - {x: -12, y: 11}
-        - {x: -15, y: -8}
-        - {x: -15, y: -16}
-        - {x: 12, y: -16}
-        - {x: 12, y: 12}
-        - {x: 8, y: 16}
-    - name: BiShop_66
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: BiShop_66
       rect:
         serializedVersion: 2
         x: 192
@@ -1312,14 +1038,10 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: -8, y: 16}
-        - {x: -13, y: 12}
-        - {x: -14, y: -16}
-        - {x: 11, y: -16}
-        - {x: 11, y: 9}
-        - {x: 4, y: 16}
-    - name: BiShop_67
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: BiShop_67
       rect:
         serializedVersion: 2
         x: 224
@@ -1329,14 +1051,10 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: -8, y: 16}
-        - {x: -10, y: 15}
-        - {x: -10, y: -16}
-        - {x: 12, y: -16}
-        - {x: 12, y: 11}
-        - {x: 8, y: 16}
-    - name: BiShop_68
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: BiShop_68
       rect:
         serializedVersion: 2
         x: 256
@@ -1346,13 +1064,10 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: -10, y: 16}
-        - {x: -12, y: -16}
-        - {x: 12, y: -16}
-        - {x: 12, y: 13}
-        - {x: 7, y: 16}
-    - name: BiShop_69
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: BiShop_69
       rect:
         serializedVersion: 2
         x: 288
@@ -1362,13 +1077,10 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: -11, y: 16}
-        - {x: -11, y: -16}
-        - {x: 12, y: -16}
-        - {x: 12, y: 14}
-        - {x: 7, y: 16}
-    - name: BiShop_70
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: BiShop_70
       rect:
         serializedVersion: 2
         x: 320
@@ -1378,13 +1090,10 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: -11, y: 16}
-        - {x: -11, y: -15}
-        - {x: -10, y: -16}
-        - {x: 11, y: -16}
-        - {x: 11, y: 16}
-    - name: BiShop_71
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: BiShop_71
       rect:
         serializedVersion: 2
         x: 352
@@ -1394,16 +1103,10 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: -7, y: 16}
-        - {x: -12, y: 11}
-        - {x: -12, y: -12}
-        - {x: -7, y: -16}
-        - {x: 6, y: -16}
-        - {x: 9, y: -14}
-        - {x: 9, y: 14}
-        - {x: 7, y: 16}
-    - name: BiShop_72
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: BiShop_72
       rect:
         serializedVersion: 2
         x: 0
@@ -1413,14 +1116,10 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: -8, y: 16}
-        - {x: -12, y: 9}
-        - {x: -12, y: -16}
-        - {x: 13, y: -16}
-        - {x: 13, y: 11}
-        - {x: 8, y: 16}
-    - name: BiShop_73
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: BiShop_73
       rect:
         serializedVersion: 2
         x: 32
@@ -1430,14 +1129,10 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: -8, y: 16}
-        - {x: -11, y: 12}
-        - {x: -11, y: -16}
-        - {x: 12, y: -16}
-        - {x: 12, y: 11}
-        - {x: 6, y: 16}
-    - name: BiShop_74
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: BiShop_74
       rect:
         serializedVersion: 2
         x: 64
@@ -1447,14 +1142,10 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: -8, y: 16}
-        - {x: -11, y: 12}
-        - {x: -11, y: -16}
-        - {x: 12, y: -16}
-        - {x: 12, y: 12}
-        - {x: 8, y: 16}
-    - name: BiShop_75
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: BiShop_75
       rect:
         serializedVersion: 2
         x: 96
@@ -1464,16 +1155,10 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: -6, y: 16}
-        - {x: -11, y: 12}
-        - {x: -12, y: -3}
-        - {x: -12, y: -16}
-        - {x: 13, y: -16}
-        - {x: 13, y: -2}
-        - {x: 12, y: 10}
-        - {x: 6, y: 16}
-    - name: BiShop_76
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: BiShop_76
       rect:
         serializedVersion: 2
         x: 128
@@ -1483,14 +1168,10 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: -10, y: 16}
-        - {x: -13, y: 7}
-        - {x: -13, y: -16}
-        - {x: 14, y: -16}
-        - {x: 14, y: -14}
-        - {x: 11, y: 16}
-    - name: BiShop_77
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: BiShop_77
       rect:
         serializedVersion: 2
         x: 160
@@ -1500,15 +1181,10 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: -6, y: 16}
-        - {x: -12, y: 12}
-        - {x: -12, y: -16}
-        - {x: 15, y: -16}
-        - {x: 15, y: -11}
-        - {x: 12, y: 11}
-        - {x: 7, y: 16}
-    - name: BiShop_78
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: BiShop_78
       rect:
         serializedVersion: 2
         x: 192
@@ -1518,14 +1194,10 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: -13, y: -16}
-        - {x: 12, y: -16}
-        - {x: 12, y: 12}
-        - {x: 9, y: 16}
-        - {x: -7, y: 16}
-        - {x: -13, y: 14}
-    - name: BiShop_79
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: BiShop_79
       rect:
         serializedVersion: 2
         x: 224
@@ -1535,14 +1207,10 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: -8, y: 16}
-        - {x: -12, y: 8}
-        - {x: -12, y: -16}
-        - {x: 10, y: -16}
-        - {x: 10, y: 13}
-        - {x: 7, y: 16}
-    - name: BiShop_80
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: BiShop_80
       rect:
         serializedVersion: 2
         x: 256
@@ -1552,15 +1220,10 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: -5, y: 16}
-        - {x: -12, y: 12}
-        - {x: -12, y: -16}
-        - {x: 12, y: -16}
-        - {x: 12, y: -10}
-        - {x: 10, y: 11}
-        - {x: 6, y: 16}
-    - name: BiShop_81
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: BiShop_81
       rect:
         serializedVersion: 2
         x: 288
@@ -1570,14 +1233,10 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: -5, y: 16}
-        - {x: -9, y: 14}
-        - {x: -9, y: -16}
-        - {x: 14, y: -16}
-        - {x: 14, y: 15}
-        - {x: 13, y: 16}
-    - name: BiShop_82
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: BiShop_82
       rect:
         serializedVersion: 2
         x: 320
@@ -1587,15 +1246,10 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: -5, y: 16}
-        - {x: -6, y: 13}
-        - {x: -8, y: 6}
-        - {x: -8, y: -16}
-        - {x: 13, y: -16}
-        - {x: 14, y: -14}
-        - {x: 14, y: 16}
-    - name: BiShop_83
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: BiShop_83
       rect:
         serializedVersion: 2
         x: 352
@@ -1605,16 +1259,10 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: -5, y: 16}
-        - {x: -6, y: 15}
-        - {x: -6, y: -16}
-        - {x: 12, y: -16}
-        - {x: 15, y: -15}
-        - {x: 15, y: 10}
-        - {x: 12, y: 16}
+      outline: []
+      tessellationDetail: -1
     outline: []
-  spritePackingTag: 
+  spritePackingTag: ClassCharacter
   userData: 
   assetBundleName: 
   assetBundleVariant: 

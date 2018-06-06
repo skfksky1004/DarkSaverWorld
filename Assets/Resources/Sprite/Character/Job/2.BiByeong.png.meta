@@ -88,12 +88,12 @@ TextureImporter:
     21300162: Ghost_Right_00
     21300164: Ghost_Right_01
     21300166: Ghost_Right_02
-  serializedVersion: 2
+  serializedVersion: 4
   mipmaps:
     mipMapMode: 0
     enableMipMap: 1
+    sRGBTexture: 1
     linearTexture: 0
-    correctGamma: 0
     fadeOut: 0
     borderMipMap: 0
     mipMapFadeDistanceStart: 1
@@ -105,10 +105,8 @@ TextureImporter:
     normalMapFilter: 0
   isReadable: 0
   grayScaleToAlpha: 0
-  generateCubemap: 0
+  generateCubemap: 6
   cubemapConvolution: 0
-  cubemapConvolutionSteps: 7
-  cubemapConvolutionExponent: 1.5
   seamlessCubemap: 0
   textureFormat: -2
   maxTextureSize: 512
@@ -119,9 +117,7 @@ TextureImporter:
     wrapMode: 1
   nPOTScale: 0
   lightmap: 0
-  rGBM: 0
   compressionQuality: 50
-  allowsAlphaSplitting: 0
   spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
@@ -129,12 +125,52 @@ TextureImporter:
   spritePivot: {x: 0.5, y: 0.5}
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spritePixelsToUnits: 32
+  alphaUsage: 1
   alphaIsTransparency: 1
+  spriteTessellationDetail: -1
   textureType: 8
-  buildTargetSettings: []
+  textureShape: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - buildTarget: DefaultTexturePlatform
+    maxTextureSize: 512
+    textureFormat: 2
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: Standalone
+    maxTextureSize: 512
+    textureFormat: 2
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: Android
+    maxTextureSize: 512
+    textureFormat: 2
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: Windows Store Apps
+    maxTextureSize: 512
+    textureFormat: 2
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
   spriteSheet:
+    serializedVersion: 2
     sprites:
-    - name: HwakKnight_Back_00
+    - serializedVersion: 2
+      name: HwakKnight_Back_00
       rect:
         serializedVersion: 2
         x: 96
@@ -144,13 +180,10 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: -16, y: 16}
-        - {x: -16, y: -10}
-        - {x: -10, y: -16}
-        - {x: 16, y: -16}
-        - {x: 16, y: 16}
-    - name: HwakKnight_Back_01
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: HwakKnight_Back_01
       rect:
         serializedVersion: 2
         x: 128
@@ -160,17 +193,10 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: 7, y: 16}
-        - {x: -8, y: 16}
-        - {x: -16, y: 7}
-        - {x: -16, y: -6}
-        - {x: -7, y: -15}
-        - {x: 8, y: -15}
-        - {x: 16, y: -9}
-        - {x: 16, y: 5}
-        - {x: 15, y: 9}
-    - name: HwakKnight_Back_02
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: HwakKnight_Back_02
       rect:
         serializedVersion: 2
         x: 160
@@ -180,15 +206,10 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: -9, y: 16}
-        - {x: -14, y: 14}
-        - {x: -16, y: 5}
-        - {x: -16, y: -16}
-        - {x: 16, y: -16}
-        - {x: 16, y: 4}
-        - {x: 8, y: 16}
-    - name: PegasosKnight_Back_00
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: PegasosKnight_Back_00
       rect:
         serializedVersion: 2
         x: 192
@@ -198,21 +219,10 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: 11, y: 16}
-        - {x: 11, y: 9}
-        - {x: 9, y: 5}
-        - {x: 8, y: 6}
-        - {x: 10, y: 9}
-        - {x: 11, y: 13}
-        - {x: 9, y: 16}
-        - {x: -16, y: 16}
-        - {x: -16, y: -7}
-        - {x: -12, y: -16}
-        - {x: 14, y: -16}
-        - {x: 16, y: -11}
-        - {x: 16, y: 16}
-    - name: PegasosKnight_Back_01
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: PegasosKnight_Back_01
       rect:
         serializedVersion: 2
         x: 224
@@ -222,16 +232,10 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: 12, y: 16}
-        - {x: -8, y: 16}
-        - {x: -11, y: 8}
-        - {x: -16, y: -11}
-        - {x: -16, y: -16}
-        - {x: 16, y: -16}
-        - {x: 16, y: 1}
-        - {x: 14, y: 15}
-    - name: PegasosKnight_Back_02
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: PegasosKnight_Back_02
       rect:
         serializedVersion: 2
         x: 256
@@ -241,21 +245,10 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: 11, y: 16}
-        - {x: 11, y: 9}
-        - {x: 9, y: 5}
-        - {x: 8, y: 6}
-        - {x: 10, y: 9}
-        - {x: 11, y: 13}
-        - {x: 9, y: 16}
-        - {x: -16, y: 16}
-        - {x: -16, y: -7}
-        - {x: -12, y: -16}
-        - {x: 14, y: -16}
-        - {x: 16, y: -11}
-        - {x: 16, y: 16}
-    - name: UnicornKnight_Back_00
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: UnicornKnight_Back_00
       rect:
         serializedVersion: 2
         x: 288
@@ -265,21 +258,10 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: 11, y: 16}
-        - {x: 11, y: 9}
-        - {x: 9, y: 5}
-        - {x: 8, y: 6}
-        - {x: 10, y: 9}
-        - {x: 11, y: 13}
-        - {x: 9, y: 16}
-        - {x: -16, y: 16}
-        - {x: -16, y: -7}
-        - {x: -12, y: -16}
-        - {x: 14, y: -16}
-        - {x: 16, y: -11}
-        - {x: 16, y: 16}
-    - name: UnicornKnight_Back_01
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: UnicornKnight_Back_01
       rect:
         serializedVersion: 2
         x: 320
@@ -289,16 +271,10 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: 12, y: 16}
-        - {x: -8, y: 16}
-        - {x: -11, y: 8}
-        - {x: -16, y: -11}
-        - {x: -16, y: -16}
-        - {x: 16, y: -16}
-        - {x: 16, y: 1}
-        - {x: 14, y: 15}
-    - name: UnicornKnight_Back_02
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: UnicornKnight_Back_02
       rect:
         serializedVersion: 2
         x: 352
@@ -308,21 +284,10 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: 11, y: 16}
-        - {x: 11, y: 9}
-        - {x: 9, y: 5}
-        - {x: 8, y: 6}
-        - {x: 10, y: 9}
-        - {x: 11, y: 13}
-        - {x: 9, y: 16}
-        - {x: -16, y: 16}
-        - {x: -16, y: -7}
-        - {x: -12, y: -16}
-        - {x: 14, y: -16}
-        - {x: 16, y: -11}
-        - {x: 16, y: 16}
-    - name: HwakKnight_Forward_00
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: HwakKnight_Forward_00
       rect:
         serializedVersion: 2
         x: 96
@@ -332,14 +297,10 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: -16, y: 16}
-        - {x: -16, y: -8}
-        - {x: -13, y: -15}
-        - {x: -12, y: -16}
-        - {x: 16, y: -16}
-        - {x: 16, y: 16}
-    - name: HwakKnight_Forward_01
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: HwakKnight_Forward_01
       rect:
         serializedVersion: 2
         x: 128
@@ -349,16 +310,10 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: -10, y: 16}
-        - {x: -16, y: 3}
-        - {x: -16, y: -11}
-        - {x: -12, y: -16}
-        - {x: 12, y: -16}
-        - {x: 16, y: -11}
-        - {x: 16, y: 5}
-        - {x: 13, y: 16}
-    - name: HwakKnight_Forward_02
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: HwakKnight_Forward_02
       rect:
         serializedVersion: 2
         x: 160
@@ -368,16 +323,10 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: -7, y: 16}
-        - {x: -12, y: 15}
-        - {x: -16, y: 6}
-        - {x: -16, y: -14}
-        - {x: -15, y: -16}
-        - {x: 16, y: -16}
-        - {x: 16, y: 6}
-        - {x: 10, y: 16}
-    - name: PegasosKnight_Forward_00
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: PegasosKnight_Forward_00
       rect:
         serializedVersion: 2
         x: 192
@@ -387,13 +336,10 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: -16, y: 16}
-        - {x: -16, y: -6}
-        - {x: -11, y: -16}
-        - {x: 16, y: -16}
-        - {x: 16, y: 16}
-    - name: PegasosKnight_Forward_01
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: PegasosKnight_Forward_01
       rect:
         serializedVersion: 2
         x: 224
@@ -403,15 +349,10 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: -8, y: 16}
-        - {x: -11, y: 11}
-        - {x: -16, y: -12}
-        - {x: -16, y: -16}
-        - {x: 16, y: -16}
-        - {x: 16, y: 1}
-        - {x: 14, y: 16}
-    - name: PegasosKnight_Forward_02
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: PegasosKnight_Forward_02
       rect:
         serializedVersion: 2
         x: 256
@@ -421,13 +362,10 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: -16, y: 16}
-        - {x: -16, y: -7}
-        - {x: -11, y: -16}
-        - {x: 16, y: -16}
-        - {x: 16, y: 16}
-    - name: UnicornKnight_Forward_00
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: UnicornKnight_Forward_00
       rect:
         serializedVersion: 2
         x: 288
@@ -437,13 +375,10 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: -16, y: 16}
-        - {x: -16, y: -6}
-        - {x: -11, y: -16}
-        - {x: 16, y: -16}
-        - {x: 16, y: 16}
-    - name: UnicornKnight_Forward_01
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: UnicornKnight_Forward_01
       rect:
         serializedVersion: 2
         x: 320
@@ -453,15 +388,10 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: -8, y: 16}
-        - {x: -11, y: 11}
-        - {x: -16, y: -12}
-        - {x: -16, y: -16}
-        - {x: 16, y: -16}
-        - {x: 16, y: 1}
-        - {x: 14, y: 16}
-    - name: UnicornKnight_Forward_02
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: UnicornKnight_Forward_02
       rect:
         serializedVersion: 2
         x: 352
@@ -471,13 +401,10 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: -16, y: 16}
-        - {x: -16, y: -7}
-        - {x: -11, y: -16}
-        - {x: 16, y: -16}
-        - {x: 16, y: 16}
-    - name: HwakKnight_Left_00
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: HwakKnight_Left_00
       rect:
         serializedVersion: 2
         x: 96
@@ -487,13 +414,10 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: -16, y: 16}
-        - {x: -16, y: -16}
-        - {x: 16, y: -16}
-        - {x: 16, y: 7}
-        - {x: 10, y: 16}
-    - name: HwakKnight_Left_01
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: HwakKnight_Left_01
       rect:
         serializedVersion: 2
         x: 128
@@ -503,16 +427,10 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: 8, y: 16}
-        - {x: -11, y: 16}
-        - {x: -16, y: 8}
-        - {x: -16, y: -14}
-        - {x: 9, y: -14}
-        - {x: 16, y: -11}
-        - {x: 16, y: 4}
-        - {x: 12, y: 14}
-    - name: HwakKnight_Left_02
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: HwakKnight_Left_02
       rect:
         serializedVersion: 2
         x: 160
@@ -522,15 +440,10 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: -7, y: 16}
-        - {x: -16, y: 7}
-        - {x: -16, y: -16}
-        - {x: 14, y: -16}
-        - {x: 16, y: -12}
-        - {x: 16, y: 6}
-        - {x: 7, y: 16}
-    - name: PegasosKnight_Left_00
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: PegasosKnight_Left_00
       rect:
         serializedVersion: 2
         x: 192
@@ -540,14 +453,10 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: -16, y: 16}
-        - {x: -16, y: -16}
-        - {x: 15, y: -16}
-        - {x: 16, y: -9}
-        - {x: 16, y: 9}
-        - {x: 14, y: 16}
-    - name: PegasosKnight_Left_01
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: PegasosKnight_Left_01
       rect:
         serializedVersion: 2
         x: 224
@@ -557,14 +466,10 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: -9, y: 16}
-        - {x: -16, y: 3}
-        - {x: -16, y: -16}
-        - {x: 16, y: -16}
-        - {x: 16, y: 12}
-        - {x: 14, y: 16}
-    - name: PegasosKnight_Left_02
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: PegasosKnight_Left_02
       rect:
         serializedVersion: 2
         x: 256
@@ -574,15 +479,10 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: -7, y: 16}
-        - {x: -16, y: 3}
-        - {x: -16, y: -16}
-        - {x: 13, y: -16}
-        - {x: 16, y: -13}
-        - {x: 16, y: 8}
-        - {x: 13, y: 16}
-    - name: UnicornKnight_Left_00
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: UnicornKnight_Left_00
       rect:
         serializedVersion: 2
         x: 288
@@ -592,14 +492,10 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: -16, y: 16}
-        - {x: -16, y: -16}
-        - {x: 11, y: -16}
-        - {x: 16, y: -9}
-        - {x: 16, y: 14}
-        - {x: 10, y: 16}
-    - name: UnicornKnight_Left_01
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: UnicornKnight_Left_01
       rect:
         serializedVersion: 2
         x: 320
@@ -609,14 +505,10 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: -15, y: 16}
-        - {x: -16, y: 9}
-        - {x: -16, y: -16}
-        - {x: 16, y: -16}
-        - {x: 16, y: 15}
-        - {x: 13, y: 16}
-    - name: UnicornKnight_Left_02
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: UnicornKnight_Left_02
       rect:
         serializedVersion: 2
         x: 352
@@ -626,15 +518,10 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: -7, y: 16}
-        - {x: -16, y: 6}
-        - {x: -16, y: -16}
-        - {x: 13, y: -16}
-        - {x: 16, y: -14}
-        - {x: 16, y: 11}
-        - {x: 13, y: 16}
-    - name: HwakKnight_Right_00
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: HwakKnight_Right_00
       rect:
         serializedVersion: 2
         x: 96
@@ -644,14 +531,10 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: -10, y: 16}
-        - {x: -16, y: 4}
-        - {x: -16, y: -12}
-        - {x: -1, y: -16}
-        - {x: 16, y: -16}
-        - {x: 16, y: 16}
-    - name: HwakKnight_Right_01
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: HwakKnight_Right_01
       rect:
         serializedVersion: 2
         x: 128
@@ -661,14 +544,10 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: -9, y: 16}
-        - {x: -16, y: 8}
-        - {x: -16, y: -14}
-        - {x: 16, y: -14}
-        - {x: 16, y: 6}
-        - {x: 12, y: 16}
-    - name: HwakKnight_Right_02
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: HwakKnight_Right_02
       rect:
         serializedVersion: 2
         x: 160
@@ -678,15 +557,10 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: -10, y: 16}
-        - {x: -16, y: 12}
-        - {x: -16, y: -16}
-        - {x: 13, y: -16}
-        - {x: 16, y: -9}
-        - {x: 16, y: 11}
-        - {x: 12, y: 16}
-    - name: PegasosKnight_Right_00
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: PegasosKnight_Right_00
       rect:
         serializedVersion: 2
         x: 192
@@ -696,14 +570,10 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: -15, y: 16}
-        - {x: -16, y: 11}
-        - {x: -16, y: -10}
-        - {x: -9, y: -16}
-        - {x: 16, y: -16}
-        - {x: 16, y: 16}
-    - name: PegasosKnight_Right_01
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: PegasosKnight_Right_01
       rect:
         serializedVersion: 2
         x: 224
@@ -713,14 +583,10 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: -9, y: 16}
-        - {x: -16, y: 14}
-        - {x: -16, y: -16}
-        - {x: 16, y: -16}
-        - {x: 16, y: 4}
-        - {x: 9, y: 16}
-    - name: PegasosKnight_Right_02
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: PegasosKnight_Right_02
       rect:
         serializedVersion: 2
         x: 256
@@ -730,15 +596,10 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: 8, y: 16}
-        - {x: -11, y: 16}
-        - {x: -16, y: 12}
-        - {x: -16, y: -16}
-        - {x: 16, y: -16}
-        - {x: 16, y: 8}
-        - {x: 12, y: 15}
-    - name: UnicornKnight_Right_00
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: UnicornKnight_Right_00
       rect:
         serializedVersion: 2
         x: 288
@@ -748,15 +609,10 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: -7, y: 16}
-        - {x: -16, y: 11}
-        - {x: -16, y: -7}
-        - {x: -10, y: -16}
-        - {x: 16, y: -16}
-        - {x: 16, y: 14}
-        - {x: 14, y: 16}
-    - name: UnicornKnight_Right_01
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: UnicornKnight_Right_01
       rect:
         serializedVersion: 2
         x: 320
@@ -766,14 +622,10 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: -8, y: 16}
-        - {x: -16, y: 12}
-        - {x: -16, y: -16}
-        - {x: 16, y: -16}
-        - {x: 16, y: 3}
-        - {x: 5, y: 16}
-    - name: UnicornKnight_Right_02
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: UnicornKnight_Right_02
       rect:
         serializedVersion: 2
         x: 352
@@ -783,15 +635,10 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: -14, y: 16}
-        - {x: -16, y: 15}
-        - {x: -16, y: -13}
-        - {x: -10, y: -16}
-        - {x: 16, y: -16}
-        - {x: 16, y: 6}
-        - {x: 7, y: 16}
-    - name: DragonKnight_back_00
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: DragonKnight_back_00
       rect:
         serializedVersion: 2
         x: 0
@@ -801,13 +648,10 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: -16, y: 16}
-        - {x: -16, y: -9}
-        - {x: -9, y: -16}
-        - {x: 16, y: -16}
-        - {x: 16, y: 16}
-    - name: DragonKnight_back_01
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: DragonKnight_back_01
       rect:
         serializedVersion: 2
         x: 32
@@ -817,17 +661,10 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: 10, y: 16}
-        - {x: -10, y: 16}
-        - {x: -16, y: 8}
-        - {x: -16, y: -5}
-        - {x: -9, y: -15}
-        - {x: 12, y: -15}
-        - {x: 16, y: -6}
-        - {x: 16, y: 9}
-        - {x: 12, y: 15}
-    - name: DragonKnight_back_02
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: DragonKnight_back_02
       rect:
         serializedVersion: 2
         x: 64
@@ -837,16 +674,10 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: -7, y: 16}
-        - {x: -15, y: 6}
-        - {x: -15, y: -7}
-        - {x: -12, y: -16}
-        - {x: 14, y: -16}
-        - {x: 16, y: -12}
-        - {x: 16, y: 5}
-        - {x: 9, y: 16}
-    - name: DragonLoad_Back_00
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: DragonLoad_Back_00
       rect:
         serializedVersion: 2
         x: 96
@@ -856,14 +687,10 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: -16, y: 16}
-        - {x: -16, y: -16}
-        - {x: 13, y: -16}
-        - {x: 16, y: -8}
-        - {x: 16, y: 12}
-        - {x: 15, y: 16}
-    - name: DragonLoad_Back_01
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: DragonLoad_Back_01
       rect:
         serializedVersion: 2
         x: 128
@@ -873,17 +700,10 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: -11, y: 16}
-        - {x: -16, y: 11}
-        - {x: -16, y: -8}
-        - {x: -12, y: -15}
-        - {x: 5, y: -15}
-        - {x: 15, y: -9}
-        - {x: 16, y: -6}
-        - {x: 16, y: 7}
-        - {x: 9, y: 16}
-    - name: DragonLoad_Back_02
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: DragonLoad_Back_02
       rect:
         serializedVersion: 2
         x: 160
@@ -893,16 +713,10 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: -11, y: 16}
-        - {x: -16, y: 10}
-        - {x: -16, y: -11}
-        - {x: -13, y: -16}
-        - {x: 12, y: -16}
-        - {x: 15, y: -8}
-        - {x: 15, y: 7}
-        - {x: 8, y: 16}
-    - name: DragonMaster_Back_00
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: DragonMaster_Back_00
       rect:
         serializedVersion: 2
         x: 192
@@ -912,13 +726,10 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: -16, y: 16}
-        - {x: -16, y: -8}
-        - {x: -14, y: -16}
-        - {x: 16, y: -16}
-        - {x: 16, y: 16}
-    - name: DragonMaster_Back_01
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: DragonMaster_Back_01
       rect:
         serializedVersion: 2
         x: 224
@@ -928,16 +739,10 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: -13, y: 16}
-        - {x: -16, y: 11}
-        - {x: -16, y: -9}
-        - {x: -9, y: -15}
-        - {x: 11, y: -15}
-        - {x: 16, y: -6}
-        - {x: 16, y: 10}
-        - {x: 10, y: 16}
-    - name: DragonMaster_Back_02
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: DragonMaster_Back_02
       rect:
         serializedVersion: 2
         x: 256
@@ -947,16 +752,10 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: -9, y: 16}
-        - {x: -15, y: 8}
-        - {x: -15, y: -8}
-        - {x: -12, y: -16}
-        - {x: 13, y: -16}
-        - {x: 16, y: -9}
-        - {x: 16, y: 9}
-        - {x: 10, y: 16}
-    - name: Ghost_Back_00
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Ghost_Back_00
       rect:
         serializedVersion: 2
         x: 288
@@ -966,15 +765,10 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: 6, y: 16}
-        - {x: -7, y: 16}
-        - {x: -11, y: 11}
-        - {x: -11, y: -16}
-        - {x: 10, y: -16}
-        - {x: 12, y: -14}
-        - {x: 12, y: 12}
-    - name: Ghost_Back_01
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Ghost_Back_01
       rect:
         serializedVersion: 2
         x: 320
@@ -984,15 +778,10 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: -8, y: 16}
-        - {x: -12, y: 15}
-        - {x: -12, y: -12}
-        - {x: -10, y: -16}
-        - {x: 10, y: -16}
-        - {x: 13, y: -15}
-        - {x: 13, y: 16}
-    - name: Ghost_Back_02
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Ghost_Back_02
       rect:
         serializedVersion: 2
         x: 352
@@ -1002,14 +791,10 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: -11, y: -16}
-        - {x: 12, y: -16}
-        - {x: 12, y: 10}
-        - {x: 10, y: 16}
-        - {x: -10, y: 16}
-        - {x: -11, y: 13}
-    - name: DragonKnight_Forward_00
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: DragonKnight_Forward_00
       rect:
         serializedVersion: 2
         x: 0
@@ -1019,12 +804,10 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: -16, y: 16}
-        - {x: -16, y: -16}
-        - {x: 16, y: -16}
-        - {x: 16, y: 16}
-    - name: DragonKnight_Forward_01
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: DragonKnight_Forward_01
       rect:
         serializedVersion: 2
         x: 32
@@ -1034,16 +817,10 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: -12, y: 16}
-        - {x: -16, y: 9}
-        - {x: -16, y: -10}
-        - {x: -11, y: -16}
-        - {x: 11, y: -16}
-        - {x: 16, y: -13}
-        - {x: 16, y: 15}
-        - {x: 12, y: 16}
-    - name: DragonKnight_Forward_02
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: DragonKnight_Forward_02
       rect:
         serializedVersion: 2
         x: 64
@@ -1053,14 +830,10 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: -11, y: 16}
-        - {x: -16, y: 4}
-        - {x: -16, y: -16}
-        - {x: 16, y: -16}
-        - {x: 16, y: 9}
-        - {x: 9, y: 16}
-    - name: DragonLoad_Forward_00
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: DragonLoad_Forward_00
       rect:
         serializedVersion: 2
         x: 96
@@ -1070,13 +843,10 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: -16, y: 16}
-        - {x: -16, y: -9}
-        - {x: -12, y: -16}
-        - {x: 16, y: -16}
-        - {x: 16, y: 16}
-    - name: DragonLoad_Forward_01
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: DragonLoad_Forward_01
       rect:
         serializedVersion: 2
         x: 128
@@ -1086,16 +856,10 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: 11, y: 16}
-        - {x: -16, y: 16}
-        - {x: -16, y: -10}
-        - {x: -11, y: -16}
-        - {x: 11, y: -16}
-        - {x: 16, y: -11}
-        - {x: 16, y: 1}
-        - {x: 13, y: 13}
-    - name: DragonLoad_Forward_02
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: DragonLoad_Forward_02
       rect:
         serializedVersion: 2
         x: 160
@@ -1105,13 +869,10 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: -16, y: 16}
-        - {x: -16, y: -16}
-        - {x: 16, y: -16}
-        - {x: 16, y: 15}
-        - {x: 13, y: 16}
-    - name: DragonMaster_Forward_00
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: DragonMaster_Forward_00
       rect:
         serializedVersion: 2
         x: 192
@@ -1121,14 +882,10 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: -16, y: 16}
-        - {x: -16, y: -12}
-        - {x: -14, y: -16}
-        - {x: 15, y: -16}
-        - {x: 16, y: -15}
-        - {x: 16, y: 16}
-    - name: DragonMaster_Forward_01
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: DragonMaster_Forward_01
       rect:
         serializedVersion: 2
         x: 224
@@ -1138,17 +895,10 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: -8, y: 16}
-        - {x: -12, y: 13}
-        - {x: -16, y: 3}
-        - {x: -16, y: -8}
-        - {x: -13, y: -16}
-        - {x: 13, y: -16}
-        - {x: 16, y: -11}
-        - {x: 16, y: 5}
-        - {x: 10, y: 16}
-    - name: DragonMaster_Forward_02
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: DragonMaster_Forward_02
       rect:
         serializedVersion: 2
         x: 256
@@ -1158,14 +908,10 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: -9, y: 16}
-        - {x: -16, y: 11}
-        - {x: -16, y: -16}
-        - {x: 16, y: -16}
-        - {x: 16, y: 14}
-        - {x: 15, y: 16}
-    - name: Ghost_Forward_00
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Ghost_Forward_00
       rect:
         serializedVersion: 2
         x: 288
@@ -1175,15 +921,10 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: 9, y: 16}
-        - {x: -7, y: 16}
-        - {x: -12, y: 15}
-        - {x: -12, y: -16}
-        - {x: 14, y: -16}
-        - {x: 14, y: -1}
-        - {x: 12, y: 10}
-    - name: Ghost_Forward_01
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Ghost_Forward_01
       rect:
         serializedVersion: 2
         x: 320
@@ -1193,19 +934,10 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: 12, y: 16}
-        - {x: -8, y: 16}
-        - {x: -9, y: 14}
-        - {x: -11, y: 7}
-        - {x: -13, y: -3}
-        - {x: -13, y: -10}
-        - {x: -8, y: -16}
-        - {x: 8, y: -16}
-        - {x: 14, y: -11}
-        - {x: 14, y: 0}
-        - {x: 12, y: 8}
-    - name: Ghost_Forward_02
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Ghost_Forward_02
       rect:
         serializedVersion: 2
         x: 352
@@ -1215,14 +947,10 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: -8, y: 16}
-        - {x: -13, y: 15}
-        - {x: -13, y: -16}
-        - {x: 13, y: -16}
-        - {x: 13, y: 9}
-        - {x: 7, y: 16}
-    - name: DragonKnight_Left_00
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: DragonKnight_Left_00
       rect:
         serializedVersion: 2
         x: 0
@@ -1232,14 +960,10 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: -16, y: 16}
-        - {x: -16, y: -16}
-        - {x: 11, y: -16}
-        - {x: 16, y: -7}
-        - {x: 16, y: 15}
-        - {x: 15, y: 16}
-    - name: DragonKnight_Left_01
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: DragonKnight_Left_01
       rect:
         serializedVersion: 2
         x: 32
@@ -1249,15 +973,10 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: -10, y: 16}
-        - {x: -16, y: 14}
-        - {x: -16, y: -16}
-        - {x: 15, y: -16}
-        - {x: 16, y: -15}
-        - {x: 16, y: 13}
-        - {x: 12, y: 16}
-    - name: DragonKnight_Left_02
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: DragonKnight_Left_02
       rect:
         serializedVersion: 2
         x: 64
@@ -1267,15 +986,10 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: -9, y: 16}
-        - {x: -16, y: 12}
-        - {x: -16, y: -16}
-        - {x: 10, y: -16}
-        - {x: 16, y: -4}
-        - {x: 16, y: 10}
-        - {x: 8, y: 16}
-    - name: DragonLoad_Left_00
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: DragonLoad_Left_00
       rect:
         serializedVersion: 2
         x: 96
@@ -1285,14 +999,10 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: -16, y: 16}
-        - {x: -16, y: -16}
-        - {x: 14, y: -16}
-        - {x: 16, y: -14}
-        - {x: 16, y: 15}
-        - {x: 15, y: 16}
-    - name: DragonLoad_Left_01
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: DragonLoad_Left_01
       rect:
         serializedVersion: 2
         x: 128
@@ -1302,13 +1012,10 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: -16, y: 16}
-        - {x: -16, y: -16}
-        - {x: 12, y: -16}
-        - {x: 16, y: -10}
-        - {x: 16, y: 16}
-    - name: DragonLoad_Left_02
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: DragonLoad_Left_02
       rect:
         serializedVersion: 2
         x: 160
@@ -1318,20 +1025,10 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: -15, y: 16}
-        - {x: -16, y: 15}
-        - {x: -16, y: 9}
-        - {x: -15, y: 8}
-        - {x: -13, y: 8}
-        - {x: -14, y: 8}
-        - {x: -16, y: 7}
-        - {x: -16, y: -16}
-        - {x: 9, y: -16}
-        - {x: 16, y: -7}
-        - {x: 16, y: 12}
-        - {x: 9, y: 16}
-    - name: DragonMaster_Left_00
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: DragonMaster_Left_00
       rect:
         serializedVersion: 2
         x: 192
@@ -1341,13 +1038,10 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: -16, y: 16}
-        - {x: -16, y: -15}
-        - {x: -11, y: -16}
-        - {x: 16, y: -16}
-        - {x: 16, y: 16}
-    - name: DragonMaster_Left_01
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: DragonMaster_Left_01
       rect:
         serializedVersion: 2
         x: 224
@@ -1357,15 +1051,10 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: -12, y: 16}
-        - {x: -16, y: 8}
-        - {x: -16, y: -16}
-        - {x: 13, y: -16}
-        - {x: 16, y: -13}
-        - {x: 16, y: 13}
-        - {x: 9, y: 16}
-    - name: DragonMaster_Left_02
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: DragonMaster_Left_02
       rect:
         serializedVersion: 2
         x: 256
@@ -1375,15 +1064,10 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: -11, y: 16}
-        - {x: -16, y: 8}
-        - {x: -16, y: -16}
-        - {x: 6, y: -16}
-        - {x: 16, y: -6}
-        - {x: 16, y: 9}
-        - {x: 13, y: 16}
-    - name: Ghost_Left_00
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Ghost_Left_00
       rect:
         serializedVersion: 2
         x: 288
@@ -1393,13 +1077,10 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: -11, y: 16}
-        - {x: -11, y: -16}
-        - {x: 12, y: -16}
-        - {x: 12, y: 14}
-        - {x: 7, y: 16}
-    - name: Ghost_Left_01
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Ghost_Left_01
       rect:
         serializedVersion: 2
         x: 320
@@ -1409,13 +1090,10 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: -11, y: 16}
-        - {x: -11, y: -15}
-        - {x: -10, y: -16}
-        - {x: 11, y: -16}
-        - {x: 11, y: 16}
-    - name: Ghost_Left_02
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Ghost_Left_02
       rect:
         serializedVersion: 2
         x: 352
@@ -1425,16 +1103,10 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: -7, y: 16}
-        - {x: -12, y: 11}
-        - {x: -12, y: -12}
-        - {x: -7, y: -16}
-        - {x: 6, y: -16}
-        - {x: 9, y: -14}
-        - {x: 9, y: 14}
-        - {x: 7, y: 16}
-    - name: DragonKnight_Right_00
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: DragonKnight_Right_00
       rect:
         serializedVersion: 2
         x: 0
@@ -1444,14 +1116,10 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: -16, y: 16}
-        - {x: -16, y: -15}
-        - {x: -15, y: -16}
-        - {x: 12, y: -16}
-        - {x: 16, y: -15}
-        - {x: 16, y: 16}
-    - name: DragonKnight_Right_01
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: DragonKnight_Right_01
       rect:
         serializedVersion: 2
         x: 32
@@ -1461,12 +1129,10 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: -16, y: 16}
-        - {x: -16, y: -16}
-        - {x: 16, y: -16}
-        - {x: 16, y: 16}
-    - name: DragonKnight_Right_02
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: DragonKnight_Right_02
       rect:
         serializedVersion: 2
         x: 64
@@ -1476,15 +1142,10 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: -8, y: 16}
-        - {x: -16, y: 10}
-        - {x: -16, y: -6}
-        - {x: -11, y: -16}
-        - {x: 16, y: -16}
-        - {x: 16, y: 12}
-        - {x: 9, y: 16}
-    - name: DragonLoad_Right_00
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: DragonLoad_Right_00
       rect:
         serializedVersion: 2
         x: 96
@@ -1494,14 +1155,10 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: -15, y: 16}
-        - {x: -16, y: 11}
-        - {x: -16, y: -8}
-        - {x: -12, y: -16}
-        - {x: 16, y: -16}
-        - {x: 16, y: 16}
-    - name: DragonLoad_Right_01
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: DragonLoad_Right_01
       rect:
         serializedVersion: 2
         x: 128
@@ -1511,14 +1168,10 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: -12, y: 16}
-        - {x: -16, y: 10}
-        - {x: -16, y: -9}
-        - {x: -10, y: -16}
-        - {x: 16, y: -16}
-        - {x: 16, y: 16}
-    - name: DragonLoad_Right_02
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: DragonLoad_Right_02
       rect:
         serializedVersion: 2
         x: 160
@@ -1528,14 +1181,10 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: -13, y: 16}
-        - {x: -16, y: 10}
-        - {x: -16, y: -7}
-        - {x: -7, y: -16}
-        - {x: 16, y: -16}
-        - {x: 16, y: 16}
-    - name: DragonMaster_Right_00
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: DragonMaster_Right_00
       rect:
         serializedVersion: 2
         x: 192
@@ -1545,14 +1194,10 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: -15, y: 16}
-        - {x: -16, y: 14}
-        - {x: -16, y: -9}
-        - {x: -12, y: -16}
-        - {x: 16, y: -16}
-        - {x: 16, y: 16}
-    - name: DragonMaster_Right_01
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: DragonMaster_Right_01
       rect:
         serializedVersion: 2
         x: 224
@@ -1562,15 +1207,10 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: -9, y: 16}
-        - {x: -16, y: 14}
-        - {x: -16, y: -10}
-        - {x: -10, y: -16}
-        - {x: 16, y: -16}
-        - {x: 16, y: 10}
-        - {x: 13, y: 16}
-    - name: DragonMaster_Right_02
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: DragonMaster_Right_02
       rect:
         serializedVersion: 2
         x: 256
@@ -1580,16 +1220,10 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: -16, y: -4}
-        - {x: -7, y: -16}
-        - {x: 16, y: -16}
-        - {x: 16, y: 7}
-        - {x: 15, y: 12}
-        - {x: 13, y: 16}
-        - {x: -9, y: 16}
-        - {x: -16, y: 12}
-    - name: Ghost_Right_00
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Ghost_Right_00
       rect:
         serializedVersion: 2
         x: 288
@@ -1599,14 +1233,10 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: -5, y: 16}
-        - {x: -9, y: 14}
-        - {x: -9, y: -16}
-        - {x: 14, y: -16}
-        - {x: 14, y: 15}
-        - {x: 13, y: 16}
-    - name: Ghost_Right_01
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Ghost_Right_01
       rect:
         serializedVersion: 2
         x: 320
@@ -1616,15 +1246,10 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: -5, y: 16}
-        - {x: -6, y: 13}
-        - {x: -8, y: 6}
-        - {x: -8, y: -16}
-        - {x: 13, y: -16}
-        - {x: 14, y: -14}
-        - {x: 14, y: 16}
-    - name: Ghost_Right_02
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Ghost_Right_02
       rect:
         serializedVersion: 2
         x: 352
@@ -1634,16 +1259,10 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: -5, y: 16}
-        - {x: -6, y: 15}
-        - {x: -6, y: -16}
-        - {x: 12, y: -16}
-        - {x: 15, y: -15}
-        - {x: 15, y: 10}
-        - {x: 12, y: 16}
+      outline: []
+      tessellationDetail: -1
     outline: []
-  spritePackingTag: 
+  spritePackingTag: ClassCharacter
   userData: 
   assetBundleName: 
   assetBundleVariant: 
