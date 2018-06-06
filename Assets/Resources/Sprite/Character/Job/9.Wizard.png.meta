@@ -88,12 +88,12 @@ TextureImporter:
     21300162: RoyalWizard_Left_00
     21300164: RoyalWizard_Left_01
     21300166: RoyalWizard_Left_02
-  serializedVersion: 4
+  serializedVersion: 2
   mipmaps:
     mipMapMode: 0
     enableMipMap: 1
-    sRGBTexture: 1
     linearTexture: 0
+    correctGamma: 0
     fadeOut: 0
     borderMipMap: 0
     mipMapFadeDistanceStart: 1
@@ -105,8 +105,10 @@ TextureImporter:
     normalMapFilter: 0
   isReadable: 0
   grayScaleToAlpha: 0
-  generateCubemap: 6
+  generateCubemap: 0
   cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
   seamlessCubemap: 0
   textureFormat: -2
   maxTextureSize: 512
@@ -117,7 +119,9 @@ TextureImporter:
     wrapMode: 1
   nPOTScale: 0
   lightmap: 0
+  rGBM: 0
   compressionQuality: 50
+  allowsAlphaSplitting: 0
   spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
@@ -125,52 +129,12 @@ TextureImporter:
   spritePivot: {x: 0.5, y: 0.5}
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spritePixelsToUnits: 32
-  alphaUsage: 1
   alphaIsTransparency: 1
-  spriteTessellationDetail: -1
   textureType: 8
-  textureShape: 1
-  maxTextureSizeSet: 0
-  compressionQualitySet: 0
-  textureFormatSet: 0
-  platformSettings:
-  - buildTarget: DefaultTexturePlatform
-    maxTextureSize: 512
-    textureFormat: 2
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-  - buildTarget: Standalone
-    maxTextureSize: 512
-    textureFormat: 2
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-  - buildTarget: Android
-    maxTextureSize: 512
-    textureFormat: 2
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-  - buildTarget: Windows Store Apps
-    maxTextureSize: 512
-    textureFormat: 2
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
+  buildTargetSettings: []
   spriteSheet:
-    serializedVersion: 2
     sprites:
-    - serializedVersion: 2
-      name: Magician_Back_00
+    - name: Magician_Back_00
       rect:
         serializedVersion: 2
         x: 0
@@ -180,10 +144,15 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: Magician_Back_01
+      outline:
+      - - {x: -8, y: 16}
+        - {x: -11, y: 12}
+        - {x: -14, y: -5}
+        - {x: -14, y: -16}
+        - {x: 15, y: -16}
+        - {x: 15, y: 14}
+        - {x: 9, y: 16}
+    - name: Magician_Back_01
       rect:
         serializedVersion: 2
         x: 32
@@ -193,10 +162,17 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: Magician_Back_02
+      outline:
+      - - {x: 10, y: 16}
+        - {x: -9, y: 16}
+        - {x: -14, y: 15}
+        - {x: -14, y: -14}
+        - {x: -11, y: -16}
+        - {x: 12, y: -16}
+        - {x: 15, y: -14}
+        - {x: 15, y: -4}
+        - {x: 12, y: 13}
+    - name: Magician_Back_02
       rect:
         serializedVersion: 2
         x: 64
@@ -206,10 +182,16 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: Wizard_Back_00
+      outline:
+      - - {x: -14, y: -13}
+        - {x: -13, y: -16}
+        - {x: 15, y: -16}
+        - {x: 15, y: 4}
+        - {x: 13, y: 12}
+        - {x: 10, y: 16}
+        - {x: -7, y: 16}
+        - {x: -14, y: 14}
+    - name: Wizard_Back_00
       rect:
         serializedVersion: 2
         x: 96
@@ -219,10 +201,16 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: Wizard_Back_01
+      outline:
+      - - {x: -7, y: 16}
+        - {x: -10, y: 12}
+        - {x: -11, y: 4}
+        - {x: -11, y: -15}
+        - {x: -9, y: -16}
+        - {x: 13, y: -16}
+        - {x: 13, y: 14}
+        - {x: 8, y: 16}
+    - name: Wizard_Back_01
       rect:
         serializedVersion: 2
         x: 128
@@ -232,10 +220,15 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: Wizard_Back_02
+      outline:
+      - - {x: 9, y: 16}
+        - {x: -9, y: 16}
+        - {x: -12, y: 14}
+        - {x: -13, y: 8}
+        - {x: -13, y: -16}
+        - {x: 14, y: -16}
+        - {x: 14, y: 15}
+    - name: Wizard_Back_02
       rect:
         serializedVersion: 2
         x: 160
@@ -245,10 +238,17 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: HighWizard_Back_00
+      outline:
+      - - {x: 6, y: 16}
+        - {x: -5, y: 16}
+        - {x: -11, y: 12}
+        - {x: -12, y: -2}
+        - {x: -12, y: -16}
+        - {x: 10, y: -16}
+        - {x: 12, y: -14}
+        - {x: 12, y: -3}
+        - {x: 11, y: 12}
+    - name: HighWizard_Back_00
       rect:
         serializedVersion: 2
         x: 192
@@ -258,10 +258,17 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: HighWizard_Back_01
+      outline:
+      - - {x: 7, y: 16}
+        - {x: -6, y: 16}
+        - {x: -11, y: 14}
+        - {x: -15, y: -4}
+        - {x: -15, y: -16}
+        - {x: 12, y: -16}
+        - {x: 16, y: -13}
+        - {x: 16, y: -9}
+        - {x: 9, y: 13}
+    - name: HighWizard_Back_01
       rect:
         serializedVersion: 2
         x: 224
@@ -271,10 +278,17 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: HighWizard_Back_02
+      outline:
+      - - {x: 9, y: 16}
+        - {x: -10, y: 16}
+        - {x: -15, y: -2}
+        - {x: -15, y: -15}
+        - {x: -13, y: -16}
+        - {x: 13, y: -16}
+        - {x: 15, y: -12}
+        - {x: 15, y: -1}
+        - {x: 11, y: 15}
+    - name: HighWizard_Back_02
       rect:
         serializedVersion: 2
         x: 256
@@ -284,10 +298,17 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: Mage_Back_00
+      outline:
+      - - {x: 7, y: 16}
+        - {x: -6, y: 16}
+        - {x: -11, y: 14}
+        - {x: -15, y: -2}
+        - {x: -15, y: -12}
+        - {x: -12, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: -7}
+        - {x: 9, y: 13}
+    - name: Mage_Back_00
       rect:
         serializedVersion: 2
         x: 288
@@ -297,10 +318,15 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: Mage_Back_01
+      outline:
+      - - {x: -6, y: 16}
+        - {x: -10, y: 10}
+        - {x: -12, y: -4}
+        - {x: -12, y: -16}
+        - {x: 13, y: -16}
+        - {x: 13, y: 12}
+        - {x: 5, y: 16}
+    - name: Mage_Back_01
       rect:
         serializedVersion: 2
         x: 320
@@ -310,10 +336,14 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: Mage_Back_02
+      outline:
+      - - {x: -6, y: 16}
+        - {x: -13, y: 6}
+        - {x: -13, y: -16}
+        - {x: 14, y: -16}
+        - {x: 14, y: 11}
+        - {x: 12, y: 16}
+    - name: Mage_Back_02
       rect:
         serializedVersion: 2
         x: 352
@@ -323,10 +353,15 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: Magician_Forward_00
+      outline:
+      - - {x: -5, y: 16}
+        - {x: -9, y: 9}
+        - {x: -11, y: -2}
+        - {x: -11, y: -16}
+        - {x: 14, y: -16}
+        - {x: 14, y: 12}
+        - {x: 5, y: 16}
+    - name: Magician_Forward_00
       rect:
         serializedVersion: 2
         x: 0
@@ -336,10 +371,17 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: Magician_Forward_01
+      outline:
+      - - {x: 10, y: 16}
+        - {x: -8, y: 16}
+        - {x: -13, y: 14}
+        - {x: -13, y: -10}
+        - {x: -9, y: -16}
+        - {x: 12, y: -16}
+        - {x: 15, y: -14}
+        - {x: 15, y: -1}
+        - {x: 13, y: 12}
+    - name: Magician_Forward_01
       rect:
         serializedVersion: 2
         x: 32
@@ -349,10 +391,15 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: Magician_Forward_02
+      outline:
+      - - {x: 11, y: 16}
+        - {x: -9, y: 16}
+        - {x: -13, y: 15}
+        - {x: -13, y: -16}
+        - {x: 14, y: -16}
+        - {x: 14, y: 4}
+        - {x: 12, y: 13}
+    - name: Magician_Forward_02
       rect:
         serializedVersion: 2
         x: 64
@@ -362,10 +409,17 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: Wizard_Forward_00
+      outline:
+      - - {x: 10, y: 16}
+        - {x: -9, y: 16}
+        - {x: -14, y: 14}
+        - {x: -14, y: -12}
+        - {x: -13, y: -16}
+        - {x: 10, y: -16}
+        - {x: 14, y: -11}
+        - {x: 14, y: 3}
+        - {x: 13, y: 12}
+    - name: Wizard_Forward_00
       rect:
         serializedVersion: 2
         x: 96
@@ -375,10 +429,15 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: Wizard_Forward_01
+      outline:
+      - - {x: -7, y: 16}
+        - {x: -12, y: 9}
+        - {x: -12, y: -12}
+        - {x: -8, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: 1}
+        - {x: 11, y: 16}
+    - name: Wizard_Forward_01
       rect:
         serializedVersion: 2
         x: 128
@@ -388,10 +447,16 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: Wizard_Forward_02
+      outline:
+      - - {x: 6, y: 16}
+        - {x: -8, y: 16}
+        - {x: -14, y: 7}
+        - {x: -14, y: -15}
+        - {x: -13, y: -16}
+        - {x: 15, y: -16}
+        - {x: 15, y: -11}
+        - {x: 11, y: 12}
+    - name: Wizard_Forward_02
       rect:
         serializedVersion: 2
         x: 160
@@ -401,10 +466,16 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: HighWizard_Forward_00
+      outline:
+      - - {x: -5, y: 16}
+        - {x: -13, y: 12}
+        - {x: -15, y: -7}
+        - {x: -15, y: -16}
+        - {x: 11, y: -16}
+        - {x: 13, y: -12}
+        - {x: 13, y: 12}
+        - {x: 10, y: 16}
+    - name: HighWizard_Forward_00
       rect:
         serializedVersion: 2
         x: 192
@@ -414,10 +485,15 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: HighWizard_Forward_01
+      outline:
+      - - {x: -8, y: 16}
+        - {x: -12, y: 14}
+        - {x: -15, y: -6}
+        - {x: -15, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: -1}
+        - {x: 8, y: 16}
+    - name: HighWizard_Forward_01
       rect:
         serializedVersion: 2
         x: 224
@@ -427,10 +503,16 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: HighWizard_Forward_02
+      outline:
+      - - {x: -8, y: 16}
+        - {x: -11, y: 15}
+        - {x: -14, y: 5}
+        - {x: -14, y: -15}
+        - {x: -13, y: -16}
+        - {x: 15, y: -16}
+        - {x: 15, y: 5}
+        - {x: 9, y: 16}
+    - name: HighWizard_Forward_02
       rect:
         serializedVersion: 2
         x: 256
@@ -440,10 +522,18 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: Mage_Forward_00
+      outline:
+      - - {x: 9, y: 13}
+        - {x: 7, y: 16}
+        - {x: -7, y: 16}
+        - {x: -11, y: 14}
+        - {x: -15, y: 5}
+        - {x: -15, y: -14}
+        - {x: -14, y: -16}
+        - {x: 15, y: -16}
+        - {x: 16, y: -15}
+        - {x: 16, y: -4}
+    - name: Mage_Forward_00
       rect:
         serializedVersion: 2
         x: 288
@@ -453,10 +543,16 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: Mage_Forward_01
+      outline:
+      - - {x: -6, y: 16}
+        - {x: -11, y: 10}
+        - {x: -15, y: -9}
+        - {x: -15, y: -15}
+        - {x: -13, y: -16}
+        - {x: 14, y: -16}
+        - {x: 14, y: 11}
+        - {x: 5, y: 16}
+    - name: Mage_Forward_01
       rect:
         serializedVersion: 2
         x: 320
@@ -466,10 +562,18 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: Mage_Forward_02
+      outline:
+      - - {x: 8, y: 16}
+        - {x: -7, y: 16}
+        - {x: -13, y: 3}
+        - {x: -15, y: -13}
+        - {x: -15, y: -14}
+        - {x: -13, y: -16}
+        - {x: 14, y: -16}
+        - {x: 16, y: -15}
+        - {x: 16, y: -13}
+        - {x: 15, y: 13}
+    - name: Mage_Forward_02
       rect:
         serializedVersion: 2
         x: 352
@@ -479,10 +583,15 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: Magician_Right_00
+      outline:
+      - - {x: -6, y: 16}
+        - {x: -13, y: 2}
+        - {x: -13, y: -16}
+        - {x: 14, y: -16}
+        - {x: 16, y: -14}
+        - {x: 14, y: 11}
+        - {x: 6, y: 16}
+    - name: Magician_Right_00
       rect:
         serializedVersion: 2
         x: 0
@@ -492,10 +601,16 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: Magician_Right_01
+      outline:
+      - - {x: -14, y: -15}
+        - {x: -13, y: -16}
+        - {x: 13, y: -16}
+        - {x: 13, y: 6}
+        - {x: 12, y: 14}
+        - {x: 10, y: 16}
+        - {x: -9, y: 16}
+        - {x: -14, y: 14}
+    - name: Magician_Right_01
       rect:
         serializedVersion: 2
         x: 32
@@ -505,10 +620,15 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: Magician_Right_02
+      outline:
+      - - {x: 7, y: 16}
+        - {x: -11, y: 16}
+        - {x: -13, y: 10}
+        - {x: -13, y: -16}
+        - {x: 11, y: -16}
+        - {x: 12, y: -15}
+        - {x: 12, y: 10}
+    - name: Magician_Right_02
       rect:
         serializedVersion: 2
         x: 64
@@ -518,10 +638,17 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: Wizard_Right_00
+      outline:
+      - - {x: -8, y: 16}
+        - {x: -11, y: 13}
+        - {x: -10, y: 3}
+        - {x: -13, y: -14}
+        - {x: -11, y: -16}
+        - {x: 11, y: -16}
+        - {x: 12, y: -15}
+        - {x: 12, y: 15}
+        - {x: 8, y: 16}
+    - name: Wizard_Right_00
       rect:
         serializedVersion: 2
         x: 96
@@ -531,10 +658,16 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: Wizard_Right_01
+      outline:
+      - - {x: -8, y: 16}
+        - {x: -14, y: 14}
+        - {x: -15, y: 0}
+        - {x: -15, y: -15}
+        - {x: -14, y: -16}
+        - {x: 9, y: -16}
+        - {x: 9, y: 13}
+        - {x: 7, y: 16}
+    - name: Wizard_Right_01
       rect:
         serializedVersion: 2
         x: 128
@@ -544,10 +677,13 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: Wizard_Right_02
+      outline:
+      - - {x: -10, y: 16}
+        - {x: -14, y: 10}
+        - {x: -14, y: -16}
+        - {x: 9, y: -16}
+        - {x: 9, y: 16}
+    - name: Wizard_Right_02
       rect:
         serializedVersion: 2
         x: 160
@@ -557,10 +693,16 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: HighWizard_Right_00
+      outline:
+      - - {x: -5, y: 16}
+        - {x: -11, y: 12}
+        - {x: -14, y: -9}
+        - {x: -14, y: -15}
+        - {x: -13, y: -16}
+        - {x: 10, y: -16}
+        - {x: 10, y: 11}
+        - {x: 6, y: 16}
+    - name: HighWizard_Right_00
       rect:
         serializedVersion: 2
         x: 192
@@ -570,10 +712,16 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: HighWizard_Right_01
+      outline:
+      - - {x: -15, y: -6}
+        - {x: -15, y: -16}
+        - {x: 13, y: -16}
+        - {x: 13, y: 6}
+        - {x: 11, y: 15}
+        - {x: 7, y: 16}
+        - {x: -7, y: 16}
+        - {x: -8, y: 14}
+    - name: HighWizard_Right_01
       rect:
         serializedVersion: 2
         x: 224
@@ -583,10 +731,18 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: HighWizard_Right_02
+      outline:
+      - - {x: 9, y: 14}
+        - {x: 8, y: 16}
+        - {x: -10, y: 16}
+        - {x: -14, y: -5}
+        - {x: -14, y: -15}
+        - {x: -13, y: -16}
+        - {x: 12, y: -16}
+        - {x: 15, y: -13}
+        - {x: 15, y: -11}
+        - {x: 13, y: 4}
+    - name: HighWizard_Right_02
       rect:
         serializedVersion: 2
         x: 256
@@ -596,10 +752,15 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: Mage_Right_00
+      outline:
+      - - {x: 8, y: 16}
+        - {x: -11, y: 16}
+        - {x: -15, y: 4}
+        - {x: -15, y: -16}
+        - {x: 15, y: -16}
+        - {x: 15, y: -7}
+        - {x: 11, y: 14}
+    - name: Mage_Right_00
       rect:
         serializedVersion: 2
         x: 288
@@ -609,10 +770,13 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: Mage_Right_01
+      outline:
+      - - {x: -12, y: 16}
+        - {x: -14, y: 10}
+        - {x: -14, y: -16}
+        - {x: 10, y: -16}
+        - {x: 10, y: 16}
+    - name: Mage_Right_01
       rect:
         serializedVersion: 2
         x: 320
@@ -622,10 +786,13 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: Mage_Right_02
+      outline:
+      - - {x: -12, y: 16}
+        - {x: -13, y: -10}
+        - {x: -13, y: -16}
+        - {x: 10, y: -16}
+        - {x: 10, y: 16}
+    - name: Mage_Right_02
       rect:
         serializedVersion: 2
         x: 352
@@ -635,10 +802,13 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: Magician_Left_00
+      outline:
+      - - {x: -11, y: 16}
+        - {x: -12, y: 15}
+        - {x: -12, y: -16}
+        - {x: 10, y: -16}
+        - {x: 10, y: 16}
+    - name: Magician_Left_00
       rect:
         serializedVersion: 2
         x: 0
@@ -648,10 +818,14 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: Magician_Left_01
+      outline:
+      - - {x: -8, y: 16}
+        - {x: -11, y: 7}
+        - {x: -11, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: 6}
+        - {x: 11, y: 16}
+    - name: Magician_Left_01
       rect:
         serializedVersion: 2
         x: 32
@@ -661,10 +835,14 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: Magician_Left_02
+      outline:
+      - - {x: -5, y: 16}
+        - {x: -10, y: 9}
+        - {x: -10, y: -16}
+        - {x: 15, y: -16}
+        - {x: 15, y: 3}
+        - {x: 11, y: 16}
+    - name: Magician_Left_02
       rect:
         serializedVersion: 2
         x: 64
@@ -674,10 +852,16 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: Wizard_Left_00
+      outline:
+      - - {x: -4, y: 16}
+        - {x: -7, y: 12}
+        - {x: -10, y: 5}
+        - {x: -10, y: -16}
+        - {x: 15, y: -16}
+        - {x: 15, y: 1}
+        - {x: 13, y: 13}
+        - {x: 9, y: 16}
+    - name: Wizard_Left_00
       rect:
         serializedVersion: 2
         x: 96
@@ -687,10 +871,15 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: Wizard_Left_01
+      outline:
+      - - {x: 5, y: 16}
+        - {x: -9, y: 16}
+        - {x: -11, y: 13}
+        - {x: -11, y: -16}
+        - {x: 13, y: -16}
+        - {x: 13, y: 0}
+        - {x: 11, y: 13}
+    - name: Wizard_Left_01
       rect:
         serializedVersion: 2
         x: 128
@@ -700,10 +889,14 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: Wizard_Left_02
+      outline:
+      - - {x: 7, y: 16}
+        - {x: -11, y: 16}
+        - {x: -11, y: -16}
+        - {x: 12, y: -16}
+        - {x: 12, y: -9}
+        - {x: 8, y: 12}
+    - name: Wizard_Left_02
       rect:
         serializedVersion: 2
         x: 160
@@ -713,10 +906,14 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: HighWizard_Left_00
+      outline:
+      - - {x: -8, y: 16}
+        - {x: -12, y: 12}
+        - {x: -12, y: -16}
+        - {x: 10, y: -16}
+        - {x: 10, y: 14}
+        - {x: 6, y: 16}
+    - name: HighWizard_Left_00
       rect:
         serializedVersion: 2
         x: 192
@@ -726,10 +923,16 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: HighWizard_Left_01
+      outline:
+      - - {x: 6, y: 16}
+        - {x: -6, y: 16}
+        - {x: -13, y: 4}
+        - {x: -13, y: -15}
+        - {x: -12, y: -16}
+        - {x: 15, y: -16}
+        - {x: 15, y: -9}
+        - {x: 8, y: 14}
+    - name: HighWizard_Left_01
       rect:
         serializedVersion: 2
         x: 224
@@ -739,10 +942,15 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: HighWizard_Left_02
+      outline:
+      - - {x: 8, y: 16}
+        - {x: -11, y: 16}
+        - {x: -15, y: 5}
+        - {x: -15, y: -16}
+        - {x: 14, y: -16}
+        - {x: 14, y: -11}
+        - {x: 9, y: 15}
+    - name: HighWizard_Left_02
       rect:
         serializedVersion: 2
         x: 256
@@ -752,10 +960,15 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: Mage_Left_00
+      outline:
+      - - {x: 8, y: 16}
+        - {x: -11, y: 16}
+        - {x: -15, y: 5}
+        - {x: -15, y: -16}
+        - {x: 15, y: -16}
+        - {x: 15, y: -9}
+        - {x: 10, y: 15}
+    - name: Mage_Left_00
       rect:
         serializedVersion: 2
         x: 288
@@ -765,10 +978,15 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: Mage_Left_01
+      outline:
+      - - {x: -12, y: -16}
+        - {x: 12, y: -16}
+        - {x: 12, y: -6}
+        - {x: 11, y: 11}
+        - {x: 9, y: 16}
+        - {x: -9, y: 16}
+        - {x: -12, y: 15}
+    - name: Mage_Left_01
       rect:
         serializedVersion: 2
         x: 320
@@ -778,10 +996,13 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: Mage_Left_02
+      outline:
+      - - {x: -12, y: 16}
+        - {x: -12, y: -16}
+        - {x: 11, y: -16}
+        - {x: 11, y: -5}
+        - {x: 10, y: 16}
+    - name: Mage_Left_02
       rect:
         serializedVersion: 2
         x: 352
@@ -791,10 +1012,14 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: ArcMage_Back_00
+      outline:
+      - - {x: -12, y: 16}
+        - {x: -12, y: -15}
+        - {x: -11, y: -16}
+        - {x: 10, y: -16}
+        - {x: 10, y: 14}
+        - {x: 9, y: 16}
+    - name: ArcMage_Back_00
       rect:
         serializedVersion: 2
         x: 0
@@ -804,10 +1029,14 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: ArcMage_Back_01
+      outline:
+      - - {x: -9, y: 16}
+        - {x: -13, y: 10}
+        - {x: -13, y: -16}
+        - {x: 14, y: -16}
+        - {x: 14, y: 9}
+        - {x: 10, y: 16}
+    - name: ArcMage_Back_01
       rect:
         serializedVersion: 2
         x: 32
@@ -817,10 +1046,15 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: ArcMage_Back_02
+      outline:
+      - - {x: 12, y: 16}
+        - {x: -12, y: 16}
+        - {x: -14, y: 15}
+        - {x: -14, y: -16}
+        - {x: 15, y: -16}
+        - {x: 15, y: 7}
+        - {x: 14, y: 14}
+    - name: ArcMage_Back_02
       rect:
         serializedVersion: 2
         x: 64
@@ -830,10 +1064,18 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: Socerer_Back_00
+      outline:
+      - - {x: 12, y: 10}
+        - {x: 10, y: 15}
+        - {x: 6, y: 16}
+        - {x: -7, y: 16}
+        - {x: -13, y: 13}
+        - {x: -13, y: -16}
+        - {x: 13, y: -16}
+        - {x: 14, y: -15}
+        - {x: 14, y: -13}
+        - {x: 13, y: -1}
+    - name: Socerer_Back_00
       rect:
         serializedVersion: 2
         x: 96
@@ -843,10 +1085,15 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: Socerer_Back_01
+      outline:
+      - - {x: -14, y: 16}
+        - {x: -15, y: 11}
+        - {x: -15, y: -16}
+        - {x: 11, y: -16}
+        - {x: 16, y: -11}
+        - {x: 16, y: -9}
+        - {x: 13, y: 16}
+    - name: Socerer_Back_01
       rect:
         serializedVersion: 2
         x: 128
@@ -856,10 +1103,14 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: Socerer_Back_02
+      outline:
+      - - {x: -10, y: 16}
+        - {x: -15, y: 14}
+        - {x: -15, y: -16}
+        - {x: 15, y: -16}
+        - {x: 15, y: 12}
+        - {x: 10, y: 16}
+    - name: Socerer_Back_02
       rect:
         serializedVersion: 2
         x: 160
@@ -869,10 +1120,14 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: RoyalWizard_Back_00
+      outline:
+      - - {x: -14, y: 16}
+        - {x: -15, y: 9}
+        - {x: -15, y: -15}
+        - {x: -12, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: 16}
+    - name: RoyalWizard_Back_00
       rect:
         serializedVersion: 2
         x: 192
@@ -882,10 +1137,15 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: RoyalWizard_Back_01
+      outline:
+      - - {x: 9, y: 16}
+        - {x: -9, y: 16}
+        - {x: -13, y: 11}
+        - {x: -13, y: -16}
+        - {x: 14, y: -16}
+        - {x: 14, y: 3}
+        - {x: 12, y: 15}
+    - name: RoyalWizard_Back_01
       rect:
         serializedVersion: 2
         x: 224
@@ -895,10 +1155,14 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: RoyalWizard_Back_02
+      outline:
+      - - {x: -11, y: 16}
+        - {x: -13, y: 8}
+        - {x: -13, y: -16}
+        - {x: 14, y: -16}
+        - {x: 14, y: 2}
+        - {x: 8, y: 16}
+    - name: RoyalWizard_Back_02
       rect:
         serializedVersion: 2
         x: 256
@@ -908,10 +1172,16 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: ArcMage_Forward_00
+      outline:
+      - - {x: -8, y: 16}
+        - {x: -10, y: 14}
+        - {x: -13, y: 0}
+        - {x: -13, y: -13}
+        - {x: -12, y: -16}
+        - {x: 14, y: -16}
+        - {x: 14, y: 8}
+        - {x: 12, y: 16}
+    - name: ArcMage_Forward_00
       rect:
         serializedVersion: 2
         x: 0
@@ -921,10 +1191,15 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: ArcMage_Forward_01
+      outline:
+      - - {x: -14, y: -16}
+        - {x: 15, y: -16}
+        - {x: 15, y: 3}
+        - {x: 14, y: 12}
+        - {x: 10, y: 16}
+        - {x: -7, y: 16}
+        - {x: -14, y: 13}
+    - name: ArcMage_Forward_01
       rect:
         serializedVersion: 2
         x: 32
@@ -934,10 +1209,14 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: ArcMage_Forward_02
+      outline:
+      - - {x: -14, y: 16}
+        - {x: -15, y: 12}
+        - {x: -15, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: 15}
+        - {x: 14, y: 16}
+    - name: ArcMage_Forward_02
       rect:
         serializedVersion: 2
         x: 64
@@ -947,10 +1226,15 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: Socerer_Forward_00
+      outline:
+      - - {x: 8, y: 16}
+        - {x: -12, y: 16}
+        - {x: -14, y: 10}
+        - {x: -14, y: -16}
+        - {x: 15, y: -16}
+        - {x: 15, y: -4}
+        - {x: 14, y: 12}
+    - name: Socerer_Forward_00
       rect:
         serializedVersion: 2
         x: 96
@@ -960,10 +1244,15 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: Socerer_Forward_01
+      outline:
+      - - {x: -7, y: 16}
+        - {x: -15, y: 10}
+        - {x: -15, y: -16}
+        - {x: 14, y: -16}
+        - {x: 16, y: -13}
+        - {x: 16, y: 11}
+        - {x: 11, y: 16}
+    - name: Socerer_Forward_01
       rect:
         serializedVersion: 2
         x: 128
@@ -973,10 +1262,13 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: Socerer_Forward_02
+      outline:
+      - - {x: -15, y: 16}
+        - {x: -15, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: 4}
+        - {x: 13, y: 16}
+    - name: Socerer_Forward_02
       rect:
         serializedVersion: 2
         x: 160
@@ -986,10 +1278,17 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: RoyalWizard_Forward_00
+      outline:
+      - - {x: 9, y: 16}
+        - {x: -10, y: 16}
+        - {x: -14, y: 9}
+        - {x: -15, y: 6}
+        - {x: -15, y: -14}
+        - {x: -14, y: -16}
+        - {x: 14, y: -16}
+        - {x: 16, y: -14}
+        - {x: 16, y: 10}
+    - name: RoyalWizard_Forward_00
       rect:
         serializedVersion: 2
         x: 192
@@ -999,10 +1298,14 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: RoyalWizard_Forward_01
+      outline:
+      - - {x: -7, y: 16}
+        - {x: -13, y: 2}
+        - {x: -13, y: -12}
+        - {x: -12, y: -16}
+        - {x: 14, y: -16}
+        - {x: 14, y: 16}
+    - name: RoyalWizard_Forward_01
       rect:
         serializedVersion: 2
         x: 224
@@ -1012,10 +1315,15 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: RoyalWizard_Forward_02
+      outline:
+      - - {x: -8, y: 16}
+        - {x: -12, y: 11}
+        - {x: -13, y: -1}
+        - {x: -13, y: -16}
+        - {x: 14, y: -16}
+        - {x: 14, y: 2}
+        - {x: 8, y: 16}
+    - name: RoyalWizard_Forward_02
       rect:
         serializedVersion: 2
         x: 256
@@ -1025,10 +1333,18 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: ArcMage_Right_00
+      outline:
+      - - {x: 9, y: 16}
+        - {x: -7, y: 16}
+        - {x: -11, y: 10}
+        - {x: -13, y: -1}
+        - {x: -13, y: -8}
+        - {x: -12, y: -16}
+        - {x: 13, y: -16}
+        - {x: 14, y: -11}
+        - {x: 14, y: 4}
+        - {x: 11, y: 15}
+    - name: ArcMage_Right_00
       rect:
         serializedVersion: 2
         x: 0
@@ -1038,10 +1354,14 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: ArcMage_Right_01
+      outline:
+      - - {x: -9, y: 16}
+        - {x: -14, y: 14}
+        - {x: -14, y: -16}
+        - {x: 11, y: -16}
+        - {x: 11, y: 12}
+        - {x: 9, y: 16}
+    - name: ArcMage_Right_01
       rect:
         serializedVersion: 2
         x: 32
@@ -1051,10 +1371,16 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: ArcMage_Right_02
+      outline:
+      - - {x: -8, y: 16}
+        - {x: -11, y: 14}
+        - {x: -13, y: 3}
+        - {x: -13, y: -16}
+        - {x: 10, y: -16}
+        - {x: 11, y: -1}
+        - {x: 11, y: 14}
+        - {x: 8, y: 16}
+    - name: ArcMage_Right_02
       rect:
         serializedVersion: 2
         x: 64
@@ -1064,10 +1390,17 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: Socerer_Right_00
+      outline:
+      - - {x: -9, y: 16}
+        - {x: -12, y: 10}
+        - {x: -12, y: -2}
+        - {x: -13, y: -15}
+        - {x: -13, y: -16}
+        - {x: 9, y: -16}
+        - {x: 11, y: 3}
+        - {x: 11, y: 13}
+        - {x: 9, y: 16}
+    - name: Socerer_Right_00
       rect:
         serializedVersion: 2
         x: 96
@@ -1077,10 +1410,14 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: Socerer_Right_01
+      outline:
+      - - {x: 7, y: 16}
+        - {x: -14, y: 16}
+        - {x: -14, y: -16}
+        - {x: 15, y: -16}
+        - {x: 15, y: -10}
+        - {x: 12, y: 7}
+    - name: Socerer_Right_01
       rect:
         serializedVersion: 2
         x: 128
@@ -1090,10 +1427,14 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: Socerer_Right_02
+      outline:
+      - - {x: -14, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: 0}
+        - {x: 9, y: 16}
+        - {x: -10, y: 16}
+        - {x: -14, y: 11}
+    - name: Socerer_Right_02
       rect:
         serializedVersion: 2
         x: 160
@@ -1103,10 +1444,14 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: RoyalWizard_Right_00
+      outline:
+      - - {x: -13, y: 16}
+        - {x: -15, y: 10}
+        - {x: -15, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: -5}
+        - {x: 9, y: 16}
+    - name: RoyalWizard_Right_00
       rect:
         serializedVersion: 2
         x: 192
@@ -1116,10 +1461,15 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: RoyalWizard_Right_01
+      outline:
+      - - {x: -8, y: 16}
+        - {x: -9, y: 15}
+        - {x: -13, y: -10}
+        - {x: -13, y: -16}
+        - {x: 12, y: -16}
+        - {x: 12, y: 14}
+        - {x: 8, y: 16}
+    - name: RoyalWizard_Right_01
       rect:
         serializedVersion: 2
         x: 224
@@ -1129,10 +1479,14 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: RoyalWizard_Right_02
+      outline:
+      - - {x: -10, y: 4}
+        - {x: -12, y: -16}
+        - {x: 11, y: -16}
+        - {x: 11, y: 10}
+        - {x: 9, y: 16}
+        - {x: -9, y: 16}
+    - name: RoyalWizard_Right_02
       rect:
         serializedVersion: 2
         x: 256
@@ -1142,10 +1496,14 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: ArcMage_Left_00
+      outline:
+      - - {x: -5, y: 16}
+        - {x: -12, y: 7}
+        - {x: -12, y: -16}
+        - {x: 11, y: -16}
+        - {x: 11, y: 9}
+        - {x: 6, y: 16}
+    - name: ArcMage_Left_00
       rect:
         serializedVersion: 2
         x: 0
@@ -1155,10 +1513,14 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: ArcMage_Left_01
+      outline:
+      - - {x: -9, y: 16}
+        - {x: -11, y: 13}
+        - {x: -11, y: -16}
+        - {x: 14, y: -16}
+        - {x: 14, y: 14}
+        - {x: 9, y: 16}
+    - name: ArcMage_Left_01
       rect:
         serializedVersion: 2
         x: 32
@@ -1168,10 +1530,13 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: ArcMage_Left_02
+      outline:
+      - - {x: -11, y: 16}
+        - {x: -11, y: -16}
+        - {x: 13, y: -16}
+        - {x: 13, y: 8}
+        - {x: 10, y: 16}
+    - name: ArcMage_Left_02
       rect:
         serializedVersion: 2
         x: 64
@@ -1181,10 +1546,15 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: Socerer_Left_00
+      outline:
+      - - {x: -10, y: 16}
+        - {x: -11, y: 13}
+        - {x: -11, y: -5}
+        - {x: -9, y: -16}
+        - {x: 13, y: -16}
+        - {x: 13, y: 12}
+        - {x: 8, y: 16}
+    - name: Socerer_Left_00
       rect:
         serializedVersion: 2
         x: 96
@@ -1194,10 +1564,16 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: Socerer_Left_01
+      outline:
+      - - {x: -6, y: 16}
+        - {x: -14, y: 5}
+        - {x: -15, y: -4}
+        - {x: -15, y: -16}
+        - {x: 14, y: -16}
+        - {x: 14, y: 3}
+        - {x: 13, y: 10}
+        - {x: 9, y: 16}
+    - name: Socerer_Left_01
       rect:
         serializedVersion: 2
         x: 128
@@ -1207,10 +1583,15 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: Socerer_Left_02
+      outline:
+      - - {x: -11, y: 16}
+        - {x: -16, y: 4}
+        - {x: -16, y: -14}
+        - {x: -13, y: -16}
+        - {x: 14, y: -16}
+        - {x: 14, y: 11}
+        - {x: 13, y: 16}
+    - name: Socerer_Left_02
       rect:
         serializedVersion: 2
         x: 160
@@ -1220,10 +1601,14 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: RoyalWizard_Left_00
+      outline:
+      - - {x: -13, y: 16}
+        - {x: -16, y: 7}
+        - {x: -16, y: -16}
+        - {x: 15, y: -16}
+        - {x: 15, y: 13}
+        - {x: 10, y: 16}
+    - name: RoyalWizard_Left_00
       rect:
         serializedVersion: 2
         x: 192
@@ -1233,10 +1618,15 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: RoyalWizard_Left_01
+      outline:
+      - - {x: -12, y: -11}
+        - {x: -12, y: -16}
+        - {x: 13, y: -16}
+        - {x: 13, y: -14}
+        - {x: 7, y: 16}
+        - {x: -7, y: 16}
+        - {x: -11, y: 9}
+    - name: RoyalWizard_Left_01
       rect:
         serializedVersion: 2
         x: 224
@@ -1246,10 +1636,14 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: RoyalWizard_Left_02
+      outline:
+      - - {x: -11, y: -16}
+        - {x: 12, y: -16}
+        - {x: 12, y: -6}
+        - {x: 8, y: 16}
+        - {x: -9, y: 16}
+        - {x: -11, y: 10}
+    - name: RoyalWizard_Left_02
       rect:
         serializedVersion: 2
         x: 256
@@ -1259,10 +1653,16 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: -1
+      outline:
+      - - {x: -7, y: 16}
+        - {x: -11, y: 11}
+        - {x: -11, y: -16}
+        - {x: 12, y: -16}
+        - {x: 12, y: -14}
+        - {x: 9, y: 11}
+        - {x: 6, y: 16}
     outline: []
-  spritePackingTag: ClassCharacter
+  spritePackingTag: 
   userData: 
   assetBundleName: 
   assetBundleVariant: 
